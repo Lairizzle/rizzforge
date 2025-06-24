@@ -21,6 +21,23 @@
   weight = 20
 
 [[main]]
+name = "Software"
+pageref = "software"
+weight = 20
+
+[[main]]
+  name = "PipeRSS"
+  parent = "Software"
+  pageRef = "http://github.com/lairizzle/piperss"
+  weight = 20
+
+[[main]]
+  name = "pyrun.nvim"
+  parent = "Software"
+  pageRef = "http://github.com/lairizzle/pyrun.nvim"
+  weight = 20
+
+[[main]]
   name = "Categories"
   pageRef = "categories"
   weight = 25
@@ -34,12 +51,6 @@
   pre = "github"
   url = "https://github.com/lairizzle"
   weight = 35
-
-#[[main]]
-#  name = "example sub-menu 1"
-#  parent = "Parent"
-#  pageRef = "posts"
-#  weight = 20
 
 #[[main]]
 #  name = "example sub-menu 2"

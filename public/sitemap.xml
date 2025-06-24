@@ -9,13 +9,13 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://rizzforge.org/</loc>
+    <loc>https://rizzforge.org/posts/</loc>
     <lastmod>2025-06-20T21:38:02-04:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://rizzforge.org/posts/</loc>
+    <loc>https://rizzforge.org/</loc>
     <lastmod>2025-06-20T21:38:02-04:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>

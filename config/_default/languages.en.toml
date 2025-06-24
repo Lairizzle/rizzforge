@@ -2,24 +2,24 @@ disabled = false
 languageCode = "en"
 languageName = "English"
 weight = 1
-title = "Keith Henderson"
+title = "Rizz Forge"
 
 [params]
   displayName = "EN"
   isoCode = "en"
   rtl = false
-  dateFormat = "2 January 2006"
-  #logo = "img/KeithFaceLogo128.png"
-  secondaryLogo = "img/KeithFaceLogo128.png"
-  description = "Dad & Tech Enthusiast"
+  dateFormat = "January 2, 2006"
+	#logo = "img/RizzForgeLogo128.png"
+  secondaryLogo = "img/RizzForgeLogo128.png"
+  description = "Rizz Forge"
   copyright = "Copy, right?"
 
 [params.author]
    name = "Keith Henderson"
    email = "keith.donaldh@gmail.com"
-   image = "img/KeithFaceLogo1024.png"
+   image = "img/RizzForgeLogo1024.png"
    imageQuality = 96
-   headline = "Dad & Tech Enthusiast"
+   headline = "Rizz Forge"
    bio = "I am a long time tech enthusiast and gamer. I enjoy creative outlets like art, music and programming."
    links = [
      { email = "mailto:keith.donaldh@gmail.com" },
