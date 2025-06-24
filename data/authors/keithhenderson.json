@@ -1,0 +1,16 @@
+{
+    "name": "Keith Henderson",
+    "image" : "img/KeithFaceLogo1024.png",
+    "bio": "Rizz Forge",
+    "social":  [
+      { "email": "mailto:keith.donaldh@gmail.com" },
+      { "github": "https://github.com/lairizzle" },
+      { "rss": "https://rizzforge.org/index.xml" },
+      { "steam": "https://store.steampowered.com/search/?developer=DRU%20Games" },
+      { "x-twitter": "https://twitter.com/drugames_" },
+      { "spotify": "https://open.spotify.com/artist/63rbGTeN8Vr3DT0ZwveD0p" },
+      { "youtube": "https://www.youtube.com/channel/UCMMLTvXtbs97hBozwtklFIg" },
+      { "twitch": "https://twitch.tv/lairizzle" }
+   ]
+}
+

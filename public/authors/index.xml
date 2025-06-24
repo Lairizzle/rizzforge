@@ -6,10 +6,20 @@
     <description>Recent content in Authors on Rizz Forge</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>keith.donaldh@gmail.com (Keith Henderson)</managingEditor>
-    <webMaster>keith.donaldh@gmail.com (Keith Henderson)</webMaster>
+    <managingEditor>keith.donaldh@gmail.com (Rizz Forge)</managingEditor>
+    <webMaster>keith.donaldh@gmail.com (Rizz Forge)</webMaster>
     <copyright>Copy, right?</copyright>
-    <atom:link href="https://rizzforge.org/authors/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 20 Jun 2025 21:38:02 -0400</lastBuildDate><atom:link href="https://rizzforge.org/authors/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Keithhenderson</title>
+      <link>https://rizzforge.org/authors/keithhenderson/</link>
+      <pubDate>Fri, 20 Jun 2025 21:38:02 -0400</pubDate>
+      <author>keith.donaldh@gmail.com (Rizz Forge)</author>
+      <guid>https://rizzforge.org/authors/keithhenderson/</guid>
+      <description></description>
+      
+    </item>
     
   </channel>
 </rss>

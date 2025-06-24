@@ -1,10 +1,13 @@
-+++
-title = 'Learning NeoVim'
-date = 2024-12-29T21:59:52-04:00
-draft = false
-categories = ['General','Programming','Learning']
-tags = ['vim','education','computers']
-+++
+---
+title: 'Learning NeoVim'
+date: 2024-12-29T21:59:52-04:00
+draft: false
+showAuthor: false
+authors: 
+    - "keithhenderson"
+categories: ['General','Programming','Learning']
+tags: ['vim','education','computers']
+---
 
 ### Pain With a Side of Pain
 

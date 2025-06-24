@@ -103,8 +103,8 @@ I have extensive knowledge and over 10 years experience in the following areas:
 {{< /timelineItem >}}
 
 {{< timelineItem icon="github" header="My Github">}}
-{{< github repo="lairizzle/keithportfolio" >}}
-{{< github repo="lairizzle/hugo-steam-shortcode" >}}
+{{< github repo="lairizzle/piperss" >}}
+{{< github repo="lairizzle/pyrun.nvim" >}}
 {{< /timelineItem >}}
 
 {{< /timeline >}}
