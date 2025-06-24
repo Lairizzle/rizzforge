@@ -2,41 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Keith Henderson</title>
-    <link>https://keithdh.pages.dev/categories/</link>
+    <link>https://rizzforge.org/categories/</link>
     <description>Recent content in Categories on Keith Henderson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>keith.donaldh@gmail.com (Keith Henderson)</managingEditor>
     <webMaster>keith.donaldh@gmail.com (Keith Henderson)</webMaster>
     <copyright>Copy, right?</copyright>
-    <lastBuildDate>Sun, 29 Dec 2024 21:59:52 -0400</lastBuildDate><atom:link href="https://keithdh.pages.dev/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 29 Dec 2024 21:59:52 -0400</lastBuildDate><atom:link href="https://rizzforge.org/categories/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>General</title>
-      <link>https://keithdh.pages.dev/categories/general/</link>
+      <link>https://rizzforge.org/categories/general/</link>
       <pubDate>Sun, 29 Dec 2024 21:59:52 -0400</pubDate>
       <author>keith.donaldh@gmail.com (Keith Henderson)</author>
-      <guid>https://keithdh.pages.dev/categories/general/</guid>
+      <guid>https://rizzforge.org/categories/general/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Learning</title>
-      <link>https://keithdh.pages.dev/categories/learning/</link>
+      <link>https://rizzforge.org/categories/learning/</link>
       <pubDate>Sun, 29 Dec 2024 21:59:52 -0400</pubDate>
       <author>keith.donaldh@gmail.com (Keith Henderson)</author>
-      <guid>https://keithdh.pages.dev/categories/learning/</guid>
+      <guid>https://rizzforge.org/categories/learning/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Programming</title>
-      <link>https://keithdh.pages.dev/categories/programming/</link>
+      <link>https://rizzforge.org/categories/programming/</link>
       <pubDate>Sun, 29 Dec 2024 21:59:52 -0400</pubDate>
       <author>keith.donaldh@gmail.com (Keith Henderson)</author>
-      <guid>https://keithdh.pages.dev/categories/programming/</guid>
+      <guid>https://rizzforge.org/categories/programming/</guid>
       <description></description>
       
     </item>

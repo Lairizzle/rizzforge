@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Portfolio on Keith Henderson</title>
-    <link>https://keithdh.pages.dev/tags/portfolio/</link>
+    <link>https://rizzforge.org/tags/portfolio/</link>
     <description>Recent content in Portfolio on Keith Henderson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>keith.donaldh@gmail.com (Keith Henderson)</managingEditor>
     <webMaster>keith.donaldh@gmail.com (Keith Henderson)</webMaster>
     <copyright>Copy, right?</copyright>
-    <lastBuildDate>Tue, 15 Oct 2024 21:17:52 -0400</lastBuildDate><atom:link href="https://keithdh.pages.dev/tags/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Oct 2024 21:17:52 -0400</lastBuildDate><atom:link href="https://rizzforge.org/tags/portfolio/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>My Portfolio</title>
-      <link>https://keithdh.pages.dev/portfolio/</link>
+      <link>https://rizzforge.org/portfolio/</link>
       <pubDate>Tue, 15 Oct 2024 21:17:52 -0400</pubDate>
       <author>keith.donaldh@gmail.com (Keith Henderson)</author>
-      <guid>https://keithdh.pages.dev/portfolio/</guid>
+      <guid>https://rizzforge.org/portfolio/</guid>
       <description></description>
       
     </item>

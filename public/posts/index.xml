@@ -2,43 +2,43 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Keith Henderson</title>
-    <link>https://keithdh.pages.dev/posts/</link>
+    <link>https://rizzforge.org/posts/</link>
     <description>Recent content in Posts on Keith Henderson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>keith.donaldh@gmail.com (Keith Henderson)</managingEditor>
     <webMaster>keith.donaldh@gmail.com (Keith Henderson)</webMaster>
     <copyright>Copy, right?</copyright>
-    <lastBuildDate>Fri, 20 Jun 2025 21:38:02 -0400</lastBuildDate><atom:link href="https://keithdh.pages.dev/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 20 Jun 2025 21:38:02 -0400</lastBuildDate><atom:link href="https://rizzforge.org/posts/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Auto Arch Setup</title>
-      <link>https://keithdh.pages.dev/posts/auto-arch-setup/</link>
+      <link>https://rizzforge.org/posts/auto-arch-setup/</link>
       <pubDate>Fri, 20 Jun 2025 21:38:02 -0400</pubDate>
       <author>keith.donaldh@gmail.com (Keith Henderson)</author>
-      <guid>https://keithdh.pages.dev/posts/auto-arch-setup/</guid>
+      <guid>https://rizzforge.org/posts/auto-arch-setup/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Learning NeoVim</title>
-      <link>https://keithdh.pages.dev/posts/nvim-learning-01/</link>
+      <link>https://rizzforge.org/posts/nvim-learning-01/</link>
       <pubDate>Sun, 29 Dec 2024 21:59:52 -0400</pubDate>
       <author>keith.donaldh@gmail.com (Keith Henderson)</author>
-      <guid>https://keithdh.pages.dev/posts/nvim-learning-01/</guid>
+      <guid>https://rizzforge.org/posts/nvim-learning-01/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Hello World</title>
-      <link>https://keithdh.pages.dev/posts/hello-world/</link>
+      <link>https://rizzforge.org/posts/hello-world/</link>
       <pubDate>Wed, 16 Oct 2024 21:17:52 -0400</pubDate>
       <author>keith.donaldh@gmail.com (Keith Henderson)</author>
-      <guid>https://keithdh.pages.dev/posts/hello-world/</guid>
+      <guid>https://rizzforge.org/posts/hello-world/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://keithdh.pages.dev/posts/hello-world/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://rizzforge.org/posts/hello-world/featured.png" />
     </item>
     
   </channel>

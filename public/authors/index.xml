@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors on Keith Henderson</title>
-    <link>https://keithdh.pages.dev/authors/</link>
+    <link>https://rizzforge.org/authors/</link>
     <description>Recent content in Authors on Keith Henderson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>keith.donaldh@gmail.com (Keith Henderson)</managingEditor>
     <webMaster>keith.donaldh@gmail.com (Keith Henderson)</webMaster>
     <copyright>Copy, right?</copyright>
-    <atom:link href="https://keithdh.pages.dev/authors/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://rizzforge.org/authors/index.xml" rel="self" type="application/rss+xml" />
     
   </channel>
 </rss>
