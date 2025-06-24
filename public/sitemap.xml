@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <url>
+    <loc>https://keithdh.pages.dev/posts/auto-arch-setup/</loc>
+    <lastmod>2025-06-20T21:38:02-04:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://keithdh.pages.dev/</loc>
+    <lastmod>2025-06-20T21:38:02-04:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://keithdh.pages.dev/posts/</loc>
+    <lastmod>2025-06-20T21:38:02-04:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://keithdh.pages.dev/posts/nvim-learning-01/</loc>
+    <lastmod>2024-12-29T21:59:52-04:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://keithdh.pages.dev/posts/hello-world/</loc>
+    <lastmod>2024-10-16T21:17:52-04:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://keithdh.pages.dev/portfolio/</loc>
+    <lastmod>2024-10-15T21:17:52-04:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+</urlset>

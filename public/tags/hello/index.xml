@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hello on Keith Henderson</title>
+    <link>https://keithdh.pages.dev/tags/hello/</link>
+    <description>Recent content in Hello on Keith Henderson</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>keith.donaldh@gmail.com (Keith Henderson)</managingEditor>
+    <webMaster>keith.donaldh@gmail.com (Keith Henderson)</webMaster>
+    <copyright>Copy, right?</copyright>
+    <lastBuildDate>Wed, 16 Oct 2024 21:17:52 -0400</lastBuildDate><atom:link href="https://keithdh.pages.dev/tags/hello/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Hello World</title>
+      <link>https://keithdh.pages.dev/posts/hello-world/</link>
+      <pubDate>Wed, 16 Oct 2024 21:17:52 -0400</pubDate>
+      <author>keith.donaldh@gmail.com (Keith Henderson)</author>
+      <guid>https://keithdh.pages.dev/posts/hello-world/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://keithdh.pages.dev/posts/hello-world/featured.png" />
+    </item>
+    
+  </channel>
+</rss>
