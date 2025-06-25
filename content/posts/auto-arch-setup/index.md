@@ -5,6 +5,7 @@ draft: false
 showAuthor: false
 authors: 
     - "keithhenderson"
+tags: ['computers', 'arch', 'automation', 'bash']
 ---
 
 ## Automating My Post Install Experience

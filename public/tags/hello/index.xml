@@ -18,7 +18,7 @@
       <author>keith.donaldh@gmail.com (Rizz Forge)</author>
       <guid>http://localhost:1313/posts/hello-world/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/hello-world/featured.png" />
+      
     </item>
     
   </channel>

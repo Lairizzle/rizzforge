@@ -11,7 +11,7 @@ title = "Rizz Forge"
   dateFormat = "January 2, 2006"
 	logo = "img/RizzForgeLogo128.png"
   secondaryLogo = "img/RizzForgeLogo128.png"
-	description = "Rizz Forge"
+	description = "The forge is open."
   copyright = "Copy, right?"
 
 [params.author]
