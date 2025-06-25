@@ -28,13 +28,13 @@ weight = 20
 [[main]]
   name = "PipeRSS"
   parent = "Software"
-  pageRef = "http://github.com/lairizzle/piperss"
+  url = "https://github.com/lairizzle/piperss"
   weight = 20
 
 [[main]]
   name = "pyrun.nvim"
   parent = "Software"
-  pageRef = "http://github.com/lairizzle/pyrun.nvim"
+  url = "https://github.com/lairizzle/pyrun.nvim"
   weight = 20
 
 [[main]]

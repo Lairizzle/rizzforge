@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Work on Rizz Forge</title>
-    <link>https://rizzforge.org/tags/work/</link>
+    <link>http://localhost:1313/tags/work/</link>
     <description>Recent content in Work on Rizz Forge</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>keith.donaldh@gmail.com (Rizz Forge)</managingEditor>
     <webMaster>keith.donaldh@gmail.com (Rizz Forge)</webMaster>
     <copyright>Copy, right?</copyright>
-    <lastBuildDate>Tue, 15 Oct 2024 21:17:52 -0400</lastBuildDate><atom:link href="https://rizzforge.org/tags/work/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Oct 2024 21:17:52 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/work/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>My Portfolio</title>
-      <link>https://rizzforge.org/portfolio/</link>
+      <link>http://localhost:1313/portfolio/</link>
       <pubDate>Tue, 15 Oct 2024 21:17:52 -0400</pubDate>
       <author>keith.donaldh@gmail.com (Rizz Forge)</author>
-      <guid>https://rizzforge.org/portfolio/</guid>
+      <guid>http://localhost:1313/portfolio/</guid>
       <description></description>
       
     </item>

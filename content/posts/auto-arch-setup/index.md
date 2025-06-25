@@ -12,7 +12,7 @@ It is always nice booting into a fresh system. The only problem is getting every
 
 ## Dot, dot, dot
 
-If you have not already made a github/gitlab repository for all of your dot files, then why are you still reading this? This has been tremendous timesaver for me personally. Most dot files can be made public, so you can easily clone or share them - just make sure they don't include any sort of sensitive information. For example, I have a repo called [GruvDots](https://github.com/Lairizzle/GruvDots) which contains dot files for a Gruvbox themed hyprland setup I use. When I created this repo, I added my git init right inside my .config folder, then I created a .gitignore file that looks like this:
+If you have not already made a github/gitlab repository for all of your dot files, then why are you still reading this? This has been tremendous time saver for me personally. Most dot files can be made public, so you can easily clone or share them - just make sure they don't include any sort of sensitive information. For example, I have a repo called [GruvDots](https://github.com/Lairizzle/GruvDots) which contains dot files for a Gruvbox themed hyprland setup I use. When I created this repo, I added my git init right inside my .config folder, then I created a .gitignore file that looks like this:
 
 ```
 # Ignore everything in repository root 
@@ -44,7 +44,7 @@ Bash scripting is amazing. It is so much fun to create useful bash scripts to he
     <li>It installs a list of packages I know I will</li>
     <li>It installs yay so I can leverage the AUR</li>
     <li>It automatically installs a Gruvbox skin for Midnight Commander</li>
-    <li>It clones all of my [GruvDots]() from github into my .config folder</li>
+    <li>It clones all of my GruvDots from github into my .config folder</li>
     <li>It configures my greetd to use tuigreet and themes it</li>
     <li>It disables sddm and enabled greetd</li>
     <li>It tells me that setup is complete and then asks if I would like to reboot</li>

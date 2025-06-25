@@ -1,10 +1,13 @@
-+++
-title = 'My Portfolio'
-date = 2024-10-15T21:17:52-04:00
-draft = false
-categories = ['general']
-tags = ['portfolio', 'music', 'gaming', 'computers', 'work', 'education']
-+++
+---
+title: 'My Portfolio'
+date: 2024-10-15T21:17:52-04:00
+draft: false
+showAuthor: false
+authors: 
+    - "keithhenderson"
+categories: ['general']
+tags: ['portfolio', 'music', 'gaming', 'computers', 'work', 'education']
+---
 
 ## :man_shrugging: Who am I?
 Hi! My name is Keith. I am a Dad and a tech enthusiast who was raised by the internet. I am a Linux and FOSS (free and open source software) proponent who works professionally with things like SQL server, Datameer, Tableau, Python and much more. I like to think that I am fairly creative, whether that be with art and music or programming and game development. Learning has always been a top priority for me and expanding my knowledge and skill sets is something I've always loved doing.

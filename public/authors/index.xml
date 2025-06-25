@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors on Rizz Forge</title>
-    <link>https://rizzforge.org/authors/</link>
+    <link>http://localhost:1313/authors/</link>
     <description>Recent content in Authors on Rizz Forge</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>keith.donaldh@gmail.com (Rizz Forge)</managingEditor>
     <webMaster>keith.donaldh@gmail.com (Rizz Forge)</webMaster>
     <copyright>Copy, right?</copyright>
-    <lastBuildDate>Fri, 20 Jun 2025 21:38:02 -0400</lastBuildDate><atom:link href="https://rizzforge.org/authors/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 20 Jun 2025 21:38:02 -0400</lastBuildDate><atom:link href="http://localhost:1313/authors/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Keithhenderson</title>
-      <link>https://rizzforge.org/authors/keithhenderson/</link>
+      <link>http://localhost:1313/authors/keithhenderson/</link>
       <pubDate>Fri, 20 Jun 2025 21:38:02 -0400</pubDate>
       <author>keith.donaldh@gmail.com (Rizz Forge)</author>
-      <guid>https://rizzforge.org/authors/keithhenderson/</guid>
+      <guid>http://localhost:1313/authors/keithhenderson/</guid>
       <description></description>
       
     </item>
