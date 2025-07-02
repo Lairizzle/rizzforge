@@ -26,16 +26,40 @@ pageref = "software"
 weight = 20
 
 [[main]]
+name = "Themes"
+pageref = "themes"
+weight = 20
+
+[[main]]
   name = "PipeRSS"
   parent = "Software"
   url = "https://github.com/lairizzle/piperss"
-  weight = 20
+  weight = 1
 
 [[main]]
   name = "pyrun.nvim"
   parent = "Software"
   url = "https://github.com/lairizzle/pyrun.nvim"
-  weight = 20
+  weight = 2
+
+[[main]]
+  name = "Arctis Nova 7 ChatMix"
+  parent = "Software"
+  url = "https://github.com/Lairizzle/Linux-Arctis-Nova-7-Wireless-ChatMix"
+  weight = 3
+
+
+[[main]]
+  name = "MC Tokyo Night Skin"
+  parent = "Themes"
+  url = "https://github.com/Lairizzle/mc-tokyonight-skin"
+  weight = 1
+
+[[main]]
+  name = "Rofi Tokyo Night"
+  parent = "Themes"
+  url = "https://github.com/Lairizzle/rofi-tokyonight"
+  weight = 2
 
 [[main]]
   name = "Categories"
