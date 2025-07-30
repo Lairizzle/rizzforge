@@ -48,6 +48,17 @@ weight = 20
   url = "https://github.com/Lairizzle/Linux-Arctis-Nova-7-Wireless-ChatMix"
   weight = 3
 
+[[main]]
+  name = "Framezip"
+  parent = "Software"
+  url = "https://github.com/Lairizzle/framezip"
+  weight = 4
+
+[[main]]
+  name = "NixMessages"
+  parent = "Software"
+  url = "https://github.com/Lairizzle/nixmessages"
+  weight = 5
 
 [[main]]
   name = "MC Tokyo Night Skin"
