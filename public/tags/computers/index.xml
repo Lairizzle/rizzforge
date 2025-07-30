@@ -9,7 +9,17 @@
     <managingEditor>keith.donaldh@gmail.com (Rizz Forge)</managingEditor>
     <webMaster>keith.donaldh@gmail.com (Rizz Forge)</webMaster>
     <copyright>Copy, right?</copyright>
-    <lastBuildDate>Thu, 03 Jul 2025 00:00:00 -0400</lastBuildDate><atom:link href="https://rizzforge.org/tags/computers/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 29 Jul 2025 00:00:00 -0400</lastBuildDate><atom:link href="https://rizzforge.org/tags/computers/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Python Modules - Framezip</title>
+      <link>https://rizzforge.org/posts/framezip/</link>
+      <pubDate>Tue, 29 Jul 2025 00:00:00 -0400</pubDate>
+      <author>keith.donaldh@gmail.com (Rizz Forge)</author>
+      <guid>https://rizzforge.org/posts/framezip/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://rizzforge.org/posts/framezip/featured.png" />
+    </item>
     
     <item>
       <title>SDDM Trouble</title>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data on Rizz Forge</title>
+    <link>https://rizzforge.org/tags/data/</link>
+    <description>Recent content in Data on Rizz Forge</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>keith.donaldh@gmail.com (Rizz Forge)</managingEditor>
+    <webMaster>keith.donaldh@gmail.com (Rizz Forge)</webMaster>
+    <copyright>Copy, right?</copyright>
+    <lastBuildDate>Tue, 29 Jul 2025 00:00:00 -0400</lastBuildDate><atom:link href="https://rizzforge.org/tags/data/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Python Modules - Framezip</title>
+      <link>https://rizzforge.org/posts/framezip/</link>
+      <pubDate>Tue, 29 Jul 2025 00:00:00 -0400</pubDate>
+      <author>keith.donaldh@gmail.com (Rizz Forge)</author>
+      <guid>https://rizzforge.org/posts/framezip/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://rizzforge.org/posts/framezip/featured.png" />
+    </item>
+    
+  </channel>
+</rss>
