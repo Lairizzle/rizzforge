@@ -26,7 +26,8 @@ Lastly was just some updates to my waybar, hyprland and a few other dot files. I
 ## Learning
 Tokyo Night is a fantastic colour scheme that is really easy on the eyes. It has been a refreshing change. I learned quite a bit while creating the midnight commander theme and look forward to adding other theme options for applications in the future.
 
-
+Cheers,
+Keith
 
 
 

@@ -32,3 +32,6 @@ After everything was set up, I realized one thing. I wanted to learn Fullstack J
 ### Seeing The Light
 
 Each day I continue to use NeoVim I can feel myself getting quicker, memorizing more motions and keybinds, discovering new tricks and slowly becoming more efficient. It also feels really great to stay more rooted in terminal when working and it just feels more fun at the end of the day. It has been a mildly frustrating road, but the benefits definitely make the pain worth it. If you haven't tried it, or you just assume its terrible. Do yourself a favour and Vim into something today. 
+
+Cheers,
+Keith

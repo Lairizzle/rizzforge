@@ -54,7 +54,8 @@ This all runs within a matter of minutes and my system is setup exactly how I li
 ## Home Servers
 The final piece that really pulls it all together is a home server or some sort of storage like NextCloud. If you have something like this set up then you can keep all of your important stuff you want to save and retain stored on your server and your home pc almost acts like a dummy terminal. If it can't be a repo on github or saved to your home server then it is basically just installed applications like games and other things you interact with, not actual data. It almost turns your computer itself into a dummy terminal, well it feels like it anyway.
 
-
+Cheers,
+Keith
 
 
 
