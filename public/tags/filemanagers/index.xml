@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Filemanagers on Rizzforge</title>
-    <link>http://localhost:1313/tags/filemanagers/</link>
+    <link>http://rizzforge.org/tags/filemanagers/</link>
     <description>Recent content in Filemanagers on Rizzforge</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 02 Jul 2025 00:00:00 -0400</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/filemanagers/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://rizzforge.org/tags/filemanagers/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tokyo Night Themes</title>
-      <link>http://localhost:1313/posts/tokyo-night-themes/</link>
+      <link>http://rizzforge.org/posts/tokyo-night-themes/</link>
       <pubDate>Wed, 02 Jul 2025 00:00:00 -0400</pubDate>
-      <guid>http://localhost:1313/posts/tokyo-night-themes/</guid>
+      <guid>http://rizzforge.org/posts/tokyo-night-themes/</guid>
       <description>&lt;h2 id=&#34;exploring-tokyo-night&#34;&gt;Exploring Tokyo Night&lt;/h2&gt;&#xA;&lt;p&gt;After using Gruvbox for some time I felt I wanted a bit of a change in terms of themes. After exploring the plethora of colour scheme options I settled on Tokyo Night, based on the &lt;a href=&#34;https://github.com/folke/tokyonight.nvim&#34;&gt;Tokyo Night Neovim theme&lt;/a&gt;. So far I&amp;rsquo;ve been really enjoying it, but I wanted to keep my old Gruvbox dots in order and create a new repo for my Tokyo Night dots. The only issue I ran into was finding Tokyo Night themes for certain applications (like Midnight Commander and Rofi). I had no choice but to create me own!&lt;/p&gt;</description>
     </item>
   </channel>

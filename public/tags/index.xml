@@ -2,143 +2,150 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Rizzforge</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>http://rizzforge.org/tags/</link>
     <description>Recent content in Tags on Rizzforge</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 29 Jul 2025 00:00:00 -0400</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 05 Aug 2025 00:00:00 -0400</lastBuildDate>
+    <atom:link href="http://rizzforge.org/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Computers</title>
-      <link>http://localhost:1313/tags/computers/</link>
-      <pubDate>Tue, 29 Jul 2025 00:00:00 -0400</pubDate>
-      <guid>http://localhost:1313/tags/computers/</guid>
+      <link>http://rizzforge.org/tags/computers/</link>
+      <pubDate>Tue, 05 Aug 2025 00:00:00 -0400</pubDate>
+      <guid>http://rizzforge.org/tags/computers/</guid>
       <description></description>
     </item>
     <item>
-      <title>Data</title>
-      <link>http://localhost:1313/tags/data/</link>
-      <pubDate>Tue, 29 Jul 2025 00:00:00 -0400</pubDate>
-      <guid>http://localhost:1313/tags/data/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Pip</title>
-      <link>http://localhost:1313/tags/pip/</link>
-      <pubDate>Tue, 29 Jul 2025 00:00:00 -0400</pubDate>
-      <guid>http://localhost:1313/tags/pip/</guid>
+      <title>Hugo</title>
+      <link>http://rizzforge.org/tags/hugo/</link>
+      <pubDate>Tue, 05 Aug 2025 00:00:00 -0400</pubDate>
+      <guid>http://rizzforge.org/tags/hugo/</guid>
       <description></description>
     </item>
     <item>
       <title>Programming</title>
-      <link>http://localhost:1313/tags/programming/</link>
-      <pubDate>Tue, 29 Jul 2025 00:00:00 -0400</pubDate>
-      <guid>http://localhost:1313/tags/programming/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Python</title>
-      <link>http://localhost:1313/tags/python/</link>
-      <pubDate>Tue, 29 Jul 2025 00:00:00 -0400</pubDate>
-      <guid>http://localhost:1313/tags/python/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Arch</title>
-      <link>http://localhost:1313/tags/arch/</link>
-      <pubDate>Thu, 03 Jul 2025 00:00:00 -0400</pubDate>
-      <guid>http://localhost:1313/tags/arch/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Greeter</title>
-      <link>http://localhost:1313/tags/greeter/</link>
-      <pubDate>Thu, 03 Jul 2025 00:00:00 -0400</pubDate>
-      <guid>http://localhost:1313/tags/greeter/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Sddm</title>
-      <link>http://localhost:1313/tags/sddm/</link>
-      <pubDate>Thu, 03 Jul 2025 00:00:00 -0400</pubDate>
-      <guid>http://localhost:1313/tags/sddm/</guid>
+      <link>http://rizzforge.org/tags/programming/</link>
+      <pubDate>Tue, 05 Aug 2025 00:00:00 -0400</pubDate>
+      <guid>http://rizzforge.org/tags/programming/</guid>
       <description></description>
     </item>
     <item>
       <title>Themes</title>
-      <link>http://localhost:1313/tags/themes/</link>
+      <link>http://rizzforge.org/tags/themes/</link>
+      <pubDate>Tue, 05 Aug 2025 00:00:00 -0400</pubDate>
+      <guid>http://rizzforge.org/tags/themes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data</title>
+      <link>http://rizzforge.org/tags/data/</link>
+      <pubDate>Tue, 29 Jul 2025 00:00:00 -0400</pubDate>
+      <guid>http://rizzforge.org/tags/data/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pip</title>
+      <link>http://rizzforge.org/tags/pip/</link>
+      <pubDate>Tue, 29 Jul 2025 00:00:00 -0400</pubDate>
+      <guid>http://rizzforge.org/tags/pip/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Python</title>
+      <link>http://rizzforge.org/tags/python/</link>
+      <pubDate>Tue, 29 Jul 2025 00:00:00 -0400</pubDate>
+      <guid>http://rizzforge.org/tags/python/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Arch</title>
+      <link>http://rizzforge.org/tags/arch/</link>
       <pubDate>Thu, 03 Jul 2025 00:00:00 -0400</pubDate>
-      <guid>http://localhost:1313/tags/themes/</guid>
+      <guid>http://rizzforge.org/tags/arch/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Greeter</title>
+      <link>http://rizzforge.org/tags/greeter/</link>
+      <pubDate>Thu, 03 Jul 2025 00:00:00 -0400</pubDate>
+      <guid>http://rizzforge.org/tags/greeter/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sddm</title>
+      <link>http://rizzforge.org/tags/sddm/</link>
+      <pubDate>Thu, 03 Jul 2025 00:00:00 -0400</pubDate>
+      <guid>http://rizzforge.org/tags/sddm/</guid>
       <description></description>
     </item>
     <item>
       <title>Filemanagers</title>
-      <link>http://localhost:1313/tags/filemanagers/</link>
+      <link>http://rizzforge.org/tags/filemanagers/</link>
       <pubDate>Wed, 02 Jul 2025 00:00:00 -0400</pubDate>
-      <guid>http://localhost:1313/tags/filemanagers/</guid>
+      <guid>http://rizzforge.org/tags/filemanagers/</guid>
       <description></description>
     </item>
     <item>
       <title>Automation</title>
-      <link>http://localhost:1313/tags/automation/</link>
+      <link>http://rizzforge.org/tags/automation/</link>
       <pubDate>Fri, 20 Jun 2025 21:38:02 -0400</pubDate>
-      <guid>http://localhost:1313/tags/automation/</guid>
+      <guid>http://rizzforge.org/tags/automation/</guid>
       <description></description>
     </item>
     <item>
       <title>Bash</title>
-      <link>http://localhost:1313/tags/bash/</link>
+      <link>http://rizzforge.org/tags/bash/</link>
       <pubDate>Fri, 20 Jun 2025 21:38:02 -0400</pubDate>
-      <guid>http://localhost:1313/tags/bash/</guid>
+      <guid>http://rizzforge.org/tags/bash/</guid>
       <description></description>
     </item>
     <item>
       <title>Education</title>
-      <link>http://localhost:1313/tags/education/</link>
+      <link>http://rizzforge.org/tags/education/</link>
       <pubDate>Sun, 29 Dec 2024 21:59:52 -0400</pubDate>
-      <guid>http://localhost:1313/tags/education/</guid>
+      <guid>http://rizzforge.org/tags/education/</guid>
       <description></description>
     </item>
     <item>
       <title>Vim</title>
-      <link>http://localhost:1313/tags/vim/</link>
+      <link>http://rizzforge.org/tags/vim/</link>
       <pubDate>Sun, 29 Dec 2024 21:59:52 -0400</pubDate>
-      <guid>http://localhost:1313/tags/vim/</guid>
+      <guid>http://rizzforge.org/tags/vim/</guid>
       <description></description>
     </item>
     <item>
       <title>Hello</title>
-      <link>http://localhost:1313/tags/hello/</link>
+      <link>http://rizzforge.org/tags/hello/</link>
       <pubDate>Wed, 16 Oct 2024 21:17:52 -0400</pubDate>
-      <guid>http://localhost:1313/tags/hello/</guid>
+      <guid>http://rizzforge.org/tags/hello/</guid>
       <description></description>
     </item>
     <item>
       <title>Gaming</title>
-      <link>http://localhost:1313/tags/gaming/</link>
+      <link>http://rizzforge.org/tags/gaming/</link>
       <pubDate>Tue, 15 Oct 2024 21:17:52 -0400</pubDate>
-      <guid>http://localhost:1313/tags/gaming/</guid>
+      <guid>http://rizzforge.org/tags/gaming/</guid>
       <description></description>
     </item>
     <item>
       <title>Music</title>
-      <link>http://localhost:1313/tags/music/</link>
+      <link>http://rizzforge.org/tags/music/</link>
       <pubDate>Tue, 15 Oct 2024 21:17:52 -0400</pubDate>
-      <guid>http://localhost:1313/tags/music/</guid>
+      <guid>http://rizzforge.org/tags/music/</guid>
       <description></description>
     </item>
     <item>
       <title>Portfolio</title>
-      <link>http://localhost:1313/tags/portfolio/</link>
+      <link>http://rizzforge.org/tags/portfolio/</link>
       <pubDate>Tue, 15 Oct 2024 21:17:52 -0400</pubDate>
-      <guid>http://localhost:1313/tags/portfolio/</guid>
+      <guid>http://rizzforge.org/tags/portfolio/</guid>
       <description></description>
     </item>
     <item>
       <title>Work</title>
-      <link>http://localhost:1313/tags/work/</link>
+      <link>http://rizzforge.org/tags/work/</link>
       <pubDate>Tue, 15 Oct 2024 21:17:52 -0400</pubDate>
-      <guid>http://localhost:1313/tags/work/</guid>
+      <guid>http://rizzforge.org/tags/work/</guid>
       <description></description>
     </item>
   </channel>

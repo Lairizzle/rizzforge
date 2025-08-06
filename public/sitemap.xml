@@ -2,107 +2,113 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>http://rizzforge.org/posts/</loc>
+    <lastmod>2025-08-05T00:00:00-04:00</lastmod>
+  </url><url>
+    <loc>http://rizzforge.org/tags/computers/</loc>
+    <lastmod>2025-08-05T00:00:00-04:00</lastmod>
+  </url><url>
+    <loc>http://rizzforge.org/tags/hugo/</loc>
+    <lastmod>2025-08-05T00:00:00-04:00</lastmod>
+  </url><url>
+    <loc>http://rizzforge.org/posts/kage/</loc>
+    <lastmod>2025-08-05T00:00:00-04:00</lastmod>
+  </url><url>
+    <loc>http://rizzforge.org/tags/programming/</loc>
+    <lastmod>2025-08-05T00:00:00-04:00</lastmod>
+  </url><url>
+    <loc>http://rizzforge.org/</loc>
+    <lastmod>2025-08-05T00:00:00-04:00</lastmod>
+  </url><url>
+    <loc>http://rizzforge.org/tags/</loc>
+    <lastmod>2025-08-05T00:00:00-04:00</lastmod>
+  </url><url>
+    <loc>http://rizzforge.org/tags/themes/</loc>
+    <lastmod>2025-08-05T00:00:00-04:00</lastmod>
+  </url><url>
+    <loc>http://rizzforge.org/tags/data/</loc>
     <lastmod>2025-07-29T00:00:00-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/computers/</loc>
+    <loc>http://rizzforge.org/tags/pip/</loc>
     <lastmod>2025-07-29T00:00:00-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/data/</loc>
+    <loc>http://rizzforge.org/tags/python/</loc>
     <lastmod>2025-07-29T00:00:00-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/pip/</loc>
+    <loc>http://rizzforge.org/posts/framezip/</loc>
     <lastmod>2025-07-29T00:00:00-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/programming/</loc>
-    <lastmod>2025-07-29T00:00:00-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/python/</loc>
-    <lastmod>2025-07-29T00:00:00-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/framezip/</loc>
-    <lastmod>2025-07-29T00:00:00-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2025-07-29T00:00:00-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-07-29T00:00:00-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/arch/</loc>
+    <loc>http://rizzforge.org/tags/arch/</loc>
     <lastmod>2025-07-03T00:00:00-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/greeter/</loc>
+    <loc>http://rizzforge.org/tags/greeter/</loc>
     <lastmod>2025-07-03T00:00:00-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/sddm/</loc>
+    <loc>http://rizzforge.org/tags/sddm/</loc>
     <lastmod>2025-07-03T00:00:00-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/sddm-trouble/</loc>
+    <loc>http://rizzforge.org/posts/sddm-trouble/</loc>
     <lastmod>2025-07-03T00:00:00-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/themes/</loc>
-    <lastmod>2025-07-03T00:00:00-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/filemanagers/</loc>
+    <loc>http://rizzforge.org/tags/filemanagers/</loc>
     <lastmod>2025-07-02T00:00:00-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/tokyo-night-themes/</loc>
+    <loc>http://rizzforge.org/posts/tokyo-night-themes/</loc>
     <lastmod>2025-07-02T00:00:00-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/auto-arch-setup/</loc>
+    <loc>http://rizzforge.org/posts/auto-arch-setup/</loc>
     <lastmod>2025-06-20T21:38:02-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/automation/</loc>
+    <loc>http://rizzforge.org/tags/automation/</loc>
     <lastmod>2025-06-20T21:38:02-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/bash/</loc>
+    <loc>http://rizzforge.org/tags/bash/</loc>
     <lastmod>2025-06-20T21:38:02-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://rizzforge.org/categories/</loc>
     <lastmod>2024-12-29T21:59:52-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/education/</loc>
+    <loc>http://rizzforge.org/tags/education/</loc>
     <lastmod>2024-12-29T21:59:52-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/general/</loc>
+    <loc>http://rizzforge.org/categories/general/</loc>
     <lastmod>2024-12-29T21:59:52-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/learning/</loc>
+    <loc>http://rizzforge.org/categories/learning/</loc>
     <lastmod>2024-12-29T21:59:52-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/nvim-learning-01/</loc>
+    <loc>http://rizzforge.org/posts/nvim-learning-01/</loc>
     <lastmod>2024-12-29T21:59:52-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/programming/</loc>
+    <loc>http://rizzforge.org/categories/programming/</loc>
     <lastmod>2024-12-29T21:59:52-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/vim/</loc>
+    <loc>http://rizzforge.org/tags/vim/</loc>
     <lastmod>2024-12-29T21:59:52-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/hello/</loc>
+    <loc>http://rizzforge.org/tags/hello/</loc>
     <lastmod>2024-10-16T21:17:52-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/hello-world/</loc>
+    <loc>http://rizzforge.org/posts/hello-world/</loc>
     <lastmod>2024-10-16T21:17:52-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>http://rizzforge.org/about/</loc>
     <lastmod>2024-10-15T21:17:52-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/gaming/</loc>
+    <loc>http://rizzforge.org/tags/gaming/</loc>
     <lastmod>2024-10-15T21:17:52-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/music/</loc>
+    <loc>http://rizzforge.org/tags/music/</loc>
     <lastmod>2024-10-15T21:17:52-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/portfolio/</loc>
+    <loc>http://rizzforge.org/tags/portfolio/</loc>
     <lastmod>2024-10-15T21:17:52-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/work/</loc>
+    <loc>http://rizzforge.org/tags/work/</loc>
     <lastmod>2024-10-15T21:17:52-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/software/</loc>
+    <loc>http://rizzforge.org/software/</loc>
   </url><url>
-    <loc>http://localhost:1313/themes/</loc>
+    <loc>http://rizzforge.org/themes/</loc>
   </url>
 </urlset>

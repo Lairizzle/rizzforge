@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hello on Rizzforge</title>
-    <link>http://localhost:1313/tags/hello/</link>
+    <link>http://rizzforge.org/tags/hello/</link>
     <description>Recent content in Hello on Rizzforge</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 16 Oct 2024 21:17:52 -0400</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/hello/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://rizzforge.org/tags/hello/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hello World</title>
-      <link>http://localhost:1313/posts/hello-world/</link>
+      <link>http://rizzforge.org/posts/hello-world/</link>
       <pubDate>Wed, 16 Oct 2024 21:17:52 -0400</pubDate>
-      <guid>http://localhost:1313/posts/hello-world/</guid>
+      <guid>http://rizzforge.org/posts/hello-world/</guid>
       <description>&lt;h2 id=&#34;hello-world&#34;&gt;Hello World&lt;/h2&gt;&#xA;&lt;p&gt;This is my personal site which will catalogue my work and serve as a portfolio.&lt;/p&gt;&#xA;&lt;p&gt;Cheers,&#xA;Keith&lt;/p&gt;</description>
     </item>
   </channel>

@@ -2,24 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Themes on Rizzforge</title>
-    <link>http://localhost:1313/tags/themes/</link>
+    <link>http://rizzforge.org/tags/themes/</link>
     <description>Recent content in Themes on Rizzforge</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 03 Jul 2025 00:00:00 -0400</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/themes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 05 Aug 2025 00:00:00 -0400</lastBuildDate>
+    <atom:link href="http://rizzforge.org/tags/themes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kage: Hugo Theme</title>
+      <link>http://rizzforge.org/posts/kage/</link>
+      <pubDate>Tue, 05 Aug 2025 00:00:00 -0400</pubDate>
+      <guid>http://rizzforge.org/posts/kage/</guid>
+      <description>&lt;h2 id=&#34;inspiration&#34;&gt;Inspiration&lt;/h2&gt;&#xA;&lt;p&gt;I was chatting with someone who hangs out in a mutal discord and I was reading through their personal blog. I noticed they had included something called a blog roll, where they add blogs they follow or find interesting. On this list there was a link to a very minimalist blog. It was actuall this one, &lt;a href=&#34;https://mijndertstuij.nl/&#34;&gt;Mijndert Stuij&lt;/a&gt;. I have to admit it made me immediately jealous. It was so simple, yet so effective. I knew that I would be revamping my entire blog shortly after seeing this. I just couldn&amp;rsquo;t help myself.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>SDDM Trouble</title>
-      <link>http://localhost:1313/posts/sddm-trouble/</link>
+      <link>http://rizzforge.org/posts/sddm-trouble/</link>
       <pubDate>Thu, 03 Jul 2025 00:00:00 -0400</pubDate>
-      <guid>http://localhost:1313/posts/sddm-trouble/</guid>
+      <guid>http://rizzforge.org/posts/sddm-trouble/</guid>
       <description>&lt;h2 id=&#34;monitor-issues&#34;&gt;Monitor Issues&lt;/h2&gt;&#xA;&lt;p&gt;After changing all my theme stuff over to Tokyo Night, I wanted to spice up my greeter with a nice SDDM theme. I found a fantastic one for Tokyo Night on github by siddrs, which you can find a link to &lt;a href=&#34;https://github.com/siddrs/tokyo-night-sddm&#34;&gt;here&lt;/a&gt;. The theme worked perfectly with the Arch install method from the AUR but there was one issue. SDDM will sometimes have a weird behaviour where it will launch across multiple monitors, but the input will default to the last monitor rendered. In my case this was my right most monitor, which is not my main monitor.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Tokyo Night Themes</title>
-      <link>http://localhost:1313/posts/tokyo-night-themes/</link>
+      <link>http://rizzforge.org/posts/tokyo-night-themes/</link>
       <pubDate>Wed, 02 Jul 2025 00:00:00 -0400</pubDate>
-      <guid>http://localhost:1313/posts/tokyo-night-themes/</guid>
+      <guid>http://rizzforge.org/posts/tokyo-night-themes/</guid>
       <description>&lt;h2 id=&#34;exploring-tokyo-night&#34;&gt;Exploring Tokyo Night&lt;/h2&gt;&#xA;&lt;p&gt;After using Gruvbox for some time I felt I wanted a bit of a change in terms of themes. After exploring the plethora of colour scheme options I settled on Tokyo Night, based on the &lt;a href=&#34;https://github.com/folke/tokyonight.nvim&#34;&gt;Tokyo Night Neovim theme&lt;/a&gt;. So far I&amp;rsquo;ve been really enjoying it, but I wanted to keep my old Gruvbox dots in order and create a new repo for my Tokyo Night dots. The only issue I ran into was finding Tokyo Night themes for certain applications (like Midnight Commander and Rofi). I had no choice but to create me own!&lt;/p&gt;</description>
     </item>
   </channel>

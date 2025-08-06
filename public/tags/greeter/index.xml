@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Greeter on Rizzforge</title>
-    <link>http://localhost:1313/tags/greeter/</link>
+    <link>http://rizzforge.org/tags/greeter/</link>
     <description>Recent content in Greeter on Rizzforge</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 03 Jul 2025 00:00:00 -0400</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/greeter/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://rizzforge.org/tags/greeter/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SDDM Trouble</title>
-      <link>http://localhost:1313/posts/sddm-trouble/</link>
+      <link>http://rizzforge.org/posts/sddm-trouble/</link>
       <pubDate>Thu, 03 Jul 2025 00:00:00 -0400</pubDate>
-      <guid>http://localhost:1313/posts/sddm-trouble/</guid>
+      <guid>http://rizzforge.org/posts/sddm-trouble/</guid>
       <description>&lt;h2 id=&#34;monitor-issues&#34;&gt;Monitor Issues&lt;/h2&gt;&#xA;&lt;p&gt;After changing all my theme stuff over to Tokyo Night, I wanted to spice up my greeter with a nice SDDM theme. I found a fantastic one for Tokyo Night on github by siddrs, which you can find a link to &lt;a href=&#34;https://github.com/siddrs/tokyo-night-sddm&#34;&gt;here&lt;/a&gt;. The theme worked perfectly with the Arch install method from the AUR but there was one issue. SDDM will sometimes have a weird behaviour where it will launch across multiple monitors, but the input will default to the last monitor rendered. In my case this was my right most monitor, which is not my main monitor.&lt;/p&gt;</description>
     </item>
   </channel>

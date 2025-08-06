@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Education on Rizzforge</title>
-    <link>http://localhost:1313/tags/education/</link>
+    <link>http://rizzforge.org/tags/education/</link>
     <description>Recent content in Education on Rizzforge</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 29 Dec 2024 21:59:52 -0400</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/education/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://rizzforge.org/tags/education/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Learning NeoVim</title>
-      <link>http://localhost:1313/posts/nvim-learning-01/</link>
+      <link>http://rizzforge.org/posts/nvim-learning-01/</link>
       <pubDate>Sun, 29 Dec 2024 21:59:52 -0400</pubDate>
-      <guid>http://localhost:1313/posts/nvim-learning-01/</guid>
+      <guid>http://rizzforge.org/posts/nvim-learning-01/</guid>
       <description>&lt;h3 id=&#34;pain-with-a-side-of-pain&#34;&gt;Pain With a Side of Pain&lt;/h3&gt;&#xA;&lt;p&gt;For the last several months I have avoided the trap of Linux distro hopping. I&amp;rsquo;ve been using Arch happily, but I did switch between KDE Plasma and Gnome. I wanted&#xA;to at least test out a few DE&amp;rsquo;s and see which had the most appeal. One night while watching youtube I came across a video of &lt;a href=&#34;https://www.youtube.com/c/theprimeagen&#34;&gt;ThePrimeagen&lt;/a&gt; absolutely blasting through his code using &lt;a href=&#34;https://neovim.io/&#34;&gt;NeoVim&lt;/a&gt;. I was flabbergasted at how quickly and efficiently he was able to navigate his editor. I&amp;rsquo;d previously had the misfortune of using &lt;a href=&#34;https://www.vim.org/&#34;&gt;Vim&lt;/a&gt; once or twice and having no idea how to edit anything or even close it and I usually found myself defaulting to nano if I had no option outside&#xA;of the CLI. I decided this time I would be more deliberate in my approach and put in a true effort to use and learn Vim. Spoiler alert: It. Is. Amazing.&lt;/p&gt;</description>
     </item>
     <item>
       <title>About Me</title>
-      <link>http://localhost:1313/about/</link>
+      <link>http://rizzforge.org/about/</link>
       <pubDate>Tue, 15 Oct 2024 21:17:52 -0400</pubDate>
-      <guid>http://localhost:1313/about/</guid>
+      <guid>http://rizzforge.org/about/</guid>
       <description>&lt;h2 id=&#34;who-am-i&#34;&gt;Who am I?&lt;/h2&gt;&#xA;&lt;p&gt;Hi! My name is Keith. I am a Dad and a tech enthusiast who was raised by the internet. I am a Linux and FOSS (free and open source software) proponent who works professionally with things like SQL server, Datameer, Tableau, Python and much more. I like to think that I am fairly creative, whether that be with art and music or programming and game development. Learning has always been a top priority for me and expanding my knowledge and skill sets is something I&amp;rsquo;ve always loved doing.&lt;/p&gt;</description>
     </item>
   </channel>
