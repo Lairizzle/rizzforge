@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Arch on Rizzforge</title>
+    <link>http://localhost:1313/tags/arch/</link>
+    <description>Recent content in Arch on Rizzforge</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 03 Jul 2025 00:00:00 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/arch/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SDDM Trouble</title>
+      <link>http://localhost:1313/posts/sddm-trouble/</link>
+      <pubDate>Thu, 03 Jul 2025 00:00:00 -0400</pubDate>
+      <guid>http://localhost:1313/posts/sddm-trouble/</guid>
+      <description>&lt;h2 id=&#34;monitor-issues&#34;&gt;Monitor Issues&lt;/h2&gt;&#xA;&lt;p&gt;After changing all my theme stuff over to Tokyo Night, I wanted to spice up my greeter with a nice SDDM theme. I found a fantastic one for Tokyo Night on github by siddrs, which you can find a link to &lt;a href=&#34;https://github.com/siddrs/tokyo-night-sddm&#34;&gt;here&lt;/a&gt;. The theme worked perfectly with the Arch install method from the AUR but there was one issue. SDDM will sometimes have a weird behaviour where it will launch across multiple monitors, but the input will default to the last monitor rendered. In my case this was my right most monitor, which is not my main monitor.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tokyo Night Themes</title>
+      <link>http://localhost:1313/posts/tokyo-night-themes/</link>
+      <pubDate>Wed, 02 Jul 2025 00:00:00 -0400</pubDate>
+      <guid>http://localhost:1313/posts/tokyo-night-themes/</guid>
+      <description>&lt;h2 id=&#34;exploring-tokyo-night&#34;&gt;Exploring Tokyo Night&lt;/h2&gt;&#xA;&lt;p&gt;After using Gruvbox for some time I felt I wanted a bit of a change in terms of themes. After exploring the plethora of colour scheme options I settled on Tokyo Night, based on the &lt;a href=&#34;https://github.com/folke/tokyonight.nvim&#34;&gt;Tokyo Night Neovim theme&lt;/a&gt;. So far I&amp;rsquo;ve been really enjoying it, but I wanted to keep my old Gruvbox dots in order and create a new repo for my Tokyo Night dots. The only issue I ran into was finding Tokyo Night themes for certain applications (like Midnight Commander and Rofi). I had no choice but to create me own!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Auto Arch Setup</title>
+      <link>http://localhost:1313/posts/auto-arch-setup/</link>
+      <pubDate>Fri, 20 Jun 2025 21:38:02 -0400</pubDate>
+      <guid>http://localhost:1313/posts/auto-arch-setup/</guid>
+      <description>&lt;h2 id=&#34;automating-my-post-install-experience&#34;&gt;Automating My Post Install Experience&lt;/h2&gt;&#xA;&lt;p&gt;It is always nice booting into a fresh system. The only problem is getting everything setup the way you like after the install is done. Since switching to Linux as my daily driver over a year ago, I have learned a lot in regards to setting up and configuring my system. If you are new to linux you may have heard the term &amp;lsquo;dot&amp;rsquo; files. If you are not sure what that means, they are referring to your configuartion files. Typically applications will store configs like themes in your .config folder in the home directory, hence the name &amp;lsquo;dot&amp;rsquo; files. This is only part of automating your post install setup, but it is a pretty big one.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

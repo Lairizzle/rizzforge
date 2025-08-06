@@ -1,0 +1,3 @@
+[submodule "themes/kage"]
+	path = themes/kage
+	url = https://github.com/lairizzle/kage

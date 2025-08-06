@@ -1,0 +1,45 @@
+baseURL = 'http://rizzforge.org/'
+languageCode = 'en-us'
+title = 'Rizzforge'
+theme = 'kage'
+
+[params]
+  author = "Keith Henderson"
+  email = "keith.donaldh@gmail.com"
+
+[menu]
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 1
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
+  [[menu.main]]
+    name = "Software"
+    url = "/software/"
+    weight = 3 
+	[[menu.main]]
+    name = "Themes"
+    url = "/themes/"
+    weight = 4 
+	[[menu.main]]
+    name = "Github"
+    url = "https://github.com/lairizzle"
+    weight = 5
+
+[params.social]
+	email = "mailto:keith.donaldh@gmail.com"
+	github = "https://github.com/lairizzle"
+	youtube = "https://www.youtube.com/@LairizzleGG"
+	twitch = "https://twitch.tv/lairizzle"
+	spotify = "https://open.spotify.com/artist/63rbGTeN8Vr3DT0ZwveD0p"
+	rss = "/index.xml"
+
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+

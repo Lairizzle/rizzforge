@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rizzforge</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Rizzforge</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 29 Jul 2025 00:00:00 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python Modules - Framezip</title>
+      <link>http://localhost:1313/posts/framezip/</link>
+      <pubDate>Tue, 29 Jul 2025 00:00:00 -0400</pubDate>
+      <guid>http://localhost:1313/posts/framezip/</guid>
+      <description>&lt;h2 id=&#34;a-data-challenge&#34;&gt;A Data Challenge&lt;/h2&gt;&#xA;&lt;p&gt;I was having a discussion with someone at work and we were talking about event level data. If you are not familiar with event level data it can look something like this:&lt;/p&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;GroupID&lt;/th&gt;&#xA;          &lt;th&gt;EventID&lt;/th&gt;&#xA;          &lt;th&gt;EventName&lt;/th&gt;&#xA;          &lt;th&gt;Timestamp&lt;/th&gt;&#xA;          &lt;th&gt;UserID&lt;/th&gt;&#xA;          &lt;th&gt;Details&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;G001&lt;/td&gt;&#xA;          &lt;td&gt;E101&lt;/td&gt;&#xA;          &lt;td&gt;Login&lt;/td&gt;&#xA;          &lt;td&gt;2025-07-30 09:15:23&lt;/td&gt;&#xA;          &lt;td&gt;U001&lt;/td&gt;&#xA;          &lt;td&gt;Successful login&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;G001&lt;/td&gt;&#xA;          &lt;td&gt;E102&lt;/td&gt;&#xA;          &lt;td&gt;View Dashboard&lt;/td&gt;&#xA;          &lt;td&gt;2025-07-30 09:16:10&lt;/td&gt;&#xA;          &lt;td&gt;U001&lt;/td&gt;&#xA;          &lt;td&gt;Loaded user dashboard&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;G001&lt;/td&gt;&#xA;          &lt;td&gt;E103&lt;/td&gt;&#xA;          &lt;td&gt;Download Report&lt;/td&gt;&#xA;          &lt;td&gt;2025-07-30 09:18:44&lt;/td&gt;&#xA;          &lt;td&gt;U001&lt;/td&gt;&#xA;          &lt;td&gt;Report ID: R567&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;G002&lt;/td&gt;&#xA;          &lt;td&gt;E201&lt;/td&gt;&#xA;          &lt;td&gt;Login&lt;/td&gt;&#xA;          &lt;td&gt;2025-07-30 10:02:11&lt;/td&gt;&#xA;          &lt;td&gt;U002&lt;/td&gt;&#xA;          &lt;td&gt;Failed password (2 attempts)&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;G002&lt;/td&gt;&#xA;          &lt;td&gt;E202&lt;/td&gt;&#xA;          &lt;td&gt;Password Reset&lt;/td&gt;&#xA;          &lt;td&gt;2025-07-30 10:04:55&lt;/td&gt;&#xA;          &lt;td&gt;U002&lt;/td&gt;&#xA;          &lt;td&gt;Sent reset email&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;G002&lt;/td&gt;&#xA;          &lt;td&gt;E203&lt;/td&gt;&#xA;          &lt;td&gt;Login&lt;/td&gt;&#xA;          &lt;td&gt;2025-07-30 10:10:32&lt;/td&gt;&#xA;          &lt;td&gt;U002&lt;/td&gt;&#xA;          &lt;td&gt;Successful login&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;G003&lt;/td&gt;&#xA;          &lt;td&gt;E301&lt;/td&gt;&#xA;          &lt;td&gt;Add to Cart&lt;/td&gt;&#xA;          &lt;td&gt;2025-07-30 11:20:14&lt;/td&gt;&#xA;          &lt;td&gt;U003&lt;/td&gt;&#xA;          &lt;td&gt;Item ID: P908&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;G003&lt;/td&gt;&#xA;          &lt;td&gt;E302&lt;/td&gt;&#xA;          &lt;td&gt;Checkout&lt;/td&gt;&#xA;          &lt;td&gt;2025-07-30 11:25:00&lt;/td&gt;&#xA;          &lt;td&gt;U003&lt;/td&gt;&#xA;          &lt;td&gt;Order ID: O12345&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;G003&lt;/td&gt;&#xA;          &lt;td&gt;E303&lt;/td&gt;&#xA;          &lt;td&gt;Payment Success&lt;/td&gt;&#xA;          &lt;td&gt;2025-07-30 11:27:10&lt;/td&gt;&#xA;          &lt;td&gt;U003&lt;/td&gt;&#xA;          &lt;td&gt;Payment via credit card&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;p&gt;Data like this can quickly balloon into a massive amount of records very quickly. Let&amp;rsquo;s assume that every interaction has 6 events inside of it and lets imagine you had 6 billion records. What if you could compress that down to 1 billion and represent every interaction as a single record? It sounded like a cool idea, but I still was not sure if it was actually more efficient or not.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>SDDM Trouble</title>
+      <link>http://localhost:1313/posts/sddm-trouble/</link>
+      <pubDate>Thu, 03 Jul 2025 00:00:00 -0400</pubDate>
+      <guid>http://localhost:1313/posts/sddm-trouble/</guid>
+      <description>&lt;h2 id=&#34;monitor-issues&#34;&gt;Monitor Issues&lt;/h2&gt;&#xA;&lt;p&gt;After changing all my theme stuff over to Tokyo Night, I wanted to spice up my greeter with a nice SDDM theme. I found a fantastic one for Tokyo Night on github by siddrs, which you can find a link to &lt;a href=&#34;https://github.com/siddrs/tokyo-night-sddm&#34;&gt;here&lt;/a&gt;. The theme worked perfectly with the Arch install method from the AUR but there was one issue. SDDM will sometimes have a weird behaviour where it will launch across multiple monitors, but the input will default to the last monitor rendered. In my case this was my right most monitor, which is not my main monitor.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tokyo Night Themes</title>
+      <link>http://localhost:1313/posts/tokyo-night-themes/</link>
+      <pubDate>Wed, 02 Jul 2025 00:00:00 -0400</pubDate>
+      <guid>http://localhost:1313/posts/tokyo-night-themes/</guid>
+      <description>&lt;h2 id=&#34;exploring-tokyo-night&#34;&gt;Exploring Tokyo Night&lt;/h2&gt;&#xA;&lt;p&gt;After using Gruvbox for some time I felt I wanted a bit of a change in terms of themes. After exploring the plethora of colour scheme options I settled on Tokyo Night, based on the &lt;a href=&#34;https://github.com/folke/tokyonight.nvim&#34;&gt;Tokyo Night Neovim theme&lt;/a&gt;. So far I&amp;rsquo;ve been really enjoying it, but I wanted to keep my old Gruvbox dots in order and create a new repo for my Tokyo Night dots. The only issue I ran into was finding Tokyo Night themes for certain applications (like Midnight Commander and Rofi). I had no choice but to create me own!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Auto Arch Setup</title>
+      <link>http://localhost:1313/posts/auto-arch-setup/</link>
+      <pubDate>Fri, 20 Jun 2025 21:38:02 -0400</pubDate>
+      <guid>http://localhost:1313/posts/auto-arch-setup/</guid>
+      <description>&lt;h2 id=&#34;automating-my-post-install-experience&#34;&gt;Automating My Post Install Experience&lt;/h2&gt;&#xA;&lt;p&gt;It is always nice booting into a fresh system. The only problem is getting everything setup the way you like after the install is done. Since switching to Linux as my daily driver over a year ago, I have learned a lot in regards to setting up and configuring my system. If you are new to linux you may have heard the term &amp;lsquo;dot&amp;rsquo; files. If you are not sure what that means, they are referring to your configuartion files. Typically applications will store configs like themes in your .config folder in the home directory, hence the name &amp;lsquo;dot&amp;rsquo; files. This is only part of automating your post install setup, but it is a pretty big one.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Learning NeoVim</title>
+      <link>http://localhost:1313/posts/nvim-learning-01/</link>
+      <pubDate>Sun, 29 Dec 2024 21:59:52 -0400</pubDate>
+      <guid>http://localhost:1313/posts/nvim-learning-01/</guid>
+      <description>&lt;h3 id=&#34;pain-with-a-side-of-pain&#34;&gt;Pain With a Side of Pain&lt;/h3&gt;&#xA;&lt;p&gt;For the last several months I have avoided the trap of Linux distro hopping. I&amp;rsquo;ve been using Arch happily, but I did switch between KDE Plasma and Gnome. I wanted&#xA;to at least test out a few DE&amp;rsquo;s and see which had the most appeal. One night while watching youtube I came across a video of &lt;a href=&#34;https://www.youtube.com/c/theprimeagen&#34;&gt;ThePrimeagen&lt;/a&gt; absolutely blasting through his code using &lt;a href=&#34;https://neovim.io/&#34;&gt;NeoVim&lt;/a&gt;. I was flabbergasted at how quickly and efficiently he was able to navigate his editor. I&amp;rsquo;d previously had the misfortune of using &lt;a href=&#34;https://www.vim.org/&#34;&gt;Vim&lt;/a&gt; once or twice and having no idea how to edit anything or even close it and I usually found myself defaulting to nano if I had no option outside&#xA;of the CLI. I decided this time I would be more deliberate in my approach and put in a true effort to use and learn Vim. Spoiler alert: It. Is. Amazing.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hello World</title>
+      <link>http://localhost:1313/posts/hello-world/</link>
+      <pubDate>Wed, 16 Oct 2024 21:17:52 -0400</pubDate>
+      <guid>http://localhost:1313/posts/hello-world/</guid>
+      <description>&lt;h2 id=&#34;hello-world&#34;&gt;Hello World&lt;/h2&gt;&#xA;&lt;p&gt;This is my personal site which will catalogue my work and serve as a portfolio.&lt;/p&gt;&#xA;&lt;p&gt;Cheers,&#xA;Keith&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<title>Python Modules - Framezip | Rizzforge</title>
+<meta name="theme-color" content="#ffffff">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+
+
+
+    <link rel="stylesheet" href="/css/main.css">
+
+
+      <script src="/js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+
+
+</head>
+<body>
+  <header>
+    <header>
+	  <nav class="path-nav">
+    <ol>
+      
+  
+    
+  
+    
+  
+  <li>
+    /
+    <a href="/">Rizzforge</a>
+    /
+  </li>
+
+  
+  <li>
+    
+    <a href="/posts/">All Posts</a>
+    /
+  </li>
+
+  
+  <li class="current">
+    
+    <a href="/posts/framezip/">Python Modules - Framezip</a>
+    
+  </li>
+
+    </ol>
+		<div class="terminal-nav">
+    
+  <nav>
+    <ul>
+        <li>
+          <a href="/posts/">Posts</a>
+        </li>
+        <li>
+          <a href="/about/">About</a>
+        </li>
+        <li>
+          <a href="/software/">Software</a>
+        </li>
+        <li>
+          <a href="/themes/">Themes</a>
+        </li>
+        <li>
+          <a href="https://github.com/lairizzle">Github</a>
+        </li>
+    </ul>
+  </nav>
+
+
+  </div>
+  </nav>
+</header>
+
+
+
+  </header>
+  <main>
+    
+    <h1 class="page-title">Python Modules - Framezip</h1>
+    <p class="post-meta">
+      Author: Keith Henderson<br>
+      <time datetime="2025-07-29">2025-07-29&nbsp;</time>
+ |
+      520 Words |
+      3 mins <br>
+      Tags: <a href="/tags/computers/">[Computers]</a> <a href="/tags/programming/">[Programming]</a> <a href="/tags/python/">[Python]</a> <a href="/tags/pip/">[Pip]</a> <a href="/tags/data/">[Data]</a>
+
+<br>
+    </p>
+
+    <main class="post-content">
+  		<h2 id="a-data-challenge">A Data Challenge</h2>
+<p>I was having a discussion with someone at work and we were talking about event level data. If you are not familiar with event level data it can look something like this:</p>
+<table>
+  <thead>
+      <tr>
+          <th>GroupID</th>
+          <th>EventID</th>
+          <th>EventName</th>
+          <th>Timestamp</th>
+          <th>UserID</th>
+          <th>Details</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>G001</td>
+          <td>E101</td>
+          <td>Login</td>
+          <td>2025-07-30 09:15:23</td>
+          <td>U001</td>
+          <td>Successful login</td>
+      </tr>
+      <tr>
+          <td>G001</td>
+          <td>E102</td>
+          <td>View Dashboard</td>
+          <td>2025-07-30 09:16:10</td>
+          <td>U001</td>
+          <td>Loaded user dashboard</td>
+      </tr>
+      <tr>
+          <td>G001</td>
+          <td>E103</td>
+          <td>Download Report</td>
+          <td>2025-07-30 09:18:44</td>
+          <td>U001</td>
+          <td>Report ID: R567</td>
+      </tr>
+      <tr>
+          <td>G002</td>
+          <td>E201</td>
+          <td>Login</td>
+          <td>2025-07-30 10:02:11</td>
+          <td>U002</td>
+          <td>Failed password (2 attempts)</td>
+      </tr>
+      <tr>
+          <td>G002</td>
+          <td>E202</td>
+          <td>Password Reset</td>
+          <td>2025-07-30 10:04:55</td>
+          <td>U002</td>
+          <td>Sent reset email</td>
+      </tr>
+      <tr>
+          <td>G002</td>
+          <td>E203</td>
+          <td>Login</td>
+          <td>2025-07-30 10:10:32</td>
+          <td>U002</td>
+          <td>Successful login</td>
+      </tr>
+      <tr>
+          <td>G003</td>
+          <td>E301</td>
+          <td>Add to Cart</td>
+          <td>2025-07-30 11:20:14</td>
+          <td>U003</td>
+          <td>Item ID: P908</td>
+      </tr>
+      <tr>
+          <td>G003</td>
+          <td>E302</td>
+          <td>Checkout</td>
+          <td>2025-07-30 11:25:00</td>
+          <td>U003</td>
+          <td>Order ID: O12345</td>
+      </tr>
+      <tr>
+          <td>G003</td>
+          <td>E303</td>
+          <td>Payment Success</td>
+          <td>2025-07-30 11:27:10</td>
+          <td>U003</td>
+          <td>Payment via credit card</td>
+      </tr>
+  </tbody>
+</table>
+<p>Data like this can quickly balloon into a massive amount of records very quickly. Let&rsquo;s assume that every interaction has 6 events inside of it and lets imagine you had 6 billion records. What if you could compress that down to 1 billion and represent every interaction as a single record? It sounded like a cool idea, but I still was not sure if it was actually more efficient or not.</p>
+<h2 id="when-is-this-more-efficient">When is this more efficient?</h2>
+<p>Data Storage:</p>
+<ul>
+<li>This is definitely smaller since repeated fields (GroupID, UserID) are stored once, and columnar/JSON compression can shrink it further.</li>
+</ul>
+<p>ETL (processing):</p>
+<ul>
+<li>This would have faster to load/write since there are fewer records (1 per group, not N per event).</li>
+</ul>
+<p>Querying sessions or interactions as a whole:</p>
+<ul>
+<li>If most queries pull all events for a group, this structure is optimal.</li>
+</ul>
+<h2 id="when-is-this-less-efficient">When is this less efficient?</h2>
+<ul>
+<li>
+<p>If you need to filter by event attributes often (“count all Login events across all groups”), you’ll have to explode/flatten the arrays in most databases, which can slow queries.</p>
+</li>
+<li>
+<p>Some SQL databases handle arrays poorly; it may work best in a document store (MongoDB) or columnar database (Snowflake, BigQuery, ClickHouse) that supports arrays natively.</p>
+</li>
+</ul>
+<h2 id="what-is-the-best-option">What is the best option?</h2>
+<p>Columnar Warehouses with array support (Snowflake, BigQuery, ClickHouse)</p>
+<ul>
+<li>Store as a table but use ARRAY columns.</li>
+<li>Querying by session is fast, and they can efficiently unnest arrays when needed.</li>
+</ul>
+<h2 id="is-this-useful">Is this useful?</h2>
+<p>I would say possibly. In the case of something like Snowflake, which can utilize array columns, you could bring whatever data you need through framezip and prepare it for Snowflake. When loading it into Snowflake you only need to do something like this:</p>
+<p>Push the data processed with framezip to parquet:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>packed<span style="color:#f92672">.</span>to_parquet(<span style="color:#e6db74">&#34;sessions.parquet&#34;</span>)
+</span></span></code></pre></div><p>Load the parquet into Snowflake and define the array columns:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#66d9ef">CREATE</span> <span style="color:#66d9ef">OR</span> <span style="color:#66d9ef">REPLACE</span> <span style="color:#66d9ef">TABLE</span> sessions_raw (
+</span></span><span style="display:flex;"><span>  GroupID STRING,
+</span></span><span style="display:flex;"><span>  EventID ARRAY,
+</span></span><span style="display:flex;"><span>  Value ARRAY
+</span></span><span style="display:flex;"><span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">COPY</span> <span style="color:#66d9ef">INTO</span> sessions_raw
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">FROM</span> <span style="color:#f92672">@</span>my_stage<span style="color:#f92672">/</span>sessions.parquet
+</span></span><span style="display:flex;"><span>FILE_FORMAT <span style="color:#f92672">=</span> (<span style="color:#66d9ef">TYPE</span> <span style="color:#f92672">=</span> PARQUET);
+</span></span></code></pre></div><h2 id="in-the-end">In the end</h2>
+<p>In the end it was cool to create and publish a module to PyPi. It always feels great to have a random idea and execute on it. It was a lot of fun and I learned a lot through the entire process and to be honest that is all that really matters.</p>
+<p>You can find the module on PyPi <a href="https://pypi.org/project/framezip/">here</a>.</p>
+<p>Below is a link to framezip on Github:
+
+
+
+
+
+
+
+<div class="github-card">
+  <div class="github-card-header">
+    <img class="github-avatar" src="https://github.com/lairizzle.png" alt="lairizzle's avatar">
+    <div class="github-info">
+      <a href="https://github.com/lairizzle/framezip" target="_blank" rel="noopener">
+        <strong>lairizzle/framezip</strong>
+      </a>
+      <p></p>
+    </div>
+  </div>
+</div>
+
+</p>
+<p>Cheers,
+Keith</p>
+
+		</main>
+
+
+    
+      <div class="terminal-nav">
+        <div class="back-nav">
+          <a href="../" class="back-link">../</a>
+        </div>
+      </div>
+    
+
+  </main>
+  <footer>
+    
+
+<div class="social-icons">
+  
+    
+    
+      
+      
+
+      
+        
+        
+      
+
+      <a href="mailto:keith.donaldh@gmail.com" target="_blank" rel="noopener">
+        <i class="fas fa-envelope"></i>
+      </a>
+    
+  
+    
+    
+      
+      
+
+      
+
+      <a href="https://github.com/lairizzle" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    
+  
+    
+    
+  
+    
+    
+      
+      
+
+      
+
+      <a href="https://www.youtube.com/@LairizzleGG" target="_blank" rel="noopener">
+        <i class="fab fa-youtube"></i>
+      </a>
+    
+  
+    
+    
+      
+      
+
+      
+
+      <a href="https://twitch.tv/lairizzle" target="_blank" rel="noopener">
+        <i class="fab fa-twitch"></i>
+      </a>
+    
+  
+    
+    
+      
+      
+
+      
+
+      <a href="https://open.spotify.com/artist/63rbGTeN8Vr3DT0ZwveD0p" target="_blank" rel="noopener">
+        <i class="fab fa-spotify"></i>
+      </a>
+    
+  
+    
+    
+      
+      
+
+      
+        
+        
+      
+
+      <a href="/index.xml" target="_blank" rel="noopener">
+        <i class="fas fa-rss"></i>
+      </a>
+    
+  
+</div>
+
+<p>
+  &copy; Copyright 2025 &middot;
+  <a href="https://github.com/lairizzle/kage">Powered By Kage</a> &middot;
+  <a href="/categories">Categories</a> &middot;
+	<a href="/tags">Tags</a> <br>
+	<a href="#top" id="back-to-top">↑ Back to Top</a>
+</p>
+
+  </footer>
+</body>
+</html>
