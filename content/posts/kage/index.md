@@ -22,6 +22,8 @@ Once I had built out my theme I set up all the repos and rebuilt my site for the
 
 It ended up working perfectly and so far seems to do everything I need. I may continue to tinker here and there but for now I think I will leave it be. 
 
+{{< github user="lairizzle" repo="kage" >}}
+
 Cheers,
 Keith
 
