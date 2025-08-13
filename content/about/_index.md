@@ -41,15 +41,18 @@ Below I have listed a summary of my education, work, personal skills and experti
 ## Post-Secondary
 - General Arts & Science Diploma
 
-## Udemy Business
+## Programming Languages
 - Python  
-- C#  
-- SQL/SQL Server  
-- Python  
-- Datameer  
+- C#/Java
+- Bash
+- SQL  
+- Cursory knowledge of various other languages (c++, lua, etc.)
+
+## Data Related Software
 - Tableau  
+- Datameer
+- SQL Server
 - Data Engineering/ETL  
-- Analytics
 
 ## Banking & Finance
 I have extensive knowledge and over 10 years experience in the following areas:
@@ -57,11 +60,6 @@ I have extensive knowledge and over 10 years experience in the following areas:
 - Workforce Management & Productivity  
 - Incentive & Compensation Programs  
 - Personal & Commercial Banking  
-- C#  
-- Python  
-- Bash Scripting  
-- SQL  
-- Various Other Languages
 
 ## Game Development
 - Unity Engine  
@@ -82,6 +80,7 @@ I have extensive knowledge and over 10 years experience in the following areas:
 - Graphic Design/Animation  
 - Networking/System Admin  
 - Terminal Enjoyer  
+- Neovim Enjoyer
 - Arch btw...
 
 ## Hobbies and Interests
@@ -93,6 +92,7 @@ I have extensive knowledge and over 10 years experience in the following areas:
 - Web Design/Application Development  
 - Linux  
 - FOSS
+- Neovim
 
 
 
