@@ -2,8 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://rizzforge.org/tags/-c%23/</loc>
+    <lastmod>2025-08-17T00:00:00-04:00</lastmod>
+  </url><url>
+    <loc>http://rizzforge.org/tags/-computers/</loc>
+    <lastmod>2025-08-17T00:00:00-04:00</lastmod>
+  </url><url>
+    <loc>http://rizzforge.org/tags/-godot/</loc>
+    <lastmod>2025-08-17T00:00:00-04:00</lastmod>
+  </url><url>
+    <loc>http://rizzforge.org/tags/-programming/</loc>
+    <lastmod>2025-08-17T00:00:00-04:00</lastmod>
+  </url><url>
     <loc>http://rizzforge.org/posts/</loc>
-    <lastmod>2025-08-05T00:00:00-04:00</lastmod>
+    <lastmod>2025-08-17T00:00:00-04:00</lastmod>
+  </url><url>
+    <loc>http://rizzforge.org/tags/gaming/</loc>
+    <lastmod>2025-08-17T00:00:00-04:00</lastmod>
+  </url><url>
+    <loc>http://rizzforge.org/posts/godot-is-awesome/</loc>
+    <lastmod>2025-08-17T00:00:00-04:00</lastmod>
+  </url><url>
+    <loc>http://rizzforge.org/</loc>
+    <lastmod>2025-08-17T00:00:00-04:00</lastmod>
+  </url><url>
+    <loc>http://rizzforge.org/tags/</loc>
+    <lastmod>2025-08-17T00:00:00-04:00</lastmod>
   </url><url>
     <loc>http://rizzforge.org/tags/computers/</loc>
     <lastmod>2025-08-05T00:00:00-04:00</lastmod>
@@ -15,12 +39,6 @@
     <lastmod>2025-08-05T00:00:00-04:00</lastmod>
   </url><url>
     <loc>http://rizzforge.org/tags/programming/</loc>
-    <lastmod>2025-08-05T00:00:00-04:00</lastmod>
-  </url><url>
-    <loc>http://rizzforge.org/</loc>
-    <lastmod>2025-08-05T00:00:00-04:00</lastmod>
-  </url><url>
-    <loc>http://rizzforge.org/tags/</loc>
     <lastmod>2025-08-05T00:00:00-04:00</lastmod>
   </url><url>
     <loc>http://rizzforge.org/tags/themes/</loc>
@@ -93,9 +111,6 @@
     <lastmod>2024-10-16T21:17:52-04:00</lastmod>
   </url><url>
     <loc>http://rizzforge.org/about/</loc>
-    <lastmod>2024-10-15T21:17:52-04:00</lastmod>
-  </url><url>
-    <loc>http://rizzforge.org/tags/gaming/</loc>
     <lastmod>2024-10-15T21:17:52-04:00</lastmod>
   </url><url>
     <loc>http://rizzforge.org/tags/music/</loc>
