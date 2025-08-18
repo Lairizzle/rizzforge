@@ -3,7 +3,7 @@ title: 'Godot Is Awesome: Making Games'
 date: 2025-08-17T00:00:00-04:00
 draft: false
 author: Keith Henderson
-tags: ['gaming', ' programming', ' c#', ' godot', ' computers']
+tags: ['gaming', 'programming', 'c#', 'godot', 'computers']
 ---
 
 ## First Steps

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Godot on Rizzforge</title>
+    <link>http://rizzforge.org/tags/godot/</link>
+    <description>Recent content in Godot on Rizzforge</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 17 Aug 2025 00:00:00 -0400</lastBuildDate>
+    <atom:link href="http://rizzforge.org/tags/godot/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Godot Is Awesome: Making Games</title>
+      <link>http://rizzforge.org/posts/godot-is-awesome/</link>
+      <pubDate>Sun, 17 Aug 2025 00:00:00 -0400</pubDate>
+      <guid>http://rizzforge.org/posts/godot-is-awesome/</guid>
+      <description>&lt;h2 id=&#34;first-steps&#34;&gt;First Steps&lt;/h2&gt;&#xA;&lt;p&gt;The first time I tested out Godot was a few years ago and I tinkered with it for maybe an hour before putting it down. Something about it turned me off but I was not sure what it was. I think my mind was just used to working with Unity and thinking about how it does things, and at the time I was not prepared to rewire my brain a bit. Fast forward to the past few weeks and the creative bug has bitten me once again. Since fully converting to Linux and embracing software alternatives in other avenues of my PC use I thought I would give it another try. I am so glad that I did.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
