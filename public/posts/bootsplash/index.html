@@ -91,7 +91,7 @@
       Author: Keith Henderson<br>
       <time datetime="2025-09-09">2025-09-09&nbsp;</time>
  |
-      269 Words |
+      275 Words |
       2 mins <br>
       Tags: <a href="/tags/programming/">[Programming]</a> <a href="/tags/c/">[C]</a> <a href="/tags/arch/">[Arch]</a> <a href="/tags/linux/">[Linux]</a> <a href="/tags/themes/">[Themes]</a>
 
@@ -100,7 +100,7 @@
 
     <main class="post-content">
   		<h2 id="a-boring-boot">A Boring Boot</h2>
-<p>I had become so content with my recent Tokyo Night theme and setup on my hyrpland installation that I had started to forget how fun tinkering is. I just needed a quick fix, but I was not sure what I was missing. My current setup does evertyhing perfectly well and fits my workflow. Then it dawned on me. I had grown tired of my boring boot. So I decided I would replace all the Systemd garbage outputs with something a little cooler.</p>
+<p>I had become so content with my recent Tokyo Night theme and setup on my hyprland installation that I had started to forget how fun tinkering is. I just needed a quick fix, but I was not sure what I was missing. My current setup does everything perfectly well and fits my workflow. Then it dawned on me. I had grown tired of my boring boot. So I decided I would replace all the Systemd garbage outputs with something a little cooler.</p>
 <h2 id="making-it-executable">Making it Executable</h2>
 <p>For my greeter, I use TuiGreet which is another version of greetd. I needed my splash screen to launch before TuiGreet. I decided the splash would display some ASCII text with my main computers hostname (which is Chronos), but technically this could be set to display anything and the only the rows need be adjusted. The bootsplash was written in C and it turned out pretty good.</p>
 <h2 id="order-of-operations">Order of Operations</h2>
@@ -122,7 +122,7 @@
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#f92672">[</span>Install<span style="color:#f92672">]</span>
 </span></span><span style="display:flex;"><span>WantedBy<span style="color:#f92672">=</span>multi-user.target
-</span></span></code></pre></div><p>This worked for me but of course to do something similar your would have to ensure with whatever tty you are launching greetd on. (If you are using greetd that is.). This is not a tutorial though, just sharing something that I thought was cool.</p>
+</span></span></code></pre></div><p>This worked for me but of course to do something similar you would have to ensure to change the settings to work with whatever tty you are launching greetd on, If you are using greetd that is. This is not a tutorial though, just sharing something that I thought was cool.</p>
 <p>See the gif below:</p>
 <p><img src="chronos.gif" alt="Chronos Bootsplash"></p>
 <p>Below is a link to BootSplash on Github:

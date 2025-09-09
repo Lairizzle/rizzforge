@@ -8,7 +8,7 @@ tags: ['Programming', 'C', 'Arch', 'Linux', 'Themes']
 
 ## A Boring Boot
 
-I had become so content with my recent Tokyo Night theme and setup on my hyrpland installation that I had started to forget how fun tinkering is. I just needed a quick fix, but I was not sure what I was missing. My current setup does evertyhing perfectly well and fits my workflow. Then it dawned on me. I had grown tired of my boring boot. So I decided I would replace all the Systemd garbage outputs with something a little cooler.
+I had become so content with my recent Tokyo Night theme and setup on my hyprland installation that I had started to forget how fun tinkering is. I just needed a quick fix, but I was not sure what I was missing. My current setup does everything perfectly well and fits my workflow. Then it dawned on me. I had grown tired of my boring boot. So I decided I would replace all the Systemd garbage outputs with something a little cooler.
 
 ## Making it Executable
 
@@ -38,7 +38,7 @@ RemainAfterExit=yes
 WantedBy=multi-user.target
 ```
 
-This worked for me but of course to do something similar your would have to ensure with whatever tty you are launching greetd on. (If you are using greetd that is.). This is not a tutorial though, just sharing something that I thought was cool.
+This worked for me but of course to do something similar you would have to ensure to change the settings to work with whatever tty you are launching greetd on, If you are using greetd that is. This is not a tutorial though, just sharing something that I thought was cool.
 
 See the gif below:
 
