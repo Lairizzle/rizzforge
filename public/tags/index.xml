@@ -6,8 +6,43 @@
     <description>Recent content in Tags on Rizzforge</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 17 Aug 2025 00:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 09 Sep 2025 00:00:00 -0400</lastBuildDate>
     <atom:link href="http://rizzforge.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Arch</title>
+      <link>http://rizzforge.org/tags/arch/</link>
+      <pubDate>Tue, 09 Sep 2025 00:00:00 -0400</pubDate>
+      <guid>http://rizzforge.org/tags/arch/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>C</title>
+      <link>http://rizzforge.org/tags/c/</link>
+      <pubDate>Tue, 09 Sep 2025 00:00:00 -0400</pubDate>
+      <guid>http://rizzforge.org/tags/c/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linux</title>
+      <link>http://rizzforge.org/tags/linux/</link>
+      <pubDate>Tue, 09 Sep 2025 00:00:00 -0400</pubDate>
+      <guid>http://rizzforge.org/tags/linux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Programming</title>
+      <link>http://rizzforge.org/tags/programming/</link>
+      <pubDate>Tue, 09 Sep 2025 00:00:00 -0400</pubDate>
+      <guid>http://rizzforge.org/tags/programming/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Themes</title>
+      <link>http://rizzforge.org/tags/themes/</link>
+      <pubDate>Tue, 09 Sep 2025 00:00:00 -0400</pubDate>
+      <guid>http://rizzforge.org/tags/themes/</guid>
+      <description></description>
+    </item>
     <item>
       <title>C#</title>
       <link>http://rizzforge.org/tags/c%23/</link>
@@ -37,24 +72,10 @@
       <description></description>
     </item>
     <item>
-      <title>Programming</title>
-      <link>http://rizzforge.org/tags/programming/</link>
-      <pubDate>Sun, 17 Aug 2025 00:00:00 -0400</pubDate>
-      <guid>http://rizzforge.org/tags/programming/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Hugo</title>
       <link>http://rizzforge.org/tags/hugo/</link>
       <pubDate>Tue, 05 Aug 2025 00:00:00 -0400</pubDate>
       <guid>http://rizzforge.org/tags/hugo/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Themes</title>
-      <link>http://rizzforge.org/tags/themes/</link>
-      <pubDate>Tue, 05 Aug 2025 00:00:00 -0400</pubDate>
-      <guid>http://rizzforge.org/tags/themes/</guid>
       <description></description>
     </item>
     <item>
@@ -76,13 +97,6 @@
       <link>http://rizzforge.org/tags/python/</link>
       <pubDate>Tue, 29 Jul 2025 00:00:00 -0400</pubDate>
       <guid>http://rizzforge.org/tags/python/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Arch</title>
-      <link>http://rizzforge.org/tags/arch/</link>
-      <pubDate>Thu, 03 Jul 2025 00:00:00 -0400</pubDate>
-      <guid>http://rizzforge.org/tags/arch/</guid>
       <description></description>
     </item>
     <item>

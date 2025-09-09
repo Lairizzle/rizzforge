@@ -6,8 +6,15 @@
     <description>Recent content in All Posts on Rizzforge</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 17 Aug 2025 00:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 09 Sep 2025 00:00:00 -0400</lastBuildDate>
     <atom:link href="http://rizzforge.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Making a Custom Bootsplash</title>
+      <link>http://rizzforge.org/posts/bootsplash/</link>
+      <pubDate>Tue, 09 Sep 2025 00:00:00 -0400</pubDate>
+      <guid>http://rizzforge.org/posts/bootsplash/</guid>
+      <description>&lt;h2 id=&#34;a-boring-boot&#34;&gt;A Boring Boot&lt;/h2&gt;&#xA;&lt;p&gt;I had become so content with my recent Tokyo Night theme and setup on my hyrpland installation that I had started to forget how fun tinkering is. I just needed a quick fix, but I was not sure what I was missing. My current setup does evertyhing perfectly well and fits my workflow. Then it dawned on me. I had grown tired of my boring boot. So I decided I would replace all the Systemd garbage outputs with something a little cooler.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Godot Is Awesome: Making Games</title>
       <link>http://rizzforge.org/posts/godot-is-awesome/</link>
