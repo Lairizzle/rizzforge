@@ -16,7 +16,7 @@ I recently started looking into learning Rust. So far it has been a pretty good 
 
 ## Applied Knowledge
 
-One problem I always seem to face when learning languages is spending a ton of time learning and then I am not sure what to create with it. A while ago I had purchased a wireless headset and at the time I did not realize the dongle did not have the Chatmix volume knob inline. This proved to be an issue on Linux as the drivers to control it were of course proprietary and available on Linux. Initially I found a solution that was written in Python and after forking and modifying it, it seemed to work pretty well. As someone who was learning Rust, there was only one thing I could...
+One problem I always seem to face when learning languages is spending a ton of time learning and then I am not sure what to create with it. A while ago I had purchased a wireless headset and at the time I did not realize the dongle did not have the Chatmix volume knob inline. This proved to be an issue on Linux as the drivers to control it were of course proprietary and not available on Linux. Initially I found a solution that was written in Python and after forking and modifying it, it seemed to work pretty well. As someone who was learning Rust, there was only one thing I could...
 
 ## Rewrite it in Rust
 
