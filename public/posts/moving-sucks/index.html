@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<title>Moving Sucks... Rust Doesn&#39;t? | Rizzforge</title>
+<meta name="theme-color" content="#ffffff">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+
+
+
+      <link rel="stylesheet" href="/css/main.min.f6b3edaee47a7c3d4477bb37de9575cd719b4a1fc49e44381a030f01b9451a8a.css" integrity="sha256-9rPtruR6fD1Ed7s33pV1zXGbSh/EnkQ4GgMPAblFGoo=" crossorigin="anonymous">
+
+
+        <script src="/js/main.23cd0c7d837263b9eaeb96ee2d9ccfa2969daa3fa00fa1c1fe8701a9b87251a1.js" integrity="sha256-I80MfYNyY7nq65buLZzPopadqj&#43;gD6HB/ocBqbhyUaE=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+
+
+</head>
+<body>
+  <header>
+    <header>
+  <nav class="path-nav">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-icon">
+        <img src="/favicon.ico" alt="Home Icon">
+      </li>
+      
+  
+    
+  
+    
+  
+  <li>
+    /
+    <a href="/">Rizzforge</a>
+    /
+  </li>
+
+  
+  <li>
+    
+    <a href="/posts/">All Posts</a>
+    /
+  </li>
+
+  
+  <li class="current">
+    
+    <a href="/posts/moving-sucks/">Moving Sucks... Rust Doesn&#39;t?</a>
+    
+  </li>
+
+    </ol>
+
+    <div class="terminal-nav">
+      
+  <nav>
+    <ul>
+        <li>
+          <a href="/posts/">Posts</a>
+        </li>
+        <li>
+          <a href="/about/">About</a>
+        </li>
+        <li>
+          <a href="/software/">Software</a>
+        </li>
+        <li>
+          <a href="/themes/">Themes</a>
+        </li>
+        <li>
+          <a href="https://github.com/lairizzle">Github</a>
+        </li>
+    </ul>
+  </nav>
+
+
+    </div>
+  </nav>
+</header>
+
+
+
+  </header>
+  <main>
+    
+    <h1 class="page-title">Moving Sucks... Rust Doesn&#39;t?</h1>
+    <p class="post-meta">
+      Author: Keith Henderson<br>
+      <time datetime="2025-10-19">2025-10-19&nbsp;</time>
+ |
+      542 Words |
+      3 mins <br>
+      Tags: <a href="/tags/rust/">[Rust]</a> <a href="/tags/arch/">[Arch]</a> <a href="/tags/programming/">[Programming]</a> <a href="/tags/life/">[Life]</a>
+
+<br>
+    </p>
+
+    <main class="post-content">
+  		<h2 id="moving-sucks">Moving Sucks</h2>
+<p>We recently sold our home and were tasked with finding a new one. Without going into detail the entire experience was less than desirable. The dust has finally settled and life has returned to some normalcy. We have not moved houses yet, but the houses are bought and sold, and I would say that is the worst part of the entire thing. Now that it is over I have been able to relax a bit and focus on some of the things I enjoy.</p>
+<h2 id="learning-rust">Learning Rust</h2>
+<p>I recently started looking into learning Rust. So far it has been a pretty good experience and I am enjoying it. I am realizing the capability of the language and that makes me really excited. I have dabbled in a lot of different languages but I always seem to get hung up on what it can and cannot do. All languages have their strengths of course but from what I have learned so far it seems that Rust can do a lot of different things really well (at least stuff that interests me). It&rsquo;s also new and has great documentation like the Rust book. It is really incredible the entire thing is online. You can find a copy of it <a href="https://doc.rust-lang.org/book">here</a>. I am still learning a lot but so far it is pretty cool.</p>
+<h2 id="applied-knowledge">Applied Knowledge</h2>
+<p>One problem I always seem to face when learning languages is spending a ton of time learning and then I am not sure what to create with it. A while ago I had purchased a wireless headset and at the time I did not realize the dongle did not have the Chatmix volume knob inline. This proved to be an issue on Linux as the drivers to control it were of course proprietary and available on Linux. Initially I found a solution that was written in Python and after forking and modifying it, it seemed to work pretty well. As someone who was learning Rust, there was only one thing I could&hellip;</p>
+<h2 id="rewrite-it-in-rust">Rewrite it in Rust</h2>
+<p>As is tradition I had to take something that was not technically broken and rewrite it in Rust. This actually turned out to be pretty good and work extremely well. I was able to remedy some of the issues with the Python version and also tailor a few more things to my liking. I will admit I did rely heavily on co-pilot to guide me through writing it as I am still relatively new to Rust, but overall it was a great experience to see <em>how</em> something could work like this in Rust. I was able to create an install script which implements a persistent Systemd service that will wait through disconnection and it <em>just works</em>. The Chatmix dial functions just as well as it would with the proprietary drivers and so far I have no had any issues.</p>
+<h2 id="moving-forward">Moving Forward</h2>
+<p>I am excited to continue to learn more about Rust and work my way through the book. Working with hardware and debugging with Rust was a cool experience that I have never really done before (outside the Python fork of the original solution).</p>
+<p>Cheers,</p>
+<p>Keith</p>
+<p>Below is a link to the Arctis Nova 7 Wireless Chatmix userspace daemon on Github:
+
+
+
+
+
+
+
+<div class="github-card">
+  <div class="github-card-header">
+    <img class="github-avatar" src="https://github.com/lairizzle.png" alt="lairizzle's avatar">
+    <div class="github-info">
+      <a href="https://github.com/lairizzle/arctis-nova-7-wireless-chatmix" target="_blank" rel="noopener">
+        <strong>lairizzle/arctis-nova-7-wireless-chatmix</strong>
+      </a>
+      <p></p>
+    </div>
+  </div>
+</div>
+
+</p>
+
+		</main>
+
+
+    
+      <div class="terminal-nav">
+        <div class="back-nav">
+          <a href="../" class="back-link">../</a>
+        </div>
+      </div>
+    
+
+  </main>
+  <footer>
+    
+
+<div class="social-icons">
+  
+    
+    
+      
+      
+
+      
+        
+        
+      
+
+      <a href="mailto:keith.donaldh@gmail.com" target="_blank" rel="noopener">
+        <i class="fas fa-envelope"></i>
+      </a>
+    
+  
+    
+    
+      
+      
+
+      
+
+      <a href="https://github.com/lairizzle" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    
+  
+    
+    
+  
+    
+    
+      
+      
+
+      
+
+      <a href="https://www.youtube.com/@LairizzleGG" target="_blank" rel="noopener">
+        <i class="fab fa-youtube"></i>
+      </a>
+    
+  
+    
+    
+      
+      
+
+      
+
+      <a href="https://twitch.tv/lairizzle" target="_blank" rel="noopener">
+        <i class="fab fa-twitch"></i>
+      </a>
+    
+  
+    
+    
+      
+      
+
+      
+
+      <a href="https://open.spotify.com/artist/63rbGTeN8Vr3DT0ZwveD0p" target="_blank" rel="noopener">
+        <i class="fab fa-spotify"></i>
+      </a>
+    
+  
+    
+    
+      
+      
+
+      
+        
+        
+      
+
+      <a href="/index.xml" target="_blank" rel="noopener">
+        <i class="fas fa-rss"></i>
+      </a>
+    
+  
+</div>
+
+<p>
+  &copy; Copyright 2025 &middot;
+  <a href="https://github.com/lairizzle/kage">Powered By Kage</a> &middot;
+  <a href="/categories">Categories</a> &middot;
+	<a href="/tags">Tags</a> <br>
+	<a href="#top" id="back-to-top">↑ Back to Top</a>
+</p>
+
+  </footer>
+</body>
+</html>
