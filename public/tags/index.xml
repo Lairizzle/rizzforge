@@ -6,8 +6,36 @@
     <description>Recent content in Tags on Rizzforge</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 19 Oct 2025 00:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 02 Nov 2025 00:00:00 -0500</lastBuildDate>
     <atom:link href="http://rizzforge.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>C#</title>
+      <link>http://rizzforge.org/tags/c%23/</link>
+      <pubDate>Sun, 02 Nov 2025 00:00:00 -0500</pubDate>
+      <guid>http://rizzforge.org/tags/c%23/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Game Development</title>
+      <link>http://rizzforge.org/tags/game-development/</link>
+      <pubDate>Sun, 02 Nov 2025 00:00:00 -0500</pubDate>
+      <guid>http://rizzforge.org/tags/game-development/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Neovim</title>
+      <link>http://rizzforge.org/tags/neovim/</link>
+      <pubDate>Sun, 02 Nov 2025 00:00:00 -0500</pubDate>
+      <guid>http://rizzforge.org/tags/neovim/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Programming</title>
+      <link>http://rizzforge.org/tags/programming/</link>
+      <pubDate>Sun, 02 Nov 2025 00:00:00 -0500</pubDate>
+      <guid>http://rizzforge.org/tags/programming/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Arch</title>
       <link>http://rizzforge.org/tags/arch/</link>
@@ -20,13 +48,6 @@
       <link>http://rizzforge.org/tags/life/</link>
       <pubDate>Sun, 19 Oct 2025 00:00:00 -0400</pubDate>
       <guid>http://rizzforge.org/tags/life/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Programming</title>
-      <link>http://rizzforge.org/tags/programming/</link>
-      <pubDate>Sun, 19 Oct 2025 00:00:00 -0400</pubDate>
-      <guid>http://rizzforge.org/tags/programming/</guid>
       <description></description>
     </item>
     <item>
@@ -55,13 +76,6 @@
       <link>http://rizzforge.org/tags/themes/</link>
       <pubDate>Tue, 09 Sep 2025 00:00:00 -0400</pubDate>
       <guid>http://rizzforge.org/tags/themes/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>C#</title>
-      <link>http://rizzforge.org/tags/c%23/</link>
-      <pubDate>Sun, 17 Aug 2025 00:00:00 -0400</pubDate>
-      <guid>http://rizzforge.org/tags/c%23/</guid>
       <description></description>
     </item>
     <item>

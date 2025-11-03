@@ -6,8 +6,15 @@
     <description>Recent content in All Posts on Rizzforge</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 19 Oct 2025 00:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 02 Nov 2025 00:00:00 -0500</lastBuildDate>
     <atom:link href="http://rizzforge.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Customizing Godot Mono To Use Neovim</title>
+      <link>http://rizzforge.org/posts/godot-customization/</link>
+      <pubDate>Sun, 02 Nov 2025 00:00:00 -0500</pubDate>
+      <guid>http://rizzforge.org/posts/godot-customization/</guid>
+      <description>&lt;h2 id=&#34;setting-a-custom-editor&#34;&gt;Setting A Custom Editor&lt;/h2&gt;&#xA;&lt;p&gt;I did not really like using the built in editor that comes with Godot, so I decided to see how I could set up Neovim to launch instead. I had a few customizations and I thought I would note them down here if I ever needed to reference them again.&lt;/p&gt;&#xA;&lt;p&gt;We need to launch nvim with our preferred terminal and give it a custom title so we can find it in hyprland.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Moving Sucks... Rust Doesn&#39;t?</title>
       <link>http://rizzforge.org/posts/moving-sucks/</link>
