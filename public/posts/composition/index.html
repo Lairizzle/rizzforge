@@ -91,7 +91,7 @@
       Author: Keith Henderson<br>
       <time datetime="2026-02-06">2026-02-06&nbsp;</time>
  |
-      302 Words |
+      399 Words |
       2 mins <br>
       Tags: <a href="/tags/programming/">[Programming]</a> <a href="/tags/godot/">[Godot]</a> <a href="/tags/gamedev/">[Gamedev]</a>
 
@@ -110,11 +110,18 @@ something like making a video game it can create tight coupling and inflexibilit
 <p>In contrast composition is the &ldquo;Has-A&rdquo; relationship. For example, a <em>car</em> has-a <em>engine</em>. A <em>computer</em> has-a <em>cpu</em>. In this setup
 your classes will hold references to other objects as instance variables. The benefits of this is that you get loose coupling and flexibility
 with your components. The downside is that you might use a bit more boilerplate code to create and manage more objects.</p>
-<h1 id="when-to-use-it">When to use it?</h1>
+<h1 id="when-to-use-it">When To Use It?</h1>
 <p>The real question becomes when do you use one over the other? I find myself using composition way more often in Godot. I think this makes
 sense when you are making something like a game because you can build complex objects from simpler ones. Overall I would say that I am
 really trying hard to favour composition over inheritance whenever I can. I&rsquo;m finding it easier to maintain and manage my code. If something
 is wrong with my player movement for example I know <em>exactly</em> where to look to fix the problem.</p>
+<h1 id="changing-my-brain">Changing My Brain</h1>
+<p>Since diving in and forcing myself to constantly challenge my initial ideas and ensure I&rsquo;m designing with a composition first mindset
+I&rsquo;ve noticed that how I think about things in general has changed. I do a lot of work with data and pipelines in my day job. I&rsquo;ve found
+myself rethinking ways that existing architecture can be improved by adopting this mindset. Not just the design, but also how things
+are being processed as well. I&rsquo;m going to keep working at it and might add some devlog type updates here as well.</p>
+<p>Cheers,</p>
+<p>Keith</p>
 
 		</main>
 
