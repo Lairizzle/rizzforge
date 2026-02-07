@@ -14,7 +14,7 @@ how my brain works.
 
 When you write in a language like C# it is "Object Oriented Programming". When you learn this there is a strong emphasis on
 inheritance. Inheritance is the "Is-A" relationship. For example; a _dog_ is-a _animal_. A _sports car_ is-a _car_. Typically this means that
-you can extend the parent class to the child class using the keyword _extends_. Inheritance is not a bad thing but when you are working with
+you can extend the parent class to the child class using the : after the clsss name then the name of the parent. Inheritance is not a bad thing but when you are working with
 something like making a video game it can create tight coupling and inflexibility. This is not always ideal. 
 
 In contrast composition is the "Has-A" relationship. For example, a _car_ has-a _engine_. A _computer_ has-a _cpu_. In this setup
