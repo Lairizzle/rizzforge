@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Godot on Rizzforge</title>
-    <link>http://localhost:1313/tags/godot/</link>
-    <description>Recent content in Godot on Rizzforge</description>
+    <title>Gamedev on Rizzforge</title>
+    <link>http://localhost:1313/tags/gamedev/</link>
+    <description>Recent content in Gamedev on Rizzforge</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 06 Feb 2026 00:00:00 -0500</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/godot/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/gamedev/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Composition, Composition, Composition</title>
       <link>http://localhost:1313/posts/composition/</link>
       <pubDate>Fri, 06 Feb 2026 00:00:00 -0500</pubDate>
       <guid>http://localhost:1313/posts/composition/</guid>
       <description>&lt;h1 id=&#34;composition-over-inheritance&#34;&gt;Composition Over Inheritance&lt;/h1&gt;&#xA;&lt;p&gt;I got the itch again to start playing around with Godot, as I often do. This time I wanted to use Godot to practice a concept I&#xA;had learned about called Composition. If you are not familiar with the concept, you should because it has literally changed&#xA;how my brain works.&lt;/p&gt;&#xA;&lt;p&gt;When you write in a language like C# it is &amp;ldquo;Object Oriented Programming&amp;rdquo;. When you learn this there is a strong emphasis on&#xA;inheritance. Inheritance is the &amp;ldquo;Is-A&amp;rdquo; relationship. For example; a &lt;em&gt;dog&lt;/em&gt; is-a &lt;em&gt;animal&lt;/em&gt;. A &lt;em&gt;sports car&lt;/em&gt; is-a &lt;em&gt;car&lt;/em&gt;. Typically this means that&#xA;you can extend the parent class to the child class using the keyword &lt;em&gt;extends&lt;/em&gt;. Inheritance is not a bad thing but when you are working with&#xA;something like making a video game it can create tight coupling and inflexibility. This is not always ideal.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Godot Is Awesome: Making Games</title>
-      <link>http://localhost:1313/posts/godot-is-awesome/</link>
-      <pubDate>Sun, 17 Aug 2025 00:00:00 -0400</pubDate>
-      <guid>http://localhost:1313/posts/godot-is-awesome/</guid>
-      <description>&lt;h2 id=&#34;first-steps&#34;&gt;First Steps&lt;/h2&gt;&#xA;&lt;p&gt;The first time I tested out Godot was a few years ago and I tinkered with it for maybe an hour before putting it down. Something about it turned me off but I was not sure what it was. I think my mind was just used to working with Unity and thinking about how it does things, and at the time I was not prepared to rewire my brain a bit. Fast forward to the past few weeks and the creative bug has bitten me once again. Since fully converting to Linux and embracing software alternatives in other avenues of my PC use I thought I would give it another try. I am so glad that I did.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

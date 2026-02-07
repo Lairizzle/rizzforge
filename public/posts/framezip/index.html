@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-us" dir="ltr">
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -10,10 +10,10 @@
 
 
 
-      <link rel="stylesheet" href="/css/main.min.f6b3edaee47a7c3d4477bb37de9575cd719b4a1fc49e44381a030f01b9451a8a.css" integrity="sha256-9rPtruR6fD1Ed7s33pV1zXGbSh/EnkQ4GgMPAblFGoo=" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/main.css">
 
 
-        <script src="/js/main.23cd0c7d837263b9eaeb96ee2d9ccfa2969daa3fa00fa1c1fe8701a9b87251a1.js" integrity="sha256-I80MfYNyY7nq65buLZzPopadqj&#43;gD6HB/ocBqbhyUaE=" crossorigin="anonymous"></script>
+      <script src="/js/main.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
 
 
@@ -219,9 +219,9 @@
 <h2 id="is-this-useful">Is this useful?</h2>
 <p>I would say possibly. In the case of something like Snowflake, which can utilize array columns, you could bring whatever data you need through framezip and prepare it for Snowflake. When loading it into Snowflake you only need to do something like this:</p>
 <p>Push the data processed with framezip to parquet:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>packed<span style="color:#f92672">.</span>to_parquet(<span style="color:#e6db74">&#34;sessions.parquet&#34;</span>)
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>packed<span style="color:#f92672">.</span>to_parquet(<span style="color:#e6db74">&#34;sessions.parquet&#34;</span>)
 </span></span></code></pre></div><p>Load the parquet into Snowflake and define the array columns:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#66d9ef">CREATE</span> <span style="color:#66d9ef">OR</span> <span style="color:#66d9ef">REPLACE</span> <span style="color:#66d9ef">TABLE</span> sessions_raw (
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#66d9ef">CREATE</span> <span style="color:#66d9ef">OR</span> <span style="color:#66d9ef">REPLACE</span> <span style="color:#66d9ef">TABLE</span> sessions_raw (
 </span></span><span style="display:flex;"><span>  GroupID STRING,
 </span></span><span style="display:flex;"><span>  EventID ARRAY,
 </span></span><span style="display:flex;"><span>  Value ARRAY
@@ -358,7 +358,7 @@ Keith</p>
 </div>
 
 <p>
-  &copy; Copyright 2025 &middot;
+  &copy; Copyright 2026 &middot;
   <a href="https://github.com/lairizzle/kage">Powered By Kage</a> &middot;
   <a href="/categories">Categories</a> &middot;
 	<a href="/tags">Tags</a> <br>

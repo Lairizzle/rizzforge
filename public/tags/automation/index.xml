@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Automation on Rizzforge</title>
-    <link>http://rizzforge.org/tags/automation/</link>
+    <link>http://localhost:1313/tags/automation/</link>
     <description>Recent content in Automation on Rizzforge</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 20 Jun 2025 21:38:02 -0400</lastBuildDate>
-    <atom:link href="http://rizzforge.org/tags/automation/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/automation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Auto Arch Setup</title>
-      <link>http://rizzforge.org/posts/auto-arch-setup/</link>
+      <link>http://localhost:1313/posts/auto-arch-setup/</link>
       <pubDate>Fri, 20 Jun 2025 21:38:02 -0400</pubDate>
-      <guid>http://rizzforge.org/posts/auto-arch-setup/</guid>
+      <guid>http://localhost:1313/posts/auto-arch-setup/</guid>
       <description>&lt;h2 id=&#34;automating-my-post-install-experience&#34;&gt;Automating My Post Install Experience&lt;/h2&gt;&#xA;&lt;p&gt;It is always nice booting into a fresh system. The only problem is getting everything setup the way you like after the install is done. Since switching to Linux as my daily driver over a year ago, I have learned a lot in regards to setting up and configuring my system. If you are new to linux you may have heard the term &amp;lsquo;dot&amp;rsquo; files. If you are not sure what that means, they are referring to your configuartion files. Typically applications will store configs like themes in your .config folder in the home directory, hence the name &amp;lsquo;dot&amp;rsquo; files. This is only part of automating your post install setup, but it is a pretty big one.&lt;/p&gt;</description>
     </item>
   </channel>

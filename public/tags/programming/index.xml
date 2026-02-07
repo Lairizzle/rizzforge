@@ -2,52 +2,59 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Programming on Rizzforge</title>
-    <link>http://rizzforge.org/tags/programming/</link>
+    <link>http://localhost:1313/tags/programming/</link>
     <description>Recent content in Programming on Rizzforge</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 02 Nov 2025 00:00:00 -0500</lastBuildDate>
-    <atom:link href="http://rizzforge.org/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 06 Feb 2026 00:00:00 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Composition, Composition, Composition</title>
+      <link>http://localhost:1313/posts/composition/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 -0500</pubDate>
+      <guid>http://localhost:1313/posts/composition/</guid>
+      <description>&lt;h1 id=&#34;composition-over-inheritance&#34;&gt;Composition Over Inheritance&lt;/h1&gt;&#xA;&lt;p&gt;I got the itch again to start playing around with Godot, as I often do. This time I wanted to use Godot to practice a concept I&#xA;had learned about called Composition. If you are not familiar with the concept, you should because it has literally changed&#xA;how my brain works.&lt;/p&gt;&#xA;&lt;p&gt;When you write in a language like C# it is &amp;ldquo;Object Oriented Programming&amp;rdquo;. When you learn this there is a strong emphasis on&#xA;inheritance. Inheritance is the &amp;ldquo;Is-A&amp;rdquo; relationship. For example; a &lt;em&gt;dog&lt;/em&gt; is-a &lt;em&gt;animal&lt;/em&gt;. A &lt;em&gt;sports car&lt;/em&gt; is-a &lt;em&gt;car&lt;/em&gt;. Typically this means that&#xA;you can extend the parent class to the child class using the keyword &lt;em&gt;extends&lt;/em&gt;. Inheritance is not a bad thing but when you are working with&#xA;something like making a video game it can create tight coupling and inflexibility. This is not always ideal.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Customizing Godot Mono To Use Neovim</title>
-      <link>http://rizzforge.org/posts/godot-customization/</link>
+      <link>http://localhost:1313/posts/godot-customization/</link>
       <pubDate>Sun, 02 Nov 2025 00:00:00 -0500</pubDate>
-      <guid>http://rizzforge.org/posts/godot-customization/</guid>
+      <guid>http://localhost:1313/posts/godot-customization/</guid>
       <description>&lt;h2 id=&#34;setting-a-custom-editor&#34;&gt;Setting A Custom Editor&lt;/h2&gt;&#xA;&lt;p&gt;I did not really like using the built in editor that comes with Godot, so I decided to see how I could set up Neovim to launch instead. I had a few customizations and I thought I would note them down here if I ever needed to reference them again.&lt;/p&gt;&#xA;&lt;p&gt;We need to launch nvim with our preferred terminal and give it a custom title so we can find it in hyprland.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Moving Sucks... Rust Doesn&#39;t?</title>
-      <link>http://rizzforge.org/posts/moving-sucks/</link>
+      <link>http://localhost:1313/posts/moving-sucks/</link>
       <pubDate>Sun, 19 Oct 2025 00:00:00 -0400</pubDate>
-      <guid>http://rizzforge.org/posts/moving-sucks/</guid>
+      <guid>http://localhost:1313/posts/moving-sucks/</guid>
       <description>&lt;h2 id=&#34;moving-sucks&#34;&gt;Moving Sucks&lt;/h2&gt;&#xA;&lt;p&gt;We recently sold our home and were tasked with finding a new one. Without going into detail the entire experience was less than desirable. The dust has finally settled and life has returned to some normalcy. We have not moved houses yet, but the houses are bought and sold, and I would say that is the worst part of the entire thing. Now that it is over I have been able to relax a bit and focus on some of the things I enjoy.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Making a Custom Bootsplash</title>
-      <link>http://rizzforge.org/posts/bootsplash/</link>
+      <link>http://localhost:1313/posts/bootsplash/</link>
       <pubDate>Tue, 09 Sep 2025 00:00:00 -0400</pubDate>
-      <guid>http://rizzforge.org/posts/bootsplash/</guid>
+      <guid>http://localhost:1313/posts/bootsplash/</guid>
       <description>&lt;h2 id=&#34;a-boring-boot&#34;&gt;A Boring Boot&lt;/h2&gt;&#xA;&lt;p&gt;I had become so content with my recent Tokyo Night theme and setup on my hyprland installation that I had started to forget how fun tinkering is. I just needed a quick fix, but I was not sure what I was missing. My current setup does everything perfectly well and fits my workflow. Then it dawned on me. I had grown tired of my boring boot. So I decided I would replace all the Systemd garbage outputs with something a little cooler.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Godot Is Awesome: Making Games</title>
-      <link>http://rizzforge.org/posts/godot-is-awesome/</link>
+      <link>http://localhost:1313/posts/godot-is-awesome/</link>
       <pubDate>Sun, 17 Aug 2025 00:00:00 -0400</pubDate>
-      <guid>http://rizzforge.org/posts/godot-is-awesome/</guid>
+      <guid>http://localhost:1313/posts/godot-is-awesome/</guid>
       <description>&lt;h2 id=&#34;first-steps&#34;&gt;First Steps&lt;/h2&gt;&#xA;&lt;p&gt;The first time I tested out Godot was a few years ago and I tinkered with it for maybe an hour before putting it down. Something about it turned me off but I was not sure what it was. I think my mind was just used to working with Unity and thinking about how it does things, and at the time I was not prepared to rewire my brain a bit. Fast forward to the past few weeks and the creative bug has bitten me once again. Since fully converting to Linux and embracing software alternatives in other avenues of my PC use I thought I would give it another try. I am so glad that I did.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Kage: Hugo Theme</title>
-      <link>http://rizzforge.org/posts/kage/</link>
+      <link>http://localhost:1313/posts/kage/</link>
       <pubDate>Tue, 05 Aug 2025 00:00:00 -0400</pubDate>
-      <guid>http://rizzforge.org/posts/kage/</guid>
+      <guid>http://localhost:1313/posts/kage/</guid>
       <description>&lt;h2 id=&#34;inspiration&#34;&gt;Inspiration&lt;/h2&gt;&#xA;&lt;p&gt;I was chatting with someone who hangs out in a mutual discord and I was reading through their personal blog. I noticed they had included something called a blog roll, where they add blogs they follow or find interesting. On this list there was a link to a very minimalist blog. It was actually this one, &lt;a href=&#34;https://mijndertstuij.nl/&#34;&gt;Mijndert Stuij&lt;/a&gt;. I have to admit it made me immediately jealous. It was so simple, yet so effective. I knew that I would be revamping my entire blog shortly after seeing this. I just couldn&amp;rsquo;t help myself.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Python Modules - Framezip</title>
-      <link>http://rizzforge.org/posts/framezip/</link>
+      <link>http://localhost:1313/posts/framezip/</link>
       <pubDate>Tue, 29 Jul 2025 00:00:00 -0400</pubDate>
-      <guid>http://rizzforge.org/posts/framezip/</guid>
+      <guid>http://localhost:1313/posts/framezip/</guid>
       <description>&lt;h2 id=&#34;a-data-challenge&#34;&gt;A Data Challenge&lt;/h2&gt;&#xA;&lt;p&gt;I was having a discussion with someone at work and we were talking about event level data. If you are not familiar with event level data it can look something like this:&lt;/p&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;GroupID&lt;/th&gt;&#xA;          &lt;th&gt;EventID&lt;/th&gt;&#xA;          &lt;th&gt;EventName&lt;/th&gt;&#xA;          &lt;th&gt;Timestamp&lt;/th&gt;&#xA;          &lt;th&gt;UserID&lt;/th&gt;&#xA;          &lt;th&gt;Details&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;G001&lt;/td&gt;&#xA;          &lt;td&gt;E101&lt;/td&gt;&#xA;          &lt;td&gt;Login&lt;/td&gt;&#xA;          &lt;td&gt;2025-07-30 09:15:23&lt;/td&gt;&#xA;          &lt;td&gt;U001&lt;/td&gt;&#xA;          &lt;td&gt;Successful login&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;G001&lt;/td&gt;&#xA;          &lt;td&gt;E102&lt;/td&gt;&#xA;          &lt;td&gt;View Dashboard&lt;/td&gt;&#xA;          &lt;td&gt;2025-07-30 09:16:10&lt;/td&gt;&#xA;          &lt;td&gt;U001&lt;/td&gt;&#xA;          &lt;td&gt;Loaded user dashboard&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;G001&lt;/td&gt;&#xA;          &lt;td&gt;E103&lt;/td&gt;&#xA;          &lt;td&gt;Download Report&lt;/td&gt;&#xA;          &lt;td&gt;2025-07-30 09:18:44&lt;/td&gt;&#xA;          &lt;td&gt;U001&lt;/td&gt;&#xA;          &lt;td&gt;Report ID: R567&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;G002&lt;/td&gt;&#xA;          &lt;td&gt;E201&lt;/td&gt;&#xA;          &lt;td&gt;Login&lt;/td&gt;&#xA;          &lt;td&gt;2025-07-30 10:02:11&lt;/td&gt;&#xA;          &lt;td&gt;U002&lt;/td&gt;&#xA;          &lt;td&gt;Failed password (2 attempts)&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;G002&lt;/td&gt;&#xA;          &lt;td&gt;E202&lt;/td&gt;&#xA;          &lt;td&gt;Password Reset&lt;/td&gt;&#xA;          &lt;td&gt;2025-07-30 10:04:55&lt;/td&gt;&#xA;          &lt;td&gt;U002&lt;/td&gt;&#xA;          &lt;td&gt;Sent reset email&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;G002&lt;/td&gt;&#xA;          &lt;td&gt;E203&lt;/td&gt;&#xA;          &lt;td&gt;Login&lt;/td&gt;&#xA;          &lt;td&gt;2025-07-30 10:10:32&lt;/td&gt;&#xA;          &lt;td&gt;U002&lt;/td&gt;&#xA;          &lt;td&gt;Successful login&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;G003&lt;/td&gt;&#xA;          &lt;td&gt;E301&lt;/td&gt;&#xA;          &lt;td&gt;Add to Cart&lt;/td&gt;&#xA;          &lt;td&gt;2025-07-30 11:20:14&lt;/td&gt;&#xA;          &lt;td&gt;U003&lt;/td&gt;&#xA;          &lt;td&gt;Item ID: P908&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;G003&lt;/td&gt;&#xA;          &lt;td&gt;E302&lt;/td&gt;&#xA;          &lt;td&gt;Checkout&lt;/td&gt;&#xA;          &lt;td&gt;2025-07-30 11:25:00&lt;/td&gt;&#xA;          &lt;td&gt;U003&lt;/td&gt;&#xA;          &lt;td&gt;Order ID: O12345&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;G003&lt;/td&gt;&#xA;          &lt;td&gt;E303&lt;/td&gt;&#xA;          &lt;td&gt;Payment Success&lt;/td&gt;&#xA;          &lt;td&gt;2025-07-30 11:27:10&lt;/td&gt;&#xA;          &lt;td&gt;U003&lt;/td&gt;&#xA;          &lt;td&gt;Payment via credit card&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;p&gt;Data like this can quickly balloon into a massive amount of records very quickly. Let&amp;rsquo;s assume that every interaction has 6 events inside of it and lets imagine you had 6 billion records. What if you could compress that down to 1 billion and represent every interaction as a single record? It sounded like a cool idea, but I still was not sure if it was actually more efficient or not.&lt;/p&gt;</description>
     </item>
   </channel>

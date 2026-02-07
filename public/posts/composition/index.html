@@ -4,7 +4,7 @@
   <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-<title>Hello | Rizzforge</title>
+<title>Composition, Composition, Composition | Rizzforge</title>
 <meta name="theme-color" content="#ffffff">
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 
@@ -41,14 +41,14 @@
   
   <li>
     
-    <a href="/tags/">Tags</a>
+    <a href="/posts/">All Posts</a>
     /
   </li>
 
   
   <li class="current">
     
-    <a href="/tags/hello/">Hello</a>
+    <a href="/posts/composition/">Composition, Composition, Composition</a>
     
   </li>
 
@@ -86,19 +86,46 @@
   </header>
   <main>
     
-    <h1 class="page-title">Hello</h1>
+    <h1 class="page-title">Composition, Composition, Composition</h1>
+    <p class="post-meta">
+      Author: Keith Henderson<br>
+      <time datetime="2026-02-06">2026-02-06&nbsp;</time>
+ |
+      302 Words |
+      2 mins <br>
+      Tags: <a href="/tags/programming/">[Programming]</a> <a href="/tags/godot/">[Godot]</a> <a href="/tags/gamedev/">[Gamedev]</a>
+
+<br>
+    </p>
+
+    <main class="post-content">
+  		<h1 id="composition-over-inheritance">Composition Over Inheritance</h1>
+<p>I got the itch again to start playing around with Godot, as I often do. This time I wanted to use Godot to practice a concept I
+had learned about called Composition. If you are not familiar with the concept, you should because it has literally changed
+how my brain works.</p>
+<p>When you write in a language like C# it is &ldquo;Object Oriented Programming&rdquo;. When you learn this there is a strong emphasis on
+inheritance. Inheritance is the &ldquo;Is-A&rdquo; relationship. For example; a <em>dog</em> is-a <em>animal</em>. A <em>sports car</em> is-a <em>car</em>. Typically this means that
+you can extend the parent class to the child class using the keyword <em>extends</em>. Inheritance is not a bad thing but when you are working with
+something like making a video game it can create tight coupling and inflexibility. This is not always ideal.</p>
+<p>In contrast composition is the &ldquo;Has-A&rdquo; relationship. For example, a <em>car</em> has-a <em>engine</em>. A <em>computer</em> has-a <em>cpu</em>. In this setup
+your classes will hold references to other objects as instance variables. The benefits of this is that you get loose coupling and flexibility
+with your components. The downside is that you might use a bit more boilerplate code to create and manage more objects.</p>
+<h1 id="when-to-use-it">When to use it?</h1>
+<p>The real question becomes when do you use one over the other? I find myself using composition way more often in Godot. I think this makes
+sense when you are making something like a game because you can build complex objects from simpler ones. Overall I would say that I am
+really trying hard to favour composition over inheritance whenever I can. I&rsquo;m finding it easier to maintain and manage my code. If something
+is wrong with my player movement for example I know <em>exactly</em> where to look to fix the problem.</p>
+
+		</main>
+
+
     
-    <div class="time-list">
-        <ul>
-            
-            <li>
-                <span><time datetime="2024-10-16">2024-10-16&nbsp;</time>
-</span>
-                <div><a href="/posts/hello-world/">Hello World</a></div>
-            </li>
-            
-        </ul>
-    </div>
+      <div class="terminal-nav">
+        <div class="back-nav">
+          <a href="../" class="back-link">../</a>
+        </div>
+      </div>
+    
 
   </main>
   <footer>
