@@ -1,23 +1,23 @@
-<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-    <channel>
+{{- printf "<?xml version=\"1.0\" encoding=\"UTF-8\"?>" | safeHTML }}
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>{{ .Site.Title | htmlEscape }}</title>
+    <link>{{ .Site.BaseURL }}</link>
+    <description>{{ .Site.Params.description | default .Site.Title | htmlEscape }}</description>
+    <atom:link href="{{ .Permalink }}" rel="self" type="application/rss+xml" />
+    <language>{{ .Site.Language.Lang }}</language>
+    <lastBuildDate>{{ now.Format "Mon, 02 Jan 2006 15:04:05 MST" }}</lastBuildDate>
 
-{{ $posts := sort (where .Site.RegularPages "Section" "posts") "Date" "desc" }}
-{{ range $posts }}
-<item>
-  <title>{{ .Title | htmlEscape }}</title>
-  <link>{{ .Permalink }}</link>
-
-  <!-- Replace any literal CDATA terminator inside the content so the block can't be closed by the post -->
-  <description><![CDATA[{{ replace .Content "]]>" "]]]]><![CDATA[>" }}]]></description>
-
-  <!-- full HTML content for feed readers that support content:encoded -->
-  <content:encoded><![CDATA[{{ replace .Content "]]>" "]]]]><![CDATA[>" }}]]></content:encoded>
-
-  <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 MST" }}</pubDate>
-  <guid isPermaLink="true">{{ .Permalink }}</guid>
-</item>
-{{ end }}
-
-
-    </channel>
+    {{ $posts := sort (where .Site.RegularPages "Section" "posts") "Date" "desc" }}
+    {{ range $posts }}
+    <item>
+      <title>{{ .Title | htmlEscape }}</title>
+      <link>{{ .Permalink }}</link>
+      <description><![CDATA[{{ replace .Content "]]>" "]]]]><![CDATA[>" }}]]></description>
+      <content:encoded><![CDATA[{{ replace .Content "]]>" "]]]]><![CDATA[>" }}]]></content:encoded>
+      <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 MST" }}</pubDate>
+      <guid isPermaLink="true">{{ .Permalink }}</guid>
+    </item>
+    {{ end }}
+  </channel>
 </rss>
