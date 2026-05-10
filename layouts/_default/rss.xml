@@ -13,8 +13,8 @@
     <item>
       <title>{{ .Title | htmlEscape }}</title>
       <link>{{ .Permalink }}</link>
-      <description><![CDATA[{{ replace .Content "]]>" "]]]]><![CDATA[>" }}]]></description>
-      <content:encoded><![CDATA[{{ replace .Content "]]>" "]]]]><![CDATA[>" }}]]></content:encoded>
+      <description><![CDATA[{{ replace .Content "]]>" "]]]]><![CDATA[>" | safeHTML }}]]></description>
+      <content:encoded><![CDATA[{{ replace .Content "]]>" "]]]]><![CDATA[>" | safeHTML }}]]></content:encoded>
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 MST" }}</pubDate>
       <guid isPermaLink="true">{{ .Permalink }}</guid>
     </item>
