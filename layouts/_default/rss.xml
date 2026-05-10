@@ -2,13 +2,13 @@
     <channel>
         <title>{{ .Site.Title | htmlEscape }}</title>
         <link>{{ .Site.BaseURL }}</link>
-        <description>{{ .Site.Params.description | htmlEscape }}</description>
-        {{ with .Site.Author }}<author>{{ .email | htmlEscape }} ({{ .name | htmlEscape }})</author>{{ end }}
+        <description>{{ .Site.Params.description | safeHTML }}</description>
+        {{ with .Site.Author }}<author>{{ .email | safeHTML }} ({{ .name | safeHTML }})</author>{{ end }}
         {{ range where .Site.RegularPages "Type" "posts" }}
         <item>
-            <title>{{ .Title | htmlEscape }}</title>
+            <title>{{ .Title | safeHTML }}</title>
             <link>{{ .Permalink }}</link>
-            <description>{{ .Content | htmlEscape }}</description>
+            <description><![CDATA[{{ .Content }}]]></description>
             <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 MST" }}</pubDate>
             <guid>{{ .Permalink }}</guid>
         </item>
