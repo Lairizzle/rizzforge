@@ -5,17 +5,25 @@
 
   <channel>
     <title>{{ .Site.Title | htmlEscape }}</title>
+
     <link>{{ .Site.BaseURL }}</link>
-    <description>{{ .Site.Params.description | default .Site.Title | htmlEscape }}</description>
+
+    <description>
+      {{ .Site.Params.description | default .Site.Title | htmlEscape }}
+    </description>
 
     <atom:link href="{{ .Permalink }}"
                rel="self"
                type="application/rss+xml" />
 
     <language>{{ .Site.Language.Lang }}</language>
-    <lastBuildDate>{{ now.Format "Mon, 02 Jan 2006 15:04:05 MST" }}</lastBuildDate>
+
+    <lastBuildDate>
+      {{ now.Format "Mon, 02 Jan 2006 15:04:05 MST" }}
+    </lastBuildDate>
 
     {{ range where .Site.RegularPages "Section" "posts" }}
+
     <item>
 
       <title>{{ .Title | htmlEscape }}</title>
@@ -24,17 +32,20 @@
 
       <guid isPermaLink="true">{{ .Permalink }}</guid>
 
-      <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 MST" }}</pubDate>
+      <pubDate>
+        {{ .Date.Format "Mon, 02 Jan 2006 15:04:05 MST" }}
+      </pubDate>
 
       <description>
         {{ .Summary | plainify | htmlEscape }}
       </description>
 
-      <content:encoded>
-        {{ .Content | transform.XMLEscape }}
-      </content:encoded>
+      <content:encoded><![CDATA[
+{{ .Content | replace "]]>" "]]]]><![CDATA[>" | safeHTML }}
+]]></content:encoded>
 
     </item>
+
     {{ end }}
 
   </channel>
