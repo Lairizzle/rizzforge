@@ -4,7 +4,7 @@
         <link>{{ .Site.BaseURL }}</link>
         <description>{{ .Site.Params.description | htmlEscape }}</description>
         {{ with .Site.Author }}<author>{{ .email | htmlEscape }} ({{ .name | htmlEscape }})</author>{{ end }}
-        {{ range where .Pages "Section" "posts" }}
+        {{ range where .Site.RegularPages "Type" "posts" }}
         <item>
             <title>{{ .Title | htmlEscape }}</title>
             <link>{{ .Permalink }}</link>
