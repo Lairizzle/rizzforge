@@ -13,10 +13,9 @@
       {{ .Site.Params.description | default .Site.Title | htmlEscape }}
     </description>
 
-    <atom:link
-      href="{{ .Permalink }}"
-      rel="self"
-      type="application/rss+xml" />
+    <atom:link href="{{ .Permalink }}"
+               rel="self"
+               type="application/rss+xml" />
 
     <language>{{ .Site.Language.Lang }}</language>
 
@@ -40,13 +39,15 @@
         {{ .Date.Format "Mon, 02 Jan 2006 15:04:05 MST" }}
       </pubDate>
 
+      <!-- Safe short summary -->
       <description>
         {{ .Summary | plainify | htmlEscape }}
       </description>
 
-      <content:encoded><![CDATA[
-{{ replace .Content "]]>" "]]]]><![CDATA[>" | safeHTML }}
-]]></content:encoded>
+      <!-- FULL CONTENT (NO CDATA — avoids all ]]> issues) -->
+      <content:encoded>
+        {{ .Content | html }}
+      </content:encoded>
 
     </item>
 
