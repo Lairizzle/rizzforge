@@ -40,12 +40,10 @@
         {{ .Date.Format "Mon, 02 Jan 2006 15:04:05 MST" }}
       </pubDate>
 
-      <!-- Short summary -->
       <description>
         {{ .Summary | plainify | htmlEscape }}
       </description>
 
-      <!-- Full HTML article -->
       <content:encoded><![CDATA[
 {{ replace .Content "]]>" "]]]]><![CDATA[>" | safeHTML }}
 ]]></content:encoded>
