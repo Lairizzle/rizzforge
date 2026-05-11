@@ -4,6 +4,7 @@
      xmlns:atom="http://www.w3.org/2005/Atom">
 
   <channel>
+
     <title>{{ .Site.Title | htmlEscape }}</title>
 
     <link>{{ .Site.BaseURL }}</link>
@@ -12,9 +13,10 @@
       {{ .Site.Params.description | default .Site.Title | htmlEscape }}
     </description>
 
-    <atom:link href="{{ .Permalink }}"
-               rel="self"
-               type="application/rss+xml" />
+    <atom:link
+      href="{{ .Permalink }}"
+      rel="self"
+      type="application/rss+xml" />
 
     <language>{{ .Site.Language.Lang }}</language>
 
@@ -30,18 +32,22 @@
 
       <link>{{ .Permalink }}</link>
 
-      <guid isPermaLink="true">{{ .Permalink }}</guid>
+      <guid isPermaLink="true">
+        {{ .Permalink }}
+      </guid>
 
       <pubDate>
         {{ .Date.Format "Mon, 02 Jan 2006 15:04:05 MST" }}
       </pubDate>
 
+      <!-- Short summary -->
       <description>
         {{ .Summary | plainify | htmlEscape }}
       </description>
 
+      <!-- Full HTML article -->
       <content:encoded><![CDATA[
-{{ .Content | replace "]]>" "]]]]><![CDATA[>" | safeHTML }}
+{{ replace .Content "]]>" "]]]]><![CDATA[>" | safeHTML }}
 ]]></content:encoded>
 
     </item>
@@ -49,4 +55,5 @@
     {{ end }}
 
   </channel>
+
 </rss>
