@@ -43,3 +43,6 @@ theme = 'kage'
     [markup.goldmark.renderer]
       unsafe = true
 
+    [markup.goldmark.extensions]
+      typographer = false
+
