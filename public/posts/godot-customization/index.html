@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-us" dir="ltr">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
   <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -10,10 +10,10 @@
 
 
 
-    <link rel="stylesheet" href="/css/main.css">
+      <link rel="stylesheet" href="/css/main.min.f6b3edaee47a7c3d4477bb37de9575cd719b4a1fc49e44381a030f01b9451a8a.css" integrity="sha256-9rPtruR6fD1Ed7s33pV1zXGbSh/EnkQ4GgMPAblFGoo=" crossorigin="anonymous">
 
 
-      <script src="/js/main.js"></script>
+        <script src="/js/main.23cd0c7d837263b9eaeb96ee2d9ccfa2969daa3fa00fa1c1fe8701a9b87251a1.js" integrity="sha256-I80MfYNyY7nq65buLZzPopadqj&#43;gD6HB/ocBqbhyUaE=" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
 
 
@@ -104,7 +104,7 @@
 <p>We need to launch nvim with our preferred terminal and give it a custom title so we can find it in hyprland.</p>
 <p>In Godot → Editor Settings → Text Editor → External, set:</p>
 <p>Exec Path: /usr/bin/kitty</p>
-<p>Exec Flags: &ndash;title &ldquo;GodotEditor&rdquo; -e nvim +{line} {file}</p>
+<p>Exec Flags: --title &quot;GodotEditor&quot; -e nvim +{line} {file}</p>
 <h2 id="setting-up-window-rules">Setting Up Window Rules</h2>
 <p>I am using hyprland so I wanted it to launch on my second monitor, in a specific workspace. This required some custom window rules.</p>
 <p>This will launch it where we require it, but it will steal focus.</p>
