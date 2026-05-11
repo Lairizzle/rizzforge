@@ -13,15 +13,14 @@
       Rizzforge
     </description>
 
-    <atom:link
-      href="http://rizzforge.org/tags/automation/"
-      rel="self"
-      type="application/rss+xml" />
+    <atom:link href="http://rizzforge.org/tags/automation/"
+               rel="self"
+               type="application/rss+xml" />
 
     <language>en</language>
 
     <lastBuildDate>
-      Sun, 10 May 2026 20:46:46 EDT
+      Sun, 10 May 2026 20:50:20 EDT
     </lastBuildDate>
 
     
@@ -40,38 +39,40 @@
         Fri, 06 Feb 2026 00:00:00 EST
       </pubDate>
 
+      
       <description>
         Composition Over Inheritance I got the itch again to start playing around with Godot, as I often do. This time I wanted to use Godot to practice a concept I had learned about called Composition. If you are not familiar with the concept, you should because it has literally changed how my brain works.
 When you write in a language like C# it is &amp;amp;quot;Object Oriented Programming&amp;amp;quot;. When you learn this there is a strong emphasis on inheritance. Inheritance is the &amp;amp;quot;Is-A&amp;amp;quot; relationship. For example; a dog is-a animal. A sports car is-a car. Typically this means that you can extend the parent class to the child class using the : after the clsss name then the name of the parent. Inheritance is not a bad thing but when you are working with something like making a video game it can create tight coupling and inflexibility. This is not always ideal.
 
       </description>
 
-      <content:encoded>&lt;![CDATA[
-<h1 id="composition-over-inheritance">Composition Over Inheritance</h1>
-<p>I got the itch again to start playing around with Godot, as I often do. This time I wanted to use Godot to practice a concept I
+      
+      <content:encoded>
+        &lt;h1 id=&#34;composition-over-inheritance&#34;&gt;Composition Over Inheritance&lt;/h1&gt;
+&lt;p&gt;I got the itch again to start playing around with Godot, as I often do. This time I wanted to use Godot to practice a concept I
 had learned about called Composition. If you are not familiar with the concept, you should because it has literally changed
-how my brain works.</p>
-<p>When you write in a language like C# it is &quot;Object Oriented Programming&quot;. When you learn this there is a strong emphasis on
-inheritance. Inheritance is the &quot;Is-A&quot; relationship. For example; a <em>dog</em> is-a <em>animal</em>. A <em>sports car</em> is-a <em>car</em>. Typically this means that
+how my brain works.&lt;/p&gt;
+&lt;p&gt;When you write in a language like C# it is &amp;quot;Object Oriented Programming&amp;quot;. When you learn this there is a strong emphasis on
+inheritance. Inheritance is the &amp;quot;Is-A&amp;quot; relationship. For example; a &lt;em&gt;dog&lt;/em&gt; is-a &lt;em&gt;animal&lt;/em&gt;. A &lt;em&gt;sports car&lt;/em&gt; is-a &lt;em&gt;car&lt;/em&gt;. Typically this means that
 you can extend the parent class to the child class using the : after the clsss name then the name of the parent. Inheritance is not a bad thing but when you are working with
-something like making a video game it can create tight coupling and inflexibility. This is not always ideal.</p>
-<p>In contrast composition is the &quot;Has-A&quot; relationship. For example, a <em>car</em> has-a <em>engine</em>. A <em>computer</em> has-a <em>cpu</em>. In this setup
+something like making a video game it can create tight coupling and inflexibility. This is not always ideal.&lt;/p&gt;
+&lt;p&gt;In contrast composition is the &amp;quot;Has-A&amp;quot; relationship. For example, a &lt;em&gt;car&lt;/em&gt; has-a &lt;em&gt;engine&lt;/em&gt;. A &lt;em&gt;computer&lt;/em&gt; has-a &lt;em&gt;cpu&lt;/em&gt;. In this setup
 your classes will hold references to other objects as instance variables. The benefits of this is that you get loose coupling and flexibility
-with your components. The downside is that you might use a bit more boilerplate code to create and manage more objects.</p>
-<h1 id="when-to-use-it">When To Use It?</h1>
-<p>The real question becomes when do you use one over the other? I find myself using composition way more often in Godot. I think this makes
+with your components. The downside is that you might use a bit more boilerplate code to create and manage more objects.&lt;/p&gt;
+&lt;h1 id=&#34;when-to-use-it&#34;&gt;When To Use It?&lt;/h1&gt;
+&lt;p&gt;The real question becomes when do you use one over the other? I find myself using composition way more often in Godot. I think this makes
 sense when you are making something like a game because you can build complex objects from simpler ones. Overall I would say that I am
-really trying hard to favour composition over inheritance whenever I can. I'm finding it easier to maintain and manage my code. If something
-is wrong with my player movement for example I know <em>exactly</em> where to look to fix the problem.</p>
-<h1 id="changing-my-brain">Changing My Brain</h1>
-<p>Since diving in and forcing myself to constantly challenge my initial ideas and ensure I'm designing with a composition first mindset
-I've noticed that how I think about things in general has changed. I do a lot of work with data and pipelines in my day job. I've found
+really trying hard to favour composition over inheritance whenever I can. I&#39;m finding it easier to maintain and manage my code. If something
+is wrong with my player movement for example I know &lt;em&gt;exactly&lt;/em&gt; where to look to fix the problem.&lt;/p&gt;
+&lt;h1 id=&#34;changing-my-brain&#34;&gt;Changing My Brain&lt;/h1&gt;
+&lt;p&gt;Since diving in and forcing myself to constantly challenge my initial ideas and ensure I&#39;m designing with a composition first mindset
+I&#39;ve noticed that how I think about things in general has changed. I do a lot of work with data and pipelines in my day job. I&#39;ve found
 myself rethinking ways that existing architecture can be improved by adopting this mindset. Not just the design, but also how things
-are being processed as well. I'm going to keep working at it and might add some devlog type updates here as well.</p>
-<p>Cheers,</p>
-<p>Keith</p>
+are being processed as well. I&#39;m going to keep working at it and might add some devlog type updates here as well.&lt;/p&gt;
+&lt;p&gt;Cheers,&lt;/p&gt;
+&lt;p&gt;Keith&lt;/p&gt;
 
-]]></content:encoded>
+      </content:encoded>
 
     </item>
 
@@ -91,27 +92,29 @@ are being processed as well. I'm going to keep working at it and might add some 
         Sun, 02 Nov 2025 00:00:00 -0500
       </pubDate>
 
+      
       <description>
         Setting A Custom Editor I did not really like using the built in editor that comes with Godot, so I decided to see how I could set up Neovim to launch instead. I had a few customizations and I thought I would note them down here if I ever needed to reference them again.
 We need to launch nvim with our preferred terminal and give it a custom title so we can find it in hyprland.
 
       </description>
 
-      <content:encoded>&lt;![CDATA[
-<h2 id="setting-a-custom-editor">Setting A Custom Editor</h2>
-<p>I did not really like using the built in editor that comes with Godot, so I decided to see how I could set up Neovim to launch instead. I had a few customizations and I thought I would note them down here if I ever needed to reference them again.</p>
-<p>We need to launch nvim with our preferred terminal and give it a custom title so we can find it in hyprland.</p>
-<p>In Godot → Editor Settings → Text Editor → External, set:</p>
-<p>Exec Path: /usr/bin/kitty</p>
-<p>Exec Flags: --title &quot;GodotEditor&quot; -e nvim +{line} {file}</p>
-<h2 id="setting-up-window-rules">Setting Up Window Rules</h2>
-<p>I am using hyprland so I wanted it to launch on my second monitor, in a specific workspace. This required some custom window rules.</p>
-<p>This will launch it where we require it, but it will steal focus.</p>
-<pre tabindex="0"><code>windowrulev2 = workspace 7, monitor:1, title:^(GodotEditor)$
-</code></pre><p>This will do the same, but it will not steal focus.</p>
-<pre tabindex="0"><code>windowrulev2 = nofocus, workspace 7, monitor:1, title:^(GodotEditor)$
-</code></pre>
-]]></content:encoded>
+      
+      <content:encoded>
+        &lt;h2 id=&#34;setting-a-custom-editor&#34;&gt;Setting A Custom Editor&lt;/h2&gt;
+&lt;p&gt;I did not really like using the built in editor that comes with Godot, so I decided to see how I could set up Neovim to launch instead. I had a few customizations and I thought I would note them down here if I ever needed to reference them again.&lt;/p&gt;
+&lt;p&gt;We need to launch nvim with our preferred terminal and give it a custom title so we can find it in hyprland.&lt;/p&gt;
+&lt;p&gt;In Godot → Editor Settings → Text Editor → External, set:&lt;/p&gt;
+&lt;p&gt;Exec Path: /usr/bin/kitty&lt;/p&gt;
+&lt;p&gt;Exec Flags: --title &amp;quot;GodotEditor&amp;quot; -e nvim +{line} {file}&lt;/p&gt;
+&lt;h2 id=&#34;setting-up-window-rules&#34;&gt;Setting Up Window Rules&lt;/h2&gt;
+&lt;p&gt;I am using hyprland so I wanted it to launch on my second monitor, in a specific workspace. This required some custom window rules.&lt;/p&gt;
+&lt;p&gt;This will launch it where we require it, but it will steal focus.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;windowrulev2 = workspace 7, monitor:1, title:^(GodotEditor)$
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;This will do the same, but it will not steal focus.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;windowrulev2 = nofocus, workspace 7, monitor:1, title:^(GodotEditor)$
+&lt;/code&gt;&lt;/pre&gt;
+      </content:encoded>
 
     </item>
 
@@ -131,25 +134,27 @@ We need to launch nvim with our preferred terminal and give it a custom title so
         Sun, 19 Oct 2025 00:00:00 EDT
       </pubDate>
 
+      
       <description>
         Moving Sucks We recently sold our home and were tasked with finding a new one. Without going into detail the entire experience was less than desirable. The dust has finally settled and life has returned to some normalcy. We have not moved houses yet, but the houses are bought and sold, and I would say that is the worst part of the entire thing. Now that it is over I have been able to relax a bit and focus on some of the things I enjoy.
 
       </description>
 
-      <content:encoded>&lt;![CDATA[
-<h2 id="moving-sucks">Moving Sucks</h2>
-<p>We recently sold our home and were tasked with finding a new one. Without going into detail the entire experience was less than desirable. The dust has finally settled and life has returned to some normalcy. We have not moved houses yet, but the houses are bought and sold, and I would say that is the worst part of the entire thing. Now that it is over I have been able to relax a bit and focus on some of the things I enjoy.</p>
-<h2 id="learning-rust">Learning Rust</h2>
-<p>I recently started looking into learning Rust. So far it has been a pretty good experience and I am enjoying it. I am realizing the capability of the language and that makes me really excited. I have dabbled in a lot of different languages but I always seem to get hung up on what it can and cannot do. All languages have their strengths of course but from what I have learned so far it seems that Rust can do a lot of different things really well (at least stuff that interests me). It's also new and has great documentation like the Rust book. It is really incredible the entire thing is online. You can find a copy of it <a href="https://doc.rust-lang.org/book">here</a>. I am still learning a lot but so far it is pretty cool.</p>
-<h2 id="applied-knowledge">Applied Knowledge</h2>
-<p>One problem I always seem to face when learning languages is spending a ton of time learning and then I am not sure what to create with it. A while ago I had purchased a wireless headset and at the time I did not realize the dongle did not have the Chatmix volume knob inline. This proved to be an issue on Linux as the drivers to control it were of course proprietary and not available on Linux. Initially I found a solution that was written in Python and after forking and modifying it, it seemed to work pretty well. As someone who was learning Rust, there was only one thing I could...</p>
-<h2 id="rewrite-it-in-rust">Rewrite it in Rust</h2>
-<p>As is tradition I had to take something that was not technically broken and rewrite it in Rust. This actually turned out to be pretty good and work extremely well. I was able to remedy some of the issues with the Python version and also tailor a few more things to my liking. I will admit I did rely heavily on co-pilot to guide me through writing it as I am still relatively new to Rust, but overall it was a great experience to see <em>how</em> something could work like this in Rust. I was able to create an install script which implements a persistent Systemd service that will wait through disconnection and it <em>just works</em>. The Chatmix dial functions just as well as it would with the proprietary drivers and so far I have no had any issues.</p>
-<h2 id="moving-forward">Moving Forward</h2>
-<p>I am excited to continue to learn more about Rust and work my way through the book. Working with hardware and debugging with Rust was a cool experience that I have never really done before (outside the Python fork of the original solution).</p>
-<p>Cheers,</p>
-<p>Keith</p>
-<p>Below is a link to the Arctis Nova 7 Wireless Chatmix userspace daemon on Github:
+      
+      <content:encoded>
+        &lt;h2 id=&#34;moving-sucks&#34;&gt;Moving Sucks&lt;/h2&gt;
+&lt;p&gt;We recently sold our home and were tasked with finding a new one. Without going into detail the entire experience was less than desirable. The dust has finally settled and life has returned to some normalcy. We have not moved houses yet, but the houses are bought and sold, and I would say that is the worst part of the entire thing. Now that it is over I have been able to relax a bit and focus on some of the things I enjoy.&lt;/p&gt;
+&lt;h2 id=&#34;learning-rust&#34;&gt;Learning Rust&lt;/h2&gt;
+&lt;p&gt;I recently started looking into learning Rust. So far it has been a pretty good experience and I am enjoying it. I am realizing the capability of the language and that makes me really excited. I have dabbled in a lot of different languages but I always seem to get hung up on what it can and cannot do. All languages have their strengths of course but from what I have learned so far it seems that Rust can do a lot of different things really well (at least stuff that interests me). It&#39;s also new and has great documentation like the Rust book. It is really incredible the entire thing is online. You can find a copy of it &lt;a href=&#34;https://doc.rust-lang.org/book&#34;&gt;here&lt;/a&gt;. I am still learning a lot but so far it is pretty cool.&lt;/p&gt;
+&lt;h2 id=&#34;applied-knowledge&#34;&gt;Applied Knowledge&lt;/h2&gt;
+&lt;p&gt;One problem I always seem to face when learning languages is spending a ton of time learning and then I am not sure what to create with it. A while ago I had purchased a wireless headset and at the time I did not realize the dongle did not have the Chatmix volume knob inline. This proved to be an issue on Linux as the drivers to control it were of course proprietary and not available on Linux. Initially I found a solution that was written in Python and after forking and modifying it, it seemed to work pretty well. As someone who was learning Rust, there was only one thing I could...&lt;/p&gt;
+&lt;h2 id=&#34;rewrite-it-in-rust&#34;&gt;Rewrite it in Rust&lt;/h2&gt;
+&lt;p&gt;As is tradition I had to take something that was not technically broken and rewrite it in Rust. This actually turned out to be pretty good and work extremely well. I was able to remedy some of the issues with the Python version and also tailor a few more things to my liking. I will admit I did rely heavily on co-pilot to guide me through writing it as I am still relatively new to Rust, but overall it was a great experience to see &lt;em&gt;how&lt;/em&gt; something could work like this in Rust. I was able to create an install script which implements a persistent Systemd service that will wait through disconnection and it &lt;em&gt;just works&lt;/em&gt;. The Chatmix dial functions just as well as it would with the proprietary drivers and so far I have no had any issues.&lt;/p&gt;
+&lt;h2 id=&#34;moving-forward&#34;&gt;Moving Forward&lt;/h2&gt;
+&lt;p&gt;I am excited to continue to learn more about Rust and work my way through the book. Working with hardware and debugging with Rust was a cool experience that I have never really done before (outside the Python fork of the original solution).&lt;/p&gt;
+&lt;p&gt;Cheers,&lt;/p&gt;
+&lt;p&gt;Keith&lt;/p&gt;
+&lt;p&gt;Below is a link to the Arctis Nova 7 Wireless Chatmix userspace daemon on Github:
 
 
 
@@ -157,21 +162,21 @@ We need to launch nvim with our preferred terminal and give it a custom title so
 
 
 
-<div class="github-card">
-  <div class="github-card-header">
-    <img class="github-avatar" src="https://github.com/lairizzle.png" alt="lairizzle's avatar">
-    <div class="github-info">
-      <a href="https://github.com/lairizzle/arctis-nova-7-wireless-chatmix" target="_blank" rel="noopener">
-        <strong>lairizzle/arctis-nova-7-wireless-chatmix</strong>
-      </a>
-      <p></p>
-    </div>
-  </div>
-</div>
+&lt;div class=&#34;github-card&#34;&gt;
+  &lt;div class=&#34;github-card-header&#34;&gt;
+    &lt;img class=&#34;github-avatar&#34; src=&#34;https://github.com/lairizzle.png&#34; alt=&#34;lairizzle&#39;s avatar&#34;&gt;
+    &lt;div class=&#34;github-info&#34;&gt;
+      &lt;a href=&#34;https://github.com/lairizzle/arctis-nova-7-wireless-chatmix&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+        &lt;strong&gt;lairizzle/arctis-nova-7-wireless-chatmix&lt;/strong&gt;
+      &lt;/a&gt;
+      &lt;p&gt;&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 
-</p>
+&lt;/p&gt;
 
-]]></content:encoded>
+      </content:encoded>
 
     </item>
 
@@ -191,39 +196,41 @@ We need to launch nvim with our preferred terminal and give it a custom title so
         Tue, 09 Sep 2025 00:00:00 EDT
       </pubDate>
 
+      
       <description>
         A Boring Boot I had become so content with my recent Tokyo Night theme and setup on my hyprland installation that I had started to forget how fun tinkering is. I just needed a quick fix, but I was not sure what I was missing. My current setup does everything perfectly well and fits my workflow. Then it dawned on me. I had grown tired of my boring boot. So I decided I would replace all the Systemd garbage outputs with something a little cooler.
 
       </description>
 
-      <content:encoded>&lt;![CDATA[
-<h2 id="a-boring-boot">A Boring Boot</h2>
-<p>I had become so content with my recent Tokyo Night theme and setup on my hyprland installation that I had started to forget how fun tinkering is. I just needed a quick fix, but I was not sure what I was missing. My current setup does everything perfectly well and fits my workflow. Then it dawned on me. I had grown tired of my boring boot. So I decided I would replace all the Systemd garbage outputs with something a little cooler.</p>
-<h2 id="making-it-executable">Making it Executable</h2>
-<p>For my greeter, I use TuiGreet which is another version of greetd. I needed my splash screen to launch before TuiGreet. I decided the splash would display some ASCII text with my main computers hostname (which is Chronos), but technically this could be set to display anything and the only the rows need be adjusted. The bootsplash was written in C and it turned out pretty good.</p>
-<h2 id="order-of-operations">Order of Operations</h2>
-<p>To get this to run at the right time I had to create a Systemd service for it. I compiled the program and moved it to /usr/local/bin and set up the service as such:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#f92672">[</span>Unit<span style="color:#f92672">]</span>
-</span></span><span style="display:flex;"><span>Description<span style="color:#f92672">=</span>Chronos ASCII Splash
-</span></span><span style="display:flex;"><span>DefaultDependencies<span style="color:#f92672">=</span>no
-</span></span><span style="display:flex;"><span>Before<span style="color:#f92672">=</span>greetd.service
-</span></span><span style="display:flex;"><span>Conflicts<span style="color:#f92672">=</span>getty@tty1.service
-</span></span><span style="display:flex;"><span>After<span style="color:#f92672">=</span>systemd-vconsole-setup.service
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">[</span>Service<span style="color:#f92672">]</span>
-</span></span><span style="display:flex;"><span>Type<span style="color:#f92672">=</span>oneshot
-</span></span><span style="display:flex;"><span>ExecStart<span style="color:#f92672">=</span>/usr/local/bin/chronos
-</span></span><span style="display:flex;"><span>StandardInput<span style="color:#f92672">=</span>tty
-</span></span><span style="display:flex;"><span>StandardOutput<span style="color:#f92672">=</span>tty
-</span></span><span style="display:flex;"><span>TTYPath<span style="color:#f92672">=</span>/dev/tty1
-</span></span><span style="display:flex;"><span>RemainAfterExit<span style="color:#f92672">=</span>yes
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">[</span>Install<span style="color:#f92672">]</span>
-</span></span><span style="display:flex;"><span>WantedBy<span style="color:#f92672">=</span>multi-user.target
-</span></span></code></pre></div><p>This worked for me but of course to do something similar you would have to ensure to change the settings to work with whatever tty you are launching greetd on, If you are using greetd that is. This is not a tutorial though, just sharing something that I thought was cool.</p>
-<p>See the gif below:</p>
-<p><img src="chronos.gif" alt="Chronos Bootsplash"></p>
-<p>Below is a link to BootSplash on Github:
+      
+      <content:encoded>
+        &lt;h2 id=&#34;a-boring-boot&#34;&gt;A Boring Boot&lt;/h2&gt;
+&lt;p&gt;I had become so content with my recent Tokyo Night theme and setup on my hyprland installation that I had started to forget how fun tinkering is. I just needed a quick fix, but I was not sure what I was missing. My current setup does everything perfectly well and fits my workflow. Then it dawned on me. I had grown tired of my boring boot. So I decided I would replace all the Systemd garbage outputs with something a little cooler.&lt;/p&gt;
+&lt;h2 id=&#34;making-it-executable&#34;&gt;Making it Executable&lt;/h2&gt;
+&lt;p&gt;For my greeter, I use TuiGreet which is another version of greetd. I needed my splash screen to launch before TuiGreet. I decided the splash would display some ASCII text with my main computers hostname (which is Chronos), but technically this could be set to display anything and the only the rows need be adjusted. The bootsplash was written in C and it turned out pretty good.&lt;/p&gt;
+&lt;h2 id=&#34;order-of-operations&#34;&gt;Order of Operations&lt;/h2&gt;
+&lt;p&gt;To get this to run at the right time I had to create a Systemd service for it. I compiled the program and moved it to /usr/local/bin and set up the service as such:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;Unit&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Description&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;Chronos ASCII Splash
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;DefaultDependencies&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;no
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Before&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;greetd.service
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Conflicts&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;getty@tty1.service
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;After&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;systemd-vconsole-setup.service
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;Service&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Type&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;oneshot
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ExecStart&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;/usr/local/bin/chronos
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;StandardInput&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;tty
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;StandardOutput&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;tty
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;TTYPath&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;/dev/tty1
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;RemainAfterExit&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;yes
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;Install&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;WantedBy&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;multi-user.target
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This worked for me but of course to do something similar you would have to ensure to change the settings to work with whatever tty you are launching greetd on, If you are using greetd that is. This is not a tutorial though, just sharing something that I thought was cool.&lt;/p&gt;
+&lt;p&gt;See the gif below:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;chronos.gif&#34; alt=&#34;Chronos Bootsplash&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Below is a link to BootSplash on Github:
 
 
 
@@ -231,23 +238,23 @@ We need to launch nvim with our preferred terminal and give it a custom title so
 
 
 
-<div class="github-card">
-  <div class="github-card-header">
-    <img class="github-avatar" src="https://github.com/lairizzle.png" alt="lairizzle's avatar">
-    <div class="github-info">
-      <a href="https://github.com/lairizzle/bootsplash" target="_blank" rel="noopener">
-        <strong>lairizzle/bootsplash</strong>
-      </a>
-      <p></p>
-    </div>
-  </div>
-</div>
+&lt;div class=&#34;github-card&#34;&gt;
+  &lt;div class=&#34;github-card-header&#34;&gt;
+    &lt;img class=&#34;github-avatar&#34; src=&#34;https://github.com/lairizzle.png&#34; alt=&#34;lairizzle&#39;s avatar&#34;&gt;
+    &lt;div class=&#34;github-info&#34;&gt;
+      &lt;a href=&#34;https://github.com/lairizzle/bootsplash&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+        &lt;strong&gt;lairizzle/bootsplash&lt;/strong&gt;
+      &lt;/a&gt;
+      &lt;p&gt;&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 
-</p>
-<p>Cheers,
-Keith</p>
+&lt;/p&gt;
+&lt;p&gt;Cheers,
+Keith&lt;/p&gt;
 
-]]></content:encoded>
+      </content:encoded>
 
     </item>
 
@@ -267,29 +274,31 @@ Keith</p>
         Sun, 17 Aug 2025 00:00:00 EDT
       </pubDate>
 
+      
       <description>
         First Steps The first time I tested out Godot was a few years ago and I tinkered with it for maybe an hour before putting it down. Something about it turned me off but I was not sure what it was. I think my mind was just used to working with Unity and thinking about how it does things, and at the time I was not prepared to rewire my brain a bit. Fast forward to the past few weeks and the creative bug has bitten me once again. Since fully converting to Linux and embracing software alternatives in other avenues of my PC use I thought I would give it another try. I am so glad that I did.
 
       </description>
 
-      <content:encoded>&lt;![CDATA[
-<h2 id="first-steps">First Steps</h2>
-<p>The first time I tested out Godot was a few years ago and I tinkered with it for maybe an hour before putting it down. Something about it turned me off but I was not sure what it was. I think my mind was just used to working with Unity and thinking about how it does things, and at the time I was not prepared to rewire my brain a bit. Fast forward to the past few weeks and the creative bug has bitten me once again. Since fully converting to Linux and embracing software alternatives in other avenues of my PC use I thought I would give it another try. I am so glad that I did.</p>
-<h2 id="godot-is-awesome">Godot is Awesome</h2>
-<p>After the initial confusion passed, the flow of Godot became very clear, very quickly. The most confusing thing from the onset was changing what &quot;scenes&quot; meant in my mind. Normally in Unity a scene represents something like a level, and inside the hierarchy you have some objects like prefabs and other things. In Godot all of these things are scenes (at least if you plan on using them more than once). The scene is more of a package for the objects or &quot;Nodes&quot; you want to use.</p>
-<p>For example, if I was making a coin that I wanted to pick up with the character, I would create a scene in Godot and place that scene inside the scene for my level. I feel like even typing that sounds confusing but once I wrapped my head around these Godot fundamentals of nodes and scenes it all started to click.</p>
-<h2 id="navigation">Navigation</h2>
-<p>For some reason navigating Godot just feels good. I don't know what it is but it feels like everything I'm looking for is exactly where I think it will be. The flow of the program itself just feels very natural. Most areas of the program also have search functionality so finding what you are looking for is extremely easy.</p>
-<h2 id="gd-script-or-c">GD Script or C#</h2>
-<p>Godot does have its own language called GD Script but I wanted to use C#. There is two reasons for this choice; firstly, I can practice C# and make games and a lot of that practice is transferable and secondly, I am already fairly familiar with C#. This was an easy answer for me, but I have heard GD Script is fairly easy to pick up and has a similar syntax to Python. Overall I thought that using C# is more of a transferable skill than GD Script which is a limited scope.</p>
-<h2 id="sprite-work">Sprite Work</h2>
-<p>The other great thing about making games is that I will get to practice my sprite work as well. Aseprite is such an amazing program for making pixel art. I've decided I will stick to 16x16 pixel art to hopefully keep the animations a bit easier on myself until I am less green behind the ears. Either way it has been a lot of fun even setting up basic placeholder art.</p>
-<h2 id="next-steps">Next Steps</h2>
-<p>Setting everything up with the mono build of Godot was dead simple and it's working flawlessly on my current Arch setup. I have started playing around with some 2D platforming systems to get started. I will be starting by setting up a solid player controller, animation controller and state machine. Once these are fully functional and I am happy with them I will probably make a post to discuss them in depth. I think this will be a good way to reinforce everything I learned while creating it as well.</p>
-<p>Cheers,
-Keith</p>
+      
+      <content:encoded>
+        &lt;h2 id=&#34;first-steps&#34;&gt;First Steps&lt;/h2&gt;
+&lt;p&gt;The first time I tested out Godot was a few years ago and I tinkered with it for maybe an hour before putting it down. Something about it turned me off but I was not sure what it was. I think my mind was just used to working with Unity and thinking about how it does things, and at the time I was not prepared to rewire my brain a bit. Fast forward to the past few weeks and the creative bug has bitten me once again. Since fully converting to Linux and embracing software alternatives in other avenues of my PC use I thought I would give it another try. I am so glad that I did.&lt;/p&gt;
+&lt;h2 id=&#34;godot-is-awesome&#34;&gt;Godot is Awesome&lt;/h2&gt;
+&lt;p&gt;After the initial confusion passed, the flow of Godot became very clear, very quickly. The most confusing thing from the onset was changing what &amp;quot;scenes&amp;quot; meant in my mind. Normally in Unity a scene represents something like a level, and inside the hierarchy you have some objects like prefabs and other things. In Godot all of these things are scenes (at least if you plan on using them more than once). The scene is more of a package for the objects or &amp;quot;Nodes&amp;quot; you want to use.&lt;/p&gt;
+&lt;p&gt;For example, if I was making a coin that I wanted to pick up with the character, I would create a scene in Godot and place that scene inside the scene for my level. I feel like even typing that sounds confusing but once I wrapped my head around these Godot fundamentals of nodes and scenes it all started to click.&lt;/p&gt;
+&lt;h2 id=&#34;navigation&#34;&gt;Navigation&lt;/h2&gt;
+&lt;p&gt;For some reason navigating Godot just feels good. I don&#39;t know what it is but it feels like everything I&#39;m looking for is exactly where I think it will be. The flow of the program itself just feels very natural. Most areas of the program also have search functionality so finding what you are looking for is extremely easy.&lt;/p&gt;
+&lt;h2 id=&#34;gd-script-or-c&#34;&gt;GD Script or C#&lt;/h2&gt;
+&lt;p&gt;Godot does have its own language called GD Script but I wanted to use C#. There is two reasons for this choice; firstly, I can practice C# and make games and a lot of that practice is transferable and secondly, I am already fairly familiar with C#. This was an easy answer for me, but I have heard GD Script is fairly easy to pick up and has a similar syntax to Python. Overall I thought that using C# is more of a transferable skill than GD Script which is a limited scope.&lt;/p&gt;
+&lt;h2 id=&#34;sprite-work&#34;&gt;Sprite Work&lt;/h2&gt;
+&lt;p&gt;The other great thing about making games is that I will get to practice my sprite work as well. Aseprite is such an amazing program for making pixel art. I&#39;ve decided I will stick to 16x16 pixel art to hopefully keep the animations a bit easier on myself until I am less green behind the ears. Either way it has been a lot of fun even setting up basic placeholder art.&lt;/p&gt;
+&lt;h2 id=&#34;next-steps&#34;&gt;Next Steps&lt;/h2&gt;
+&lt;p&gt;Setting everything up with the mono build of Godot was dead simple and it&#39;s working flawlessly on my current Arch setup. I have started playing around with some 2D platforming systems to get started. I will be starting by setting up a solid player controller, animation controller and state machine. Once these are fully functional and I am happy with them I will probably make a post to discuss them in depth. I think this will be a good way to reinforce everything I learned while creating it as well.&lt;/p&gt;
+&lt;p&gt;Cheers,
+Keith&lt;/p&gt;
 
-]]></content:encoded>
+      </content:encoded>
 
     </item>
 
@@ -309,20 +318,22 @@ Keith</p>
         Tue, 05 Aug 2025 00:00:00 EDT
       </pubDate>
 
+      
       <description>
         Inspiration I was chatting with someone who hangs out in a mutual discord and I was reading through their personal blog. I noticed they had included something called a blog roll, where they add blogs they follow or find interesting. On this list there was a link to a very minimalist blog. It was actually this one, Mijndert Stuij. I have to admit it made me immediately jealous. It was so simple, yet so effective. I knew that I would be revamping my entire blog shortly after seeing this. I just couldn&amp;#39;t help myself.
 
       </description>
 
-      <content:encoded>&lt;![CDATA[
-<h2 id="inspiration">Inspiration</h2>
-<p>I was chatting with someone who hangs out in a mutual discord and I was reading through their personal blog. I noticed they had included something called a blog roll, where they add blogs they follow or find interesting. On this list there was a link to a very minimalist blog. It was actually this one, <a href="https://mijndertstuij.nl/">Mijndert Stuij</a>. I have to admit it made me immediately jealous. It was so simple, yet so effective. I knew that I would be revamping my entire blog shortly after seeing this. I just couldn't help myself.</p>
-<h2 id="making-a-hugo-theme">Making a Hugo Theme</h2>
-<p>I've made many a website in my day, so I'm not green when it comes to this. What I am new to is making my own Hugo theme. It is easy enough to bring in and configure someone else's premade theme, but making one from scratch? Now that is another story.</p>
-<p>I was not sure where to start, but I knew I wanted something minimal so I looked up some minimalist Hugo themes. That is when I found <a href="https://github.com/ntk148v/shibui">Shibui</a>. This is pretty much what I was looking for but I wanted to make it my own. Since this theme itself was fairly straigtforward it was really easy to see how they did everything. This allowed me to recreate my own theme and have a good clean example to follow. The entire setup for the theme was very minimal, with only CSS and no other fancy stuff going on.</p>
-<h2 id="rebuilding">Rebuilding</h2>
-<p>Once I had built out my theme I set up all the repos and rebuilt my site for the third time. First was tailoring everything to what I wanted, then building out the theme and creating the repo. Once this was done I created a new Hugo site and loaded Kage in as a proper sub module from the repo, then ported over all of my content.</p>
-<p>It ended up working perfectly and so far seems to do everything I need. I may continue to tinker here and there but for now I think I will leave it be.</p>
+      
+      <content:encoded>
+        &lt;h2 id=&#34;inspiration&#34;&gt;Inspiration&lt;/h2&gt;
+&lt;p&gt;I was chatting with someone who hangs out in a mutual discord and I was reading through their personal blog. I noticed they had included something called a blog roll, where they add blogs they follow or find interesting. On this list there was a link to a very minimalist blog. It was actually this one, &lt;a href=&#34;https://mijndertstuij.nl/&#34;&gt;Mijndert Stuij&lt;/a&gt;. I have to admit it made me immediately jealous. It was so simple, yet so effective. I knew that I would be revamping my entire blog shortly after seeing this. I just couldn&#39;t help myself.&lt;/p&gt;
+&lt;h2 id=&#34;making-a-hugo-theme&#34;&gt;Making a Hugo Theme&lt;/h2&gt;
+&lt;p&gt;I&#39;ve made many a website in my day, so I&#39;m not green when it comes to this. What I am new to is making my own Hugo theme. It is easy enough to bring in and configure someone else&#39;s premade theme, but making one from scratch? Now that is another story.&lt;/p&gt;
+&lt;p&gt;I was not sure where to start, but I knew I wanted something minimal so I looked up some minimalist Hugo themes. That is when I found &lt;a href=&#34;https://github.com/ntk148v/shibui&#34;&gt;Shibui&lt;/a&gt;. This is pretty much what I was looking for but I wanted to make it my own. Since this theme itself was fairly straigtforward it was really easy to see how they did everything. This allowed me to recreate my own theme and have a good clean example to follow. The entire setup for the theme was very minimal, with only CSS and no other fancy stuff going on.&lt;/p&gt;
+&lt;h2 id=&#34;rebuilding&#34;&gt;Rebuilding&lt;/h2&gt;
+&lt;p&gt;Once I had built out my theme I set up all the repos and rebuilt my site for the third time. First was tailoring everything to what I wanted, then building out the theme and creating the repo. Once this was done I created a new Hugo site and loaded Kage in as a proper sub module from the repo, then ported over all of my content.&lt;/p&gt;
+&lt;p&gt;It ended up working perfectly and so far seems to do everything I need. I may continue to tinker here and there but for now I think I will leave it be.&lt;/p&gt;
 
 
 
@@ -330,23 +341,23 @@ Keith</p>
 
 
 
-<div class="github-card">
-  <div class="github-card-header">
-    <img class="github-avatar" src="https://github.com/lairizzle.png" alt="lairizzle's avatar">
-    <div class="github-info">
-      <a href="https://github.com/lairizzle/kage" target="_blank" rel="noopener">
-        <strong>lairizzle/kage</strong>
-      </a>
-      <p></p>
-    </div>
-  </div>
-</div>
+&lt;div class=&#34;github-card&#34;&gt;
+  &lt;div class=&#34;github-card-header&#34;&gt;
+    &lt;img class=&#34;github-avatar&#34; src=&#34;https://github.com/lairizzle.png&#34; alt=&#34;lairizzle&#39;s avatar&#34;&gt;
+    &lt;div class=&#34;github-info&#34;&gt;
+      &lt;a href=&#34;https://github.com/lairizzle/kage&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+        &lt;strong&gt;lairizzle/kage&lt;/strong&gt;
+      &lt;/a&gt;
+      &lt;p&gt;&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 
 
-<p>Cheers,
-Keith</p>
+&lt;p&gt;Cheers,
+Keith&lt;/p&gt;
 
-]]></content:encoded>
+      </content:encoded>
 
     </item>
 
@@ -366,148 +377,150 @@ Keith</p>
         Tue, 29 Jul 2025 00:00:00 EDT
       </pubDate>
 
+      
       <description>
         A Data Challenge I was having a discussion with someone at work and we were talking about event level data. If you are not familiar with event level data it can look something like this:
 GroupID EventID EventName Timestamp UserID Details G001 E101 Login 2025-07-30 09:15:23 U001 Successful login G001 E102 View Dashboard 2025-07-30 09:16:10 U001 Loaded user dashboard G001 E103 Download Report 2025-07-30 09:18:44 U001 Report ID: R567 G002 E201 Login 2025-07-30 10:02:11 U002 Failed password (2 attempts) G002 E202 Password Reset 2025-07-30 10:04:55 U002 Sent reset email G002 E203 Login 2025-07-30 10:10:32 U002 Successful login G003 E301 Add to Cart 2025-07-30 11:20:14 U003 Item ID: P908 G003 E302 Checkout 2025-07-30 11:25:00 U003 Order ID: O12345 G003 E303 Payment Success 2025-07-30 11:27:10 U003 Payment via credit card Data like this can quickly balloon into a massive amount of records very quickly. Let&amp;#39;s assume that every interaction has 6 events inside of it and lets imagine you had 6 billion records. What if you could compress that down to 1 billion and represent every interaction as a single record? It sounded like a cool idea, but I still was not sure if it was actually more efficient or not.
 
       </description>
 
-      <content:encoded>&lt;![CDATA[
-<h2 id="a-data-challenge">A Data Challenge</h2>
-<p>I was having a discussion with someone at work and we were talking about event level data. If you are not familiar with event level data it can look something like this:</p>
-<table>
-  <thead>
-      <tr>
-          <th>GroupID</th>
-          <th>EventID</th>
-          <th>EventName</th>
-          <th>Timestamp</th>
-          <th>UserID</th>
-          <th>Details</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>G001</td>
-          <td>E101</td>
-          <td>Login</td>
-          <td>2025-07-30 09:15:23</td>
-          <td>U001</td>
-          <td>Successful login</td>
-      </tr>
-      <tr>
-          <td>G001</td>
-          <td>E102</td>
-          <td>View Dashboard</td>
-          <td>2025-07-30 09:16:10</td>
-          <td>U001</td>
-          <td>Loaded user dashboard</td>
-      </tr>
-      <tr>
-          <td>G001</td>
-          <td>E103</td>
-          <td>Download Report</td>
-          <td>2025-07-30 09:18:44</td>
-          <td>U001</td>
-          <td>Report ID: R567</td>
-      </tr>
-      <tr>
-          <td>G002</td>
-          <td>E201</td>
-          <td>Login</td>
-          <td>2025-07-30 10:02:11</td>
-          <td>U002</td>
-          <td>Failed password (2 attempts)</td>
-      </tr>
-      <tr>
-          <td>G002</td>
-          <td>E202</td>
-          <td>Password Reset</td>
-          <td>2025-07-30 10:04:55</td>
-          <td>U002</td>
-          <td>Sent reset email</td>
-      </tr>
-      <tr>
-          <td>G002</td>
-          <td>E203</td>
-          <td>Login</td>
-          <td>2025-07-30 10:10:32</td>
-          <td>U002</td>
-          <td>Successful login</td>
-      </tr>
-      <tr>
-          <td>G003</td>
-          <td>E301</td>
-          <td>Add to Cart</td>
-          <td>2025-07-30 11:20:14</td>
-          <td>U003</td>
-          <td>Item ID: P908</td>
-      </tr>
-      <tr>
-          <td>G003</td>
-          <td>E302</td>
-          <td>Checkout</td>
-          <td>2025-07-30 11:25:00</td>
-          <td>U003</td>
-          <td>Order ID: O12345</td>
-      </tr>
-      <tr>
-          <td>G003</td>
-          <td>E303</td>
-          <td>Payment Success</td>
-          <td>2025-07-30 11:27:10</td>
-          <td>U003</td>
-          <td>Payment via credit card</td>
-      </tr>
-  </tbody>
-</table>
-<p>Data like this can quickly balloon into a massive amount of records very quickly. Let's assume that every interaction has 6 events inside of it and lets imagine you had 6 billion records. What if you could compress that down to 1 billion and represent every interaction as a single record? It sounded like a cool idea, but I still was not sure if it was actually more efficient or not.</p>
-<h2 id="when-is-this-more-efficient">When is this more efficient?</h2>
-<p>Data Storage:</p>
-<ul>
-<li>This is definitely smaller since repeated fields (GroupID, UserID) are stored once, and columnar/JSON compression can shrink it further.</li>
-</ul>
-<p>ETL (processing):</p>
-<ul>
-<li>This would have faster to load/write since there are fewer records (1 per group, not N per event).</li>
-</ul>
-<p>Querying sessions or interactions as a whole:</p>
-<ul>
-<li>If most queries pull all events for a group, this structure is optimal.</li>
-</ul>
-<h2 id="when-is-this-less-efficient">When is this less efficient?</h2>
-<ul>
-<li>
-<p>If you need to filter by event attributes often (“count all Login events across all groups”), you’ll have to explode/flatten the arrays in most databases, which can slow queries.</p>
-</li>
-<li>
-<p>Some SQL databases handle arrays poorly; it may work best in a document store (MongoDB) or columnar database (Snowflake, BigQuery, ClickHouse) that supports arrays natively.</p>
-</li>
-</ul>
-<h2 id="what-is-the-best-option">What is the best option?</h2>
-<p>Columnar Warehouses with array support (Snowflake, BigQuery, ClickHouse)</p>
-<ul>
-<li>Store as a table but use ARRAY columns.</li>
-<li>Querying by session is fast, and they can efficiently unnest arrays when needed.</li>
-</ul>
-<h2 id="is-this-useful">Is this useful?</h2>
-<p>I would say possibly. In the case of something like Snowflake, which can utilize array columns, you could bring whatever data you need through framezip and prepare it for Snowflake. When loading it into Snowflake you only need to do something like this:</p>
-<p>Push the data processed with framezip to parquet:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>packed<span style="color:#f92672">.</span>to_parquet(<span style="color:#e6db74">&#34;sessions.parquet&#34;</span>)
-</span></span></code></pre></div><p>Load the parquet into Snowflake and define the array columns:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#66d9ef">CREATE</span> <span style="color:#66d9ef">OR</span> <span style="color:#66d9ef">REPLACE</span> <span style="color:#66d9ef">TABLE</span> sessions_raw (
-</span></span><span style="display:flex;"><span>  GroupID STRING,
-</span></span><span style="display:flex;"><span>  EventID ARRAY,
-</span></span><span style="display:flex;"><span>  Value ARRAY
-</span></span><span style="display:flex;"><span>);
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">COPY</span> <span style="color:#66d9ef">INTO</span> sessions_raw
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">FROM</span> <span style="color:#f92672">@</span>my_stage<span style="color:#f92672">/</span>sessions.parquet
-</span></span><span style="display:flex;"><span>FILE_FORMAT <span style="color:#f92672">=</span> (<span style="color:#66d9ef">TYPE</span> <span style="color:#f92672">=</span> PARQUET);
-</span></span></code></pre></div><h2 id="in-the-end">In the end</h2>
-<p>In the end it was cool to create and publish a module to PyPi. It always feels great to have a random idea and execute on it. It was a lot of fun and I learned a lot through the entire process and to be honest that is all that really matters.</p>
-<p>You can find the module on PyPi <a href="https://pypi.org/project/framezip/">here</a>.</p>
-<p>Below is a link to framezip on Github:
+      
+      <content:encoded>
+        &lt;h2 id=&#34;a-data-challenge&#34;&gt;A Data Challenge&lt;/h2&gt;
+&lt;p&gt;I was having a discussion with someone at work and we were talking about event level data. If you are not familiar with event level data it can look something like this:&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;GroupID&lt;/th&gt;
+          &lt;th&gt;EventID&lt;/th&gt;
+          &lt;th&gt;EventName&lt;/th&gt;
+          &lt;th&gt;Timestamp&lt;/th&gt;
+          &lt;th&gt;UserID&lt;/th&gt;
+          &lt;th&gt;Details&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;G001&lt;/td&gt;
+          &lt;td&gt;E101&lt;/td&gt;
+          &lt;td&gt;Login&lt;/td&gt;
+          &lt;td&gt;2025-07-30 09:15:23&lt;/td&gt;
+          &lt;td&gt;U001&lt;/td&gt;
+          &lt;td&gt;Successful login&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;G001&lt;/td&gt;
+          &lt;td&gt;E102&lt;/td&gt;
+          &lt;td&gt;View Dashboard&lt;/td&gt;
+          &lt;td&gt;2025-07-30 09:16:10&lt;/td&gt;
+          &lt;td&gt;U001&lt;/td&gt;
+          &lt;td&gt;Loaded user dashboard&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;G001&lt;/td&gt;
+          &lt;td&gt;E103&lt;/td&gt;
+          &lt;td&gt;Download Report&lt;/td&gt;
+          &lt;td&gt;2025-07-30 09:18:44&lt;/td&gt;
+          &lt;td&gt;U001&lt;/td&gt;
+          &lt;td&gt;Report ID: R567&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;G002&lt;/td&gt;
+          &lt;td&gt;E201&lt;/td&gt;
+          &lt;td&gt;Login&lt;/td&gt;
+          &lt;td&gt;2025-07-30 10:02:11&lt;/td&gt;
+          &lt;td&gt;U002&lt;/td&gt;
+          &lt;td&gt;Failed password (2 attempts)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;G002&lt;/td&gt;
+          &lt;td&gt;E202&lt;/td&gt;
+          &lt;td&gt;Password Reset&lt;/td&gt;
+          &lt;td&gt;2025-07-30 10:04:55&lt;/td&gt;
+          &lt;td&gt;U002&lt;/td&gt;
+          &lt;td&gt;Sent reset email&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;G002&lt;/td&gt;
+          &lt;td&gt;E203&lt;/td&gt;
+          &lt;td&gt;Login&lt;/td&gt;
+          &lt;td&gt;2025-07-30 10:10:32&lt;/td&gt;
+          &lt;td&gt;U002&lt;/td&gt;
+          &lt;td&gt;Successful login&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;G003&lt;/td&gt;
+          &lt;td&gt;E301&lt;/td&gt;
+          &lt;td&gt;Add to Cart&lt;/td&gt;
+          &lt;td&gt;2025-07-30 11:20:14&lt;/td&gt;
+          &lt;td&gt;U003&lt;/td&gt;
+          &lt;td&gt;Item ID: P908&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;G003&lt;/td&gt;
+          &lt;td&gt;E302&lt;/td&gt;
+          &lt;td&gt;Checkout&lt;/td&gt;
+          &lt;td&gt;2025-07-30 11:25:00&lt;/td&gt;
+          &lt;td&gt;U003&lt;/td&gt;
+          &lt;td&gt;Order ID: O12345&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;G003&lt;/td&gt;
+          &lt;td&gt;E303&lt;/td&gt;
+          &lt;td&gt;Payment Success&lt;/td&gt;
+          &lt;td&gt;2025-07-30 11:27:10&lt;/td&gt;
+          &lt;td&gt;U003&lt;/td&gt;
+          &lt;td&gt;Payment via credit card&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Data like this can quickly balloon into a massive amount of records very quickly. Let&#39;s assume that every interaction has 6 events inside of it and lets imagine you had 6 billion records. What if you could compress that down to 1 billion and represent every interaction as a single record? It sounded like a cool idea, but I still was not sure if it was actually more efficient or not.&lt;/p&gt;
+&lt;h2 id=&#34;when-is-this-more-efficient&#34;&gt;When is this more efficient?&lt;/h2&gt;
+&lt;p&gt;Data Storage:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;This is definitely smaller since repeated fields (GroupID, UserID) are stored once, and columnar/JSON compression can shrink it further.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;ETL (processing):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;This would have faster to load/write since there are fewer records (1 per group, not N per event).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Querying sessions or interactions as a whole:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If most queries pull all events for a group, this structure is optimal.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;when-is-this-less-efficient&#34;&gt;When is this less efficient?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;If you need to filter by event attributes often (“count all Login events across all groups”), you’ll have to explode/flatten the arrays in most databases, which can slow queries.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Some SQL databases handle arrays poorly; it may work best in a document store (MongoDB) or columnar database (Snowflake, BigQuery, ClickHouse) that supports arrays natively.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;what-is-the-best-option&#34;&gt;What is the best option?&lt;/h2&gt;
+&lt;p&gt;Columnar Warehouses with array support (Snowflake, BigQuery, ClickHouse)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Store as a table but use ARRAY columns.&lt;/li&gt;
+&lt;li&gt;Querying by session is fast, and they can efficiently unnest arrays when needed.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;is-this-useful&#34;&gt;Is this useful?&lt;/h2&gt;
+&lt;p&gt;I would say possibly. In the case of something like Snowflake, which can utilize array columns, you could bring whatever data you need through framezip and prepare it for Snowflake. When loading it into Snowflake you only need to do something like this:&lt;/p&gt;
+&lt;p&gt;Push the data processed with framezip to parquet:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;packed&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;to_parquet(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;sessions.parquet&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Load the parquet into Snowflake and define the array columns:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-sql&#34; data-lang=&#34;sql&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;CREATE&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;OR&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;REPLACE&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;TABLE&lt;/span&gt; sessions_raw (
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  GroupID STRING,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  EventID ARRAY,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  Value ARRAY
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;COPY&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;INTO&lt;/span&gt; sessions_raw
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;FROM&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;@&lt;/span&gt;my_stage&lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt;sessions.parquet
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;FILE_FORMAT &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; (&lt;span style=&#34;color:#66d9ef&#34;&gt;TYPE&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; PARQUET);
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;in-the-end&#34;&gt;In the end&lt;/h2&gt;
+&lt;p&gt;In the end it was cool to create and publish a module to PyPi. It always feels great to have a random idea and execute on it. It was a lot of fun and I learned a lot through the entire process and to be honest that is all that really matters.&lt;/p&gt;
+&lt;p&gt;You can find the module on PyPi &lt;a href=&#34;https://pypi.org/project/framezip/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Below is a link to framezip on Github:
 
 
 
@@ -515,23 +528,23 @@ GroupID EventID EventName Timestamp UserID Details G001 E101 Login 2025-07-30 09
 
 
 
-<div class="github-card">
-  <div class="github-card-header">
-    <img class="github-avatar" src="https://github.com/lairizzle.png" alt="lairizzle's avatar">
-    <div class="github-info">
-      <a href="https://github.com/lairizzle/framezip" target="_blank" rel="noopener">
-        <strong>lairizzle/framezip</strong>
-      </a>
-      <p></p>
-    </div>
-  </div>
-</div>
+&lt;div class=&#34;github-card&#34;&gt;
+  &lt;div class=&#34;github-card-header&#34;&gt;
+    &lt;img class=&#34;github-avatar&#34; src=&#34;https://github.com/lairizzle.png&#34; alt=&#34;lairizzle&#39;s avatar&#34;&gt;
+    &lt;div class=&#34;github-info&#34;&gt;
+      &lt;a href=&#34;https://github.com/lairizzle/framezip&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+        &lt;strong&gt;lairizzle/framezip&lt;/strong&gt;
+      &lt;/a&gt;
+      &lt;p&gt;&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 
-</p>
-<p>Cheers,
-Keith</p>
+&lt;/p&gt;
+&lt;p&gt;Cheers,
+Keith&lt;/p&gt;
 
-]]></content:encoded>
+      </content:encoded>
 
     </item>
 
@@ -551,45 +564,47 @@ Keith</p>
         Thu, 03 Jul 2025 00:00:00 EDT
       </pubDate>
 
+      
       <description>
         Monitor Issues After changing all my theme stuff over to Tokyo Night, I wanted to spice up my greeter with a nice SDDM theme. I found a fantastic one for Tokyo Night on github by siddrs, which you can find a link to here. The theme worked perfectly with the Arch install method from the AUR but there was one issue. SDDM will sometimes have a weird behaviour where it will launch across multiple monitors, but the input will default to the last monitor rendered. In my case this was my right most monitor, which is not my main monitor.
 
       </description>
 
-      <content:encoded>&lt;![CDATA[
-<h2 id="monitor-issues">Monitor Issues</h2>
-<p>After changing all my theme stuff over to Tokyo Night, I wanted to spice up my greeter with a nice SDDM theme. I found a fantastic one for Tokyo Night on github by siddrs, which you can find a link to <a href="https://github.com/siddrs/tokyo-night-sddm">here</a>. The theme worked perfectly with the Arch install method from the AUR but there was one issue. SDDM will sometimes have a weird behaviour where it will launch across multiple monitors, but the input will default to the last monitor rendered. In my case this was my right most monitor, which is not my main monitor.</p>
-<p>Many of the suggestions or fixes online included using xrandr to define some rules in the Xsetup file for SDDM, but none of these options ever seemed to have any effect and it was driving me crazy.</p>
-<h2 id="the-fix">The Fix</h2>
-<p>So how did I ultimately fix it and get it to display on my primary display? I had to make an X11 config file and place it in /etc/X11/xorg.conf.d/</p>
-<pre tabindex="0"><code>sudo nvim /etc/X11/xorg.conf.d/10-monitor.conf
-</code></pre><p>After creating this conf file I used the following config and it worked perfectly.</p>
-<pre tabindex="0"><code>Section &#34;Monitor&#34;
-    Identifier &#34;DP-1&#34;
-    Option &#34;Primary&#34; &#34;true&#34;
+      
+      <content:encoded>
+        &lt;h2 id=&#34;monitor-issues&#34;&gt;Monitor Issues&lt;/h2&gt;
+&lt;p&gt;After changing all my theme stuff over to Tokyo Night, I wanted to spice up my greeter with a nice SDDM theme. I found a fantastic one for Tokyo Night on github by siddrs, which you can find a link to &lt;a href=&#34;https://github.com/siddrs/tokyo-night-sddm&#34;&gt;here&lt;/a&gt;. The theme worked perfectly with the Arch install method from the AUR but there was one issue. SDDM will sometimes have a weird behaviour where it will launch across multiple monitors, but the input will default to the last monitor rendered. In my case this was my right most monitor, which is not my main monitor.&lt;/p&gt;
+&lt;p&gt;Many of the suggestions or fixes online included using xrandr to define some rules in the Xsetup file for SDDM, but none of these options ever seemed to have any effect and it was driving me crazy.&lt;/p&gt;
+&lt;h2 id=&#34;the-fix&#34;&gt;The Fix&lt;/h2&gt;
+&lt;p&gt;So how did I ultimately fix it and get it to display on my primary display? I had to make an X11 config file and place it in /etc/X11/xorg.conf.d/&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo nvim /etc/X11/xorg.conf.d/10-monitor.conf
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;After creating this conf file I used the following config and it worked perfectly.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Section &amp;#34;Monitor&amp;#34;
+    Identifier &amp;#34;DP-1&amp;#34;
+    Option &amp;#34;Primary&amp;#34; &amp;#34;true&amp;#34;
 EndSection
 
-Section &#34;Monitor&#34;
-    Identifier &#34;DP-2&#34;
-    Option &#34;RightOf&#34; &#34;DP-1&#34;
+Section &amp;#34;Monitor&amp;#34;
+    Identifier &amp;#34;DP-2&amp;#34;
+    Option &amp;#34;RightOf&amp;#34; &amp;#34;DP-1&amp;#34;
 EndSection
 
-Section &#34;Screen&#34;
-    Identifier &#34;Screen0&#34;
-    Device &#34;Card0&#34;
-    Monitor &#34;DP-1&#34;
+Section &amp;#34;Screen&amp;#34;
+    Identifier &amp;#34;Screen0&amp;#34;
+    Device &amp;#34;Card0&amp;#34;
+    Monitor &amp;#34;DP-1&amp;#34;
     DefaultDepth 24
-    SubSection &#34;Display&#34;
+    SubSection &amp;#34;Display&amp;#34;
         Depth 24
-        Modes &#34;1920x1080&#34;
+        Modes &amp;#34;1920x1080&amp;#34;
     EndSubSection
 EndSection
-</code></pre><p>This worked great for a two monitor display where both are 1920x1080. If you were to use this you would need to adjust the size and identifiers to be applicable to your hardware. In my case they are DP-1 and DP-2.</p>
-<p>I wanted to make this post so that I have a reference for this fix if I ever need it again in the future.</p>
-<p>Cheers,
-Keith</p>
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;This worked great for a two monitor display where both are 1920x1080. If you were to use this you would need to adjust the size and identifiers to be applicable to your hardware. In my case they are DP-1 and DP-2.&lt;/p&gt;
+&lt;p&gt;I wanted to make this post so that I have a reference for this fix if I ever need it again in the future.&lt;/p&gt;
+&lt;p&gt;Cheers,
+Keith&lt;/p&gt;
 
-]]></content:encoded>
+      </content:encoded>
 
     </item>
 
@@ -609,25 +624,27 @@ Keith</p>
         Wed, 02 Jul 2025 00:00:00 EDT
       </pubDate>
 
+      
       <description>
         Exploring Tokyo Night After using Gruvbox for some time I felt I wanted a bit of a change in terms of themes. After exploring the plethora of colour scheme options I settled on Tokyo Night, based on the Tokyo Night Neovim theme. So far I&amp;#39;ve been really enjoying it, but I wanted to keep my old Gruvbox dots in order and create a new repo for my Tokyo Night dots. The only issue I ran into was finding Tokyo Night themes for certain applications (like Midnight Commander and Rofi). I had no choice but to create me own!
 
       </description>
 
-      <content:encoded>&lt;![CDATA[
-<h2 id="exploring-tokyo-night">Exploring Tokyo Night</h2>
-<p>After using Gruvbox for some time I felt I wanted a bit of a change in terms of themes. After exploring the plethora of colour scheme options I settled on Tokyo Night, based on the <a href="https://github.com/folke/tokyonight.nvim">Tokyo Night Neovim theme</a>. So far I've been really enjoying it, but I wanted to keep my old Gruvbox dots in order and create a new repo for my Tokyo Night dots. The only issue I ran into was finding Tokyo Night themes for certain applications (like Midnight Commander and Rofi). I had no choice but to create me own!</p>
-<h2 id="creating-themes">Creating Themes</h2>
-<p>I started with porting Tokyo Night to a Midnight Commander skin. It was not too bad and only took a little bit of trial and error. It ended up turning out pretty good. I used this <a href="https://github.com/twalderman/mc-gruvbox-skin">Gruvbox Midnight Commander Theme</a> as a starting point to see how the MC skins work. You can check it out below.</p>
-<p>Next I needed to create a theme for Rofi. I had done this before, so I was somewhat familiar with the process. Either way, I was able to create it made a dedicated repo for it as well, since the one I found was not exactly what I was going for. You can check it out at the repo below.</p>
-<h2 id="waybar--hyprland">Waybar &amp; Hyprland</h2>
-<p>Lastly was just some updates to my waybar, hyprland and a few other dot files. I didn't create dedicated repos for these individually, but I did create a new dot repo for this colour scheme. You can find it below.</p>
-<h2 id="learning">Learning</h2>
-<p>Tokyo Night is a fantastic colour scheme that is really easy on the eyes. It has been a refreshing change. I learned quite a bit while creating the midnight commander theme and look forward to adding other theme options for applications in the future.</p>
-<p>Cheers,
-Keith</p>
+      
+      <content:encoded>
+        &lt;h2 id=&#34;exploring-tokyo-night&#34;&gt;Exploring Tokyo Night&lt;/h2&gt;
+&lt;p&gt;After using Gruvbox for some time I felt I wanted a bit of a change in terms of themes. After exploring the plethora of colour scheme options I settled on Tokyo Night, based on the &lt;a href=&#34;https://github.com/folke/tokyonight.nvim&#34;&gt;Tokyo Night Neovim theme&lt;/a&gt;. So far I&#39;ve been really enjoying it, but I wanted to keep my old Gruvbox dots in order and create a new repo for my Tokyo Night dots. The only issue I ran into was finding Tokyo Night themes for certain applications (like Midnight Commander and Rofi). I had no choice but to create me own!&lt;/p&gt;
+&lt;h2 id=&#34;creating-themes&#34;&gt;Creating Themes&lt;/h2&gt;
+&lt;p&gt;I started with porting Tokyo Night to a Midnight Commander skin. It was not too bad and only took a little bit of trial and error. It ended up turning out pretty good. I used this &lt;a href=&#34;https://github.com/twalderman/mc-gruvbox-skin&#34;&gt;Gruvbox Midnight Commander Theme&lt;/a&gt; as a starting point to see how the MC skins work. You can check it out below.&lt;/p&gt;
+&lt;p&gt;Next I needed to create a theme for Rofi. I had done this before, so I was somewhat familiar with the process. Either way, I was able to create it made a dedicated repo for it as well, since the one I found was not exactly what I was going for. You can check it out at the repo below.&lt;/p&gt;
+&lt;h2 id=&#34;waybar--hyprland&#34;&gt;Waybar &amp;amp; Hyprland&lt;/h2&gt;
+&lt;p&gt;Lastly was just some updates to my waybar, hyprland and a few other dot files. I didn&#39;t create dedicated repos for these individually, but I did create a new dot repo for this colour scheme. You can find it below.&lt;/p&gt;
+&lt;h2 id=&#34;learning&#34;&gt;Learning&lt;/h2&gt;
+&lt;p&gt;Tokyo Night is a fantastic colour scheme that is really easy on the eyes. It has been a refreshing change. I learned quite a bit while creating the midnight commander theme and look forward to adding other theme options for applications in the future.&lt;/p&gt;
+&lt;p&gt;Cheers,
+Keith&lt;/p&gt;
 
-]]></content:encoded>
+      </content:encoded>
 
     </item>
 
@@ -647,17 +664,19 @@ Keith</p>
         Fri, 20 Jun 2025 21:38:02 EDT
       </pubDate>
 
+      
       <description>
         Automating My Post Install Experience It is always nice booting into a fresh system. The only problem is getting everything setup the way you like after the install is done. Since switching to Linux as my daily driver over a year ago, I have learned a lot in regards to setting up and configuring my system. If you are new to linux you may have heard the term &amp;#39;dot&amp;#39; files. If you are not sure what that means, they are referring to your configuartion files. Typically applications will store configs like themes in your .config folder in the home directory, hence the name &amp;#39;dot&amp;#39; files. This is only part of automating your post install setup, but it is a pretty big one.
 
       </description>
 
-      <content:encoded>&lt;![CDATA[
-<h2 id="automating-my-post-install-experience">Automating My Post Install Experience</h2>
-<p>It is always nice booting into a fresh system. The only problem is getting everything setup the way you like after the install is done. Since switching to Linux as my daily driver over a year ago, I have learned a lot in regards to setting up and configuring my system. If you are new to linux you may have heard the term 'dot' files. If you are not sure what that means, they are referring to your configuartion files. Typically applications will store configs like themes in your .config folder in the home directory, hence the name 'dot' files. This is only part of automating your post install setup, but it is a pretty big one.</p>
-<h2 id="dot-dot-dot">Dot, dot, dot</h2>
-<p>If you have not already made a github/gitlab repository for all of your dot files, then why are you still reading this? This has been tremendous time saver for me personally. Most dot files can be made public, so you can easily clone or share them - just make sure they don't include any sort of sensitive information. For example, I have a repo called <a href="https://github.com/Lairizzle/GruvDots">GruvDots</a> which contains dot files for a Gruvbox themed hyprland setup I use. When I created this repo, I added my git init right inside my .config folder, then I created a .gitignore file that looks like this:</p>
-<pre tabindex="0"><code># Ignore everything in repository root 
+      
+      <content:encoded>
+        &lt;h2 id=&#34;automating-my-post-install-experience&#34;&gt;Automating My Post Install Experience&lt;/h2&gt;
+&lt;p&gt;It is always nice booting into a fresh system. The only problem is getting everything setup the way you like after the install is done. Since switching to Linux as my daily driver over a year ago, I have learned a lot in regards to setting up and configuring my system. If you are new to linux you may have heard the term &#39;dot&#39; files. If you are not sure what that means, they are referring to your configuartion files. Typically applications will store configs like themes in your .config folder in the home directory, hence the name &#39;dot&#39; files. This is only part of automating your post install setup, but it is a pretty big one.&lt;/p&gt;
+&lt;h2 id=&#34;dot-dot-dot&#34;&gt;Dot, dot, dot&lt;/h2&gt;
+&lt;p&gt;If you have not already made a github/gitlab repository for all of your dot files, then why are you still reading this? This has been tremendous time saver for me personally. Most dot files can be made public, so you can easily clone or share them - just make sure they don&#39;t include any sort of sensitive information. For example, I have a repo called &lt;a href=&#34;https://github.com/Lairizzle/GruvDots&#34;&gt;GruvDots&lt;/a&gt; which contains dot files for a Gruvbox themed hyprland setup I use. When I created this repo, I added my git init right inside my .config folder, then I created a .gitignore file that looks like this:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# Ignore everything in repository root 
 /*
 
 # Files to not ignore
@@ -675,26 +694,26 @@ Keith</p>
 !/rofi/
 !/wallpapers/
 !/waybar/
-</code></pre><p>So what is this doing? This .gitignore will ignore everything in my .config folder, but then it will not ignore the folders I specify. This allows me to easily decide which configs get pushed to my repo.</p>
-<h2 id="automating-with-bash">Automating with Bash</h2>
-<p>Bash scripting is amazing. It is so much fun to create useful bash scripts to help automate things and a post install setup is no exception. When dropping into a fresh Arch install on hyprland, it is pretty bare bones. With a quick install of git, I can leverage <a href="https://github.com/Lairizzle/bashScripts/blob/master/setup.sh">this script</a> to automate my install.</p>
-<ol>
-    <li>It sets my user name for greetd</li>
-    <li>It installs a list of packages I know I will</li>
-    <li>It installs yay so I can leverage the AUR</li>
-    <li>It automatically installs a Gruvbox skin for Midnight Commander</li>
-    <li>It clones all of my GruvDots from github into my .config folder</li>
-    <li>It configures my greetd to use tuigreet and themes it</li>
-    <li>It disables sddm and enabled greetd</li>
-    <li>It tells me that setup is complete and then asks if I would like to reboot</li>
-</ol>
-<p>This all runs within a matter of minutes and my system is setup exactly how I like it. Instantly I am able to start working on whatever I need to.</p>
-<h2 id="home-servers">Home Servers</h2>
-<p>The final piece that really pulls it all together is a home server or some sort of storage like NextCloud. If you have something like this set up then you can keep all of your important stuff you want to save and retain stored on your server and your home pc almost acts like a dummy terminal. If it can't be a repo on github or saved to your home server then it is basically just installed applications like games and other things you interact with, not actual data. It almost turns your computer itself into a dummy terminal, well it feels like it anyway.</p>
-<p>Cheers,
-Keith</p>
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;So what is this doing? This .gitignore will ignore everything in my .config folder, but then it will not ignore the folders I specify. This allows me to easily decide which configs get pushed to my repo.&lt;/p&gt;
+&lt;h2 id=&#34;automating-with-bash&#34;&gt;Automating with Bash&lt;/h2&gt;
+&lt;p&gt;Bash scripting is amazing. It is so much fun to create useful bash scripts to help automate things and a post install setup is no exception. When dropping into a fresh Arch install on hyprland, it is pretty bare bones. With a quick install of git, I can leverage &lt;a href=&#34;https://github.com/Lairizzle/bashScripts/blob/master/setup.sh&#34;&gt;this script&lt;/a&gt; to automate my install.&lt;/p&gt;
+&lt;ol&gt;
+    &lt;li&gt;It sets my user name for greetd&lt;/li&gt;
+    &lt;li&gt;It installs a list of packages I know I will&lt;/li&gt;
+    &lt;li&gt;It installs yay so I can leverage the AUR&lt;/li&gt;
+    &lt;li&gt;It automatically installs a Gruvbox skin for Midnight Commander&lt;/li&gt;
+    &lt;li&gt;It clones all of my GruvDots from github into my .config folder&lt;/li&gt;
+    &lt;li&gt;It configures my greetd to use tuigreet and themes it&lt;/li&gt;
+    &lt;li&gt;It disables sddm and enabled greetd&lt;/li&gt;
+    &lt;li&gt;It tells me that setup is complete and then asks if I would like to reboot&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;This all runs within a matter of minutes and my system is setup exactly how I like it. Instantly I am able to start working on whatever I need to.&lt;/p&gt;
+&lt;h2 id=&#34;home-servers&#34;&gt;Home Servers&lt;/h2&gt;
+&lt;p&gt;The final piece that really pulls it all together is a home server or some sort of storage like NextCloud. If you have something like this set up then you can keep all of your important stuff you want to save and retain stored on your server and your home pc almost acts like a dummy terminal. If it can&#39;t be a repo on github or saved to your home server then it is basically just installed applications like games and other things you interact with, not actual data. It almost turns your computer itself into a dummy terminal, well it feels like it anyway.&lt;/p&gt;
+&lt;p&gt;Cheers,
+Keith&lt;/p&gt;
 
-]]></content:encoded>
+      </content:encoded>
 
     </item>
 
@@ -714,31 +733,33 @@ Keith</p>
         Sun, 29 Dec 2024 21:59:52 -0400
       </pubDate>
 
+      
       <description>
         Pain With a Side of Pain For the last several months I have avoided the trap of Linux distro hopping. I&amp;#39;ve been using Arch happily, but I did switch between KDE Plasma and Gnome. I wanted to at least test out a few DE&amp;#39;s and see which had the most appeal. One night while watching youtube I came across a video of ThePrimeagen absolutely blasting through his code using NeoVim. I was flabbergasted at how quickly and efficiently he was able to navigate his editor. I&amp;#39;d previously had the misfortune of using Vim once or twice and having no idea how to edit anything or even close it and I usually found myself defaulting to nano if I had no option outside of the CLI. I decided this time I would be more deliberate in my approach and put in a true effort to use and learn Vim. Spoiler alert: It. Is. Amazing.
 
       </description>
 
-      <content:encoded>&lt;![CDATA[
-<h3 id="pain-with-a-side-of-pain">Pain With a Side of Pain</h3>
-<p>For the last several months I have avoided the trap of Linux distro hopping. I've been using Arch happily, but I did switch between KDE Plasma and Gnome. I wanted
-to at least test out a few DE's and see which had the most appeal. One night while watching youtube I came across a video of <a href="https://www.youtube.com/c/theprimeagen">ThePrimeagen</a> absolutely blasting through his code using <a href="https://neovim.io/">NeoVim</a>. I was flabbergasted at how quickly and efficiently he was able to navigate his editor. I'd previously had the misfortune of using <a href="https://www.vim.org/">Vim</a> once or twice and having no idea how to edit anything or even close it and I usually found myself defaulting to nano if I had no option outside
-of the CLI. I decided this time I would be more deliberate in my approach and put in a true effort to use and learn Vim. Spoiler alert: It. Is. Amazing.</p>
-<h3 id="enlightenment">Enlightenment</h3>
-<p>The first time I used Vim I asked myself why anyone would ever use it and wrote it off as the worst most masochistic thing I'd ever encountered. The truth is that I was just ignorant. After about two days, it started to click. I was memorizing most of the basic motions and I started to feel the flow. It was weak and I was still pretty slow, but there was small tastes of it and it was addictive. One day after a NeoVim session I actually finished up and said to myself, &quot;I get it.&quot;. There is a weird zen that accompanies the use of NeoVim. Maybe this is why they added a &quot;focus&quot; mode into Microsoft Word? lol</p>
-<h3 id="getting-distracted">Getting Distracted</h3>
-<p>After getting over the initial discomfort and hurdles of learning some of the motions, the allure of customization hit me. I started looking into all of the awesome NeoVim
-setups and realized what I needed to do. Not only did NeoVim enlighten me in regards to its superiority as an editor, but it also opened my eyes to the idea of navigating my computer more efficiently. Enter: hyprland. I thought to myself, if I was willing to take the time and learn NeoVim, I could do the same with Hyprland. A window manager seemed like a more natural pairing to use with NeoVim as opposed to a traditional DE and I was right. Now, not only did NeoVim feel like Vim, so did my entire desktop experience.</p>
-<h3 id="customization-paralyzation">Customization Paralyzation</h3>
-<p>If you're a Linux user, you've been there. Lost in the sauce of customization and all the shiny things. I was up to my eyeballs in it. After spending a few days getting used to Hyprland and customizing <i>everything</i> to my hearts content, I switched my focus to NeoVim. It started with some basic NeoVim configs, copying githubs, making stuff from scratch and ultimately ended with <a href="https://nvchad.com/">NvChad</a>. NvChad served as a great kick off point and has been fantastic.</p>
-<h3 id="more-pain">More Pain</h3>
-<p>After everything was set up, I realized one thing. I wanted to learn Fullstack Javascript and React, but I have no idea how to set up NeoVim as an IDE. After several days of watching youtube videos and getting a crash course on Lua, I finally had a NeoVim setup conducive to starting to learn Javascript and React. I had all the basics going; LSP, Linting, Formatting, DAP, etc. All the tools needed to start writing code were ready and I knew how to use most, except the Debugging, I know its working but I have no idea at all how to use it yet and it might be the most terrifying.</p>
-<h3 id="seeing-the-light">Seeing The Light</h3>
-<p>Each day I continue to use NeoVim I can feel myself getting quicker, memorizing more motions and keybinds, discovering new tricks and slowly becoming more efficient. It also feels really great to stay more rooted in terminal when working and it just feels more fun at the end of the day. It has been a mildly frustrating road, but the benefits definitely make the pain worth it. If you haven't tried it, or you just assume its terrible. Do yourself a favour and Vim into something today.</p>
-<p>Cheers,
-Keith</p>
+      
+      <content:encoded>
+        &lt;h3 id=&#34;pain-with-a-side-of-pain&#34;&gt;Pain With a Side of Pain&lt;/h3&gt;
+&lt;p&gt;For the last several months I have avoided the trap of Linux distro hopping. I&#39;ve been using Arch happily, but I did switch between KDE Plasma and Gnome. I wanted
+to at least test out a few DE&#39;s and see which had the most appeal. One night while watching youtube I came across a video of &lt;a href=&#34;https://www.youtube.com/c/theprimeagen&#34;&gt;ThePrimeagen&lt;/a&gt; absolutely blasting through his code using &lt;a href=&#34;https://neovim.io/&#34;&gt;NeoVim&lt;/a&gt;. I was flabbergasted at how quickly and efficiently he was able to navigate his editor. I&#39;d previously had the misfortune of using &lt;a href=&#34;https://www.vim.org/&#34;&gt;Vim&lt;/a&gt; once or twice and having no idea how to edit anything or even close it and I usually found myself defaulting to nano if I had no option outside
+of the CLI. I decided this time I would be more deliberate in my approach and put in a true effort to use and learn Vim. Spoiler alert: It. Is. Amazing.&lt;/p&gt;
+&lt;h3 id=&#34;enlightenment&#34;&gt;Enlightenment&lt;/h3&gt;
+&lt;p&gt;The first time I used Vim I asked myself why anyone would ever use it and wrote it off as the worst most masochistic thing I&#39;d ever encountered. The truth is that I was just ignorant. After about two days, it started to click. I was memorizing most of the basic motions and I started to feel the flow. It was weak and I was still pretty slow, but there was small tastes of it and it was addictive. One day after a NeoVim session I actually finished up and said to myself, &amp;quot;I get it.&amp;quot;. There is a weird zen that accompanies the use of NeoVim. Maybe this is why they added a &amp;quot;focus&amp;quot; mode into Microsoft Word? lol&lt;/p&gt;
+&lt;h3 id=&#34;getting-distracted&#34;&gt;Getting Distracted&lt;/h3&gt;
+&lt;p&gt;After getting over the initial discomfort and hurdles of learning some of the motions, the allure of customization hit me. I started looking into all of the awesome NeoVim
+setups and realized what I needed to do. Not only did NeoVim enlighten me in regards to its superiority as an editor, but it also opened my eyes to the idea of navigating my computer more efficiently. Enter: hyprland. I thought to myself, if I was willing to take the time and learn NeoVim, I could do the same with Hyprland. A window manager seemed like a more natural pairing to use with NeoVim as opposed to a traditional DE and I was right. Now, not only did NeoVim feel like Vim, so did my entire desktop experience.&lt;/p&gt;
+&lt;h3 id=&#34;customization-paralyzation&#34;&gt;Customization Paralyzation&lt;/h3&gt;
+&lt;p&gt;If you&#39;re a Linux user, you&#39;ve been there. Lost in the sauce of customization and all the shiny things. I was up to my eyeballs in it. After spending a few days getting used to Hyprland and customizing &lt;i&gt;everything&lt;/i&gt; to my hearts content, I switched my focus to NeoVim. It started with some basic NeoVim configs, copying githubs, making stuff from scratch and ultimately ended with &lt;a href=&#34;https://nvchad.com/&#34;&gt;NvChad&lt;/a&gt;. NvChad served as a great kick off point and has been fantastic.&lt;/p&gt;
+&lt;h3 id=&#34;more-pain&#34;&gt;More Pain&lt;/h3&gt;
+&lt;p&gt;After everything was set up, I realized one thing. I wanted to learn Fullstack Javascript and React, but I have no idea how to set up NeoVim as an IDE. After several days of watching youtube videos and getting a crash course on Lua, I finally had a NeoVim setup conducive to starting to learn Javascript and React. I had all the basics going; LSP, Linting, Formatting, DAP, etc. All the tools needed to start writing code were ready and I knew how to use most, except the Debugging, I know its working but I have no idea at all how to use it yet and it might be the most terrifying.&lt;/p&gt;
+&lt;h3 id=&#34;seeing-the-light&#34;&gt;Seeing The Light&lt;/h3&gt;
+&lt;p&gt;Each day I continue to use NeoVim I can feel myself getting quicker, memorizing more motions and keybinds, discovering new tricks and slowly becoming more efficient. It also feels really great to stay more rooted in terminal when working and it just feels more fun at the end of the day. It has been a mildly frustrating road, but the benefits definitely make the pain worth it. If you haven&#39;t tried it, or you just assume its terrible. Do yourself a favour and Vim into something today.&lt;/p&gt;
+&lt;p&gt;Cheers,
+Keith&lt;/p&gt;
 
-]]></content:encoded>
+      </content:encoded>
 
     </item>
 
@@ -758,19 +779,21 @@ Keith</p>
         Wed, 16 Oct 2024 21:17:52 EDT
       </pubDate>
 
+      
       <description>
         Hello World This is my personal site which will catalogue my work and serve as a portfolio.
 Cheers, Keith
 
       </description>
 
-      <content:encoded>&lt;![CDATA[
-<h2 id="hello-world">Hello World</h2>
-<p>This is my personal site which will catalogue my work and serve as a portfolio.</p>
-<p>Cheers,
-Keith</p>
+      
+      <content:encoded>
+        &lt;h2 id=&#34;hello-world&#34;&gt;Hello World&lt;/h2&gt;
+&lt;p&gt;This is my personal site which will catalogue my work and serve as a portfolio.&lt;/p&gt;
+&lt;p&gt;Cheers,
+Keith&lt;/p&gt;
 
-]]></content:encoded>
+      </content:encoded>
 
     </item>
 
