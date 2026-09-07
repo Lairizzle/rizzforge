@@ -20,14 +20,18 @@ theme = 'kage'
     name = "Software"
     url = "/software/"
     weight = 3 
-	[[menu.main]]
+  [[menu.main]]
     name = "Themes"
     url = "/themes/"
     weight = 4 
-	[[menu.main]]
+  [[menu.main]]
+    name = "Outlands"
+    url = "/outlands/"
+    weight = 5 
+  [[menu.main]]
     name = "Github"
     url = "https://github.com/lairizzle"
-    weight = 5
+    weight = 6
 
 [params.social]
 	email = "mailto:keith.donaldh@gmail.com"

@@ -1,0 +1,215 @@
+:root {
+--card-bg: var(--color-bg-secondary);
+--card-border: var(--color-border);
+--card-text: var(--color-text-primary);
+--card-muted: var(--color-text-muted);
+--card-accent: var(--color-text-highlight);
+}
+
+/* ========================================
+Template Spoilers
+======================================== */
+
+details {
+margin: var(--spacing-sm) 0;
+}
+
+details summary {
+cursor: pointer;
+color: var(--color-text-highlight);
+font-weight: bold;
+padding: var(--spacing-xs) 0;
+user-select: none;
+}
+
+details summary:hover {
+color: var(--color-text-primary);
+}
+
+details[open] summary {
+margin-bottom: var(--spacing-sm);
+}
+
+/* ========================================
+Template Grid
+======================================== */
+
+.template-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+gap: var(--gap-base);
+margin: var(--spacing-base) 0;
+}
+
+/* ========================================
+Template Card
+======================================== */
+
+.template-card {
+background: var(--card-bg);
+border: 1px solid var(--card-border);
+border-radius: var(--border-radius);
+padding: var(--spacing-sm);
+}
+
+/* ========================================
+Card Header
+======================================== */
+
+.tc-header {
+display: flex;
+align-items: center;
+gap: var(--gap-small);
+margin-bottom: var(--spacing-sm);
+}
+
+.tc-icon {
+width: 32px;
+height: 32px;
+border-radius: var(--border-radius);
+background: var(--color-border);
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 16px;
+flex-shrink: 0;
+}
+
+.tc-title {
+font-size: 1em;
+font-weight: bold;
+margin: 0;
+}
+
+.tc-date {
+font-size: var(--font-size-small);
+color: var(--card-muted);
+margin: 0;
+}
+
+/* ========================================
+Skills / Aspects Columns
+======================================== */
+
+.tc-columns {
+display: flex;
+gap: var(--gap-base);
+}
+
+.tc-section {
+flex: 1;
+min-width: 0;
+}
+
+.tc-section-title {
+display: flex;
+align-items: center;
+justify-content: space-between;
+font-size: var(--font-size-small);
+font-weight: bold;
+letter-spacing: 0.04em;
+color: var(--card-muted);
+text-transform: uppercase;
+margin-bottom: var(--spacing-xs);
+}
+
+.tc-section-title .badge-icon {
+margin-right: 4px;
+}
+
+/* ========================================
+Lists
+======================================== */
+
+.tc-list {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+.tc-list li {
+display: flex;
+justify-content: space-between;
+font-size: var(--font-size-small);
+padding: 2px 0;
+}
+
+.tc-list .name {
+color: var(--card-text);
+}
+
+.tc-list .value {
+color: var(--card-muted);
+font-variant-numeric: tabular-nums;
+}
+
+.tc-aspect-pill {
+display: inline-flex;
+align-items: center;
+gap: 4px;
+font-size: var(--font-size-small);
+}
+
+/* ========================================
+Dividers
+======================================== */
+
+.tc-divider {
+border: none;
+border-top: 1px solid var(--card-border);
+margin: var(--spacing-sm) 0;
+}
+
+.tc-chain-title {
+display: flex;
+align-items: center;
+gap: 4px;
+font-size: var(--font-size-small);
+font-weight: bold;
+letter-spacing: 0.04em;
+color: var(--card-muted);
+text-transform: uppercase;
+margin-bottom: var(--spacing-xs);
+}
+
+/* ========================================
+Card Footer
+======================================== */
+
+.tc-footer {
+display: flex;
+gap: var(--gap-small);
+margin-top: var(--spacing-sm);
+}
+
+.tc-btn {
+flex: 1;
+background: var(--color-border);
+border: none;
+color: var(--card-text);
+padding: 6px 0;
+border-radius: var(--border-radius);
+font-size: var(--font-size-small);
+font-family: var(--font-family-mono);
+text-align: center;
+cursor: pointer;
+}
+
+.tc-btn:hover {
+background: var(--color-selection-bg);
+color: var(--card-accent);
+}
+
+/* ========================================
+Mobile
+======================================== */
+
+@media (max-width: var(--breakpoint-mobile)) {
+.template-grid {
+grid-template-columns: 1fr;
+}
+
+.tc-columns {
+gap: var(--gap-small);
+}
+}
