@@ -24,7 +24,7 @@ Some of these builds are to my own personal taste and are not guaranteed to be m
 ## Wrestler Anti-PK with Disarm
 
 <details>
-<summary>🥊 Wrestler Anti-PK / Disarm</summary>
+<summary>🥊 Lord Blacknail's Wrestler Anti-PK / Disarm</summary>
 
 {{< template-card name="Wrestler Anti-PK/Disarm" >}}
 
