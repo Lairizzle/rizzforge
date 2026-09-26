@@ -25,10 +25,6 @@ theme = 'kage'
     url = "/themes/"
     weight = 4 
   [[menu.main]]
-    name = "Outlands"
-    url = "/outlands/"
-    weight = 5 
-  [[menu.main]]
     name = "Github"
     url = "https://github.com/lairizzle"
     weight = 6
