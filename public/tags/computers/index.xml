@@ -7,20 +7,20 @@
 
     <title>Rizzforge</title>
 
-    <link>http://rizzforge.org/</link>
+    <link>http://localhost:1313/</link>
 
     <description>
       Rizzforge
     </description>
 
-    <atom:link href="http://rizzforge.org/tags/computers/"
+    <atom:link href="http://localhost:1313/tags/computers/"
                rel="self"
                type="application/rss+xml" />
 
     <language>en</language>
 
     <lastBuildDate>
-      Mon, 07 Sep 2026 15:08:05 EDT
+      Mon, 07 Sep 2026 15:14:28 EDT
     </lastBuildDate>
 
     
@@ -29,10 +29,10 @@
 
       <title>Composition, Composition, Composition</title>
 
-      <link>http://rizzforge.org/posts/composition/</link>
+      <link>http://localhost:1313/posts/composition/</link>
 
       <guid isPermaLink="true">
-        http://rizzforge.org/posts/composition/
+        http://localhost:1313/posts/composition/
       </guid>
 
       <pubDate>
@@ -82,10 +82,10 @@ are being processed as well. I&#39;m going to keep working at it and might add s
 
       <title>Customizing Godot Mono To Use Neovim</title>
 
-      <link>http://rizzforge.org/posts/godot-customization/</link>
+      <link>http://localhost:1313/posts/godot-customization/</link>
 
       <guid isPermaLink="true">
-        http://rizzforge.org/posts/godot-customization/
+        http://localhost:1313/posts/godot-customization/
       </guid>
 
       <pubDate>
@@ -124,10 +124,10 @@ We need to launch nvim with our preferred terminal and give it a custom title so
 
       <title>Moving Sucks... Rust Doesn&amp;#39;t?</title>
 
-      <link>http://rizzforge.org/posts/moving-sucks/</link>
+      <link>http://localhost:1313/posts/moving-sucks/</link>
 
       <guid isPermaLink="true">
-        http://rizzforge.org/posts/moving-sucks/
+        http://localhost:1313/posts/moving-sucks/
       </guid>
 
       <pubDate>
@@ -186,10 +186,10 @@ We need to launch nvim with our preferred terminal and give it a custom title so
 
       <title>Making a Custom Bootsplash</title>
 
-      <link>http://rizzforge.org/posts/bootsplash/</link>
+      <link>http://localhost:1313/posts/bootsplash/</link>
 
       <guid isPermaLink="true">
-        http://rizzforge.org/posts/bootsplash/
+        http://localhost:1313/posts/bootsplash/
       </guid>
 
       <pubDate>
@@ -264,10 +264,10 @@ Keith&lt;/p&gt;
 
       <title>Godot Is Awesome: Making Games</title>
 
-      <link>http://rizzforge.org/posts/godot-is-awesome/</link>
+      <link>http://localhost:1313/posts/godot-is-awesome/</link>
 
       <guid isPermaLink="true">
-        http://rizzforge.org/posts/godot-is-awesome/
+        http://localhost:1313/posts/godot-is-awesome/
       </guid>
 
       <pubDate>
@@ -308,10 +308,10 @@ Keith&lt;/p&gt;
 
       <title>Kage: Hugo Theme</title>
 
-      <link>http://rizzforge.org/posts/kage/</link>
+      <link>http://localhost:1313/posts/kage/</link>
 
       <guid isPermaLink="true">
-        http://rizzforge.org/posts/kage/
+        http://localhost:1313/posts/kage/
       </guid>
 
       <pubDate>
@@ -367,10 +367,10 @@ Keith&lt;/p&gt;
 
       <title>Python Modules - Framezip</title>
 
-      <link>http://rizzforge.org/posts/framezip/</link>
+      <link>http://localhost:1313/posts/framezip/</link>
 
       <guid isPermaLink="true">
-        http://rizzforge.org/posts/framezip/
+        http://localhost:1313/posts/framezip/
       </guid>
 
       <pubDate>
@@ -554,10 +554,10 @@ Keith&lt;/p&gt;
 
       <title>SDDM Trouble</title>
 
-      <link>http://rizzforge.org/posts/sddm-trouble/</link>
+      <link>http://localhost:1313/posts/sddm-trouble/</link>
 
       <guid isPermaLink="true">
-        http://rizzforge.org/posts/sddm-trouble/
+        http://localhost:1313/posts/sddm-trouble/
       </guid>
 
       <pubDate>
@@ -614,10 +614,10 @@ Keith&lt;/p&gt;
 
       <title>Tokyo Night Themes</title>
 
-      <link>http://rizzforge.org/posts/tokyo-night-themes/</link>
+      <link>http://localhost:1313/posts/tokyo-night-themes/</link>
 
       <guid isPermaLink="true">
-        http://rizzforge.org/posts/tokyo-night-themes/
+        http://localhost:1313/posts/tokyo-night-themes/
       </guid>
 
       <pubDate>
@@ -654,10 +654,10 @@ Keith&lt;/p&gt;
 
       <title>Auto Arch Setup</title>
 
-      <link>http://rizzforge.org/posts/auto-arch-setup/</link>
+      <link>http://localhost:1313/posts/auto-arch-setup/</link>
 
       <guid isPermaLink="true">
-        http://rizzforge.org/posts/auto-arch-setup/
+        http://localhost:1313/posts/auto-arch-setup/
       </guid>
 
       <pubDate>
@@ -723,10 +723,10 @@ Keith&lt;/p&gt;
 
       <title>Learning NeoVim</title>
 
-      <link>http://rizzforge.org/posts/nvim-learning-01/</link>
+      <link>http://localhost:1313/posts/nvim-learning-01/</link>
 
       <guid isPermaLink="true">
-        http://rizzforge.org/posts/nvim-learning-01/
+        http://localhost:1313/posts/nvim-learning-01/
       </guid>
 
       <pubDate>
@@ -769,10 +769,10 @@ Keith&lt;/p&gt;
 
       <title>Hello World</title>
 
-      <link>http://rizzforge.org/posts/hello-world/</link>
+      <link>http://localhost:1313/posts/hello-world/</link>
 
       <guid isPermaLink="true">
-        http://rizzforge.org/posts/hello-world/
+        http://localhost:1313/posts/hello-world/
       </guid>
 
       <pubDate>

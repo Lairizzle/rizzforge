@@ -16,6 +16,17 @@ Some of these builds are to my own personal taste and are not guaranteed to be m
 
 <details>
 <summary>🥊 Wrestler Anti-PK</summary>
+This can be used to farm PvM but also serves as a strong Anti-PK build. The 30 Magery enables you to use things like Teleport, Wall and Telekensis to stick explosion pots to PKs.
+
+## Codex use:
+
+## Wrestling 
+You will mostly sit in Dragon Stance when farming. Chi-Strike is a good finisher. Brawl and Haymaker are both viable specials to run.
+
+## Parry
+You will sit in Testudo most of the time and run Last Stand as a finisher.
+
+**Additional Codex info is in the build card**
 
 {{< template-card name="Wrestler Anti-PK" >}}
 
